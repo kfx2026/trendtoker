@@ -1,61 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><meta name="google" content="notranslate">
-<title id="pageTitle">Category | TrendToker</title>
-<meta name="robots" content="index, follow">
-<link rel="stylesheet" href="css/style.css">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-</head>
-<body>
-
-<nav class="navbar">
-  <div class="nav-inner">
-    <a href="/" class="nav-logo">Trend<span>Toker</span></a>
-    <div class="nav-links" id="navLinks">
-      <a href="/">Home</a><a href="category.html?id=viral">Viral Top</a><a href="category.html?id=niche">Trend Radar</a><a href="category.html?id=audio">Viral Audio</a><a href="category.html?id=ecom">E-Commerce</a><a href="about.html">About</a>
-    </div>
-    <div class="nav-right"><button class="lang-btn" id="langBtn" onclick="toggleLang()">中文</button><div class="hamburger" onclick="toggleMenu()"><span></span><span></span><span></span></div></div>
-  </div>
-</nav>
-
-<main class="main">
-<div class="cat-header"><h1 id="catTitle"></h1><p id="catDesc"></p></div>
-<div class="container"><div class="card-grid" id="articleGrid"></div>
-<div class="pagination"><button>1</button><button>2</button><button>3</button></div>
-<div class="ad-slot inline"><p>Advertisement</p></div>
-</div>
-</main>
-
-<footer class="footer"><div class="container"><div class="footer-bottom"><span>&copy; 2026 TrendToker</span></div></div></footer>
-
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title id="pageTitle">Category | TrendToker</title><meta name="robots" content="index, follow"><link rel="stylesheet" href="css/style.css"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"></head><body>
+<nav class="navbar"><div class="nav-inner"><a href="/" class="nav-logo">Trend<span>Toker</span></a><div class="nav-links"><a href="/" id="navHome">Home</a><a href="category.html?id=viral" id="navViral">Viral Top</a><a href="category.html?id=niche" id="navNiche">Trend Radar</a><a href="category.html?id=audio" id="navAudio">Viral Audio</a><a href="category.html?id=ecom" id="navEcom">E-Commerce</a><a href="about.html" id="navAbout">About</a></div><div class="nav-right"><button class="lang-btn" id="langBtn" onclick="switchLang()">中文</button><div class="hamburger" onclick="toggleMenu()"><span></span><span></span><span></span></div></div></div></nav>
+<main class="main"><div class="cat-header"><h1 id="catTitle"></h1><p id="catDesc"></p></div><div class="container"><div class="card-grid" id="articleGrid"></div><div class="ad-slot inline">📢 Advertisement</div></div></main>
+<footer class="footer"><div class="container"><div class="footer-bottom"><span id="ftCopy">&copy; 2026 TrendToker</span></div></div></footer>
 <script src="js/main.js"></script>
 <script>
-const params = new URLSearchParams(window.location.search);
-const catId = params.get('id') || 'viral';
-const lang = localStorage.getItem('lang') || 'en';
-
-const catNames = { viral: { en: 'Today\'s Viral Top', zh: '今日爆款快讯', desc_en: 'Daily breakdown of top trending TikTok videos', desc_zh: '每日TikTok爆款视频深度拆解' }, niche: { en: 'Niche Trend Radar', zh: '赛道风向雷达', desc_en: 'Emerging niches and rising trends', desc_zh: '新兴赛道与趋势涨跌' }, audio: { en: 'Viral Audio Library', zh: '热门音乐榜单', desc_en: 'Trending sounds weekly roundup', desc_zh: '本周最火BGM' }, ecom: { en: 'E-Commerce Boom', zh: '跨境电商爆品', desc_en: 'TikTok Shop hot products', desc_zh: 'TikTok Shop爆款情报' } };
-
-const c = catNames[catId] || catNames.viral;
-document.getElementById('catTitle').textContent = lang==='zh' ? c.zh : c.en;
-document.getElementById('catDesc').textContent = lang==='zh' ? c.desc_zh : c.desc_en;
-document.getElementById('pageTitle').textContent = (lang==='zh'?c.zh:c.en) + ' | TrendToker';
-
-fetch('data/articles.json').then(r=>r.json()).then(articles => {
-  const filtered = articles.filter(a => a.category === catId);
-  document.getElementById('articleGrid').innerHTML = filtered.map(a => `
-    <a href="article.html?id=${a.id}" class="news-card fade-in" style="text-decoration:none;color:inherit">
-      <div class="news-card__img"><img src="${a.image}" alt="${a.title_en}" loading="lazy"><span class="news-card__badge ${a.badgeClass}">${a.badge}</span></div>
-      <div class="news-card__body">
-        <div class="news-card__cat">${a.category.toUpperCase()}</div>
-        <div class="news-card__title">${lang==='zh'?a.title_zh:a.title_en}</div>
-        <div class="news-card__desc">${lang==='zh'?a.summary_zh:a.summary_en}</div>
-        <div class="news-card__footer"><span>${a.date}</span></div>
-      </div>
-    </a>
-  `).join('');
-});
+const L=localStorage.getItem('lang')||'en';
+const catId=new URLSearchParams(window.location.search).get('id')||'viral';
+const catData={viral:{en:"Today's Viral Top",zh:'今日爆款快讯',desc_en:'Daily breakdown of top trending TikTok videos',desc_zh:'每日TikTok爆款视频深度拆解'},niche:{en:'Niche Trend Radar',zh:'赛道风向雷达',desc_en:'Emerging niches and rising trends',desc_zh:'新兴赛道与趋势涨跌分析'},audio:{en:'Viral Audio Library',zh:'热门音乐榜单',desc_en:'Trending sounds weekly roundup',desc_zh:'本周最火BGM与音效趋势'},ecom:{en:'E-Commerce Boom',zh:'跨境电商爆品',desc_en:'TikTok Shop hot products',desc_zh:'TikTok Shop爆款品类情报'}};
+const c=catData[catId]||catData.viral;
+document.getElementById('catTitle').textContent=L==='zh'?c.zh:c.en;
+document.getElementById('catDesc').textContent=L==='zh'?c.desc_zh:c.desc_en;
+document.title=(L==='zh'?c.zh:c.en)+' | TrendToker';
+['navHome','navViral','navNiche','navAudio','navEcom','navAbout'].forEach(k=>{var e=document.getElementById(k);if(e)e.textContent=[['Home','首页'],['Viral Top','今日爆款'],['Trend Radar','赛道风向'],['Viral Audio','热门音乐'],['E-Commerce','跨境电商'],['About','关于']][['navHome','navViral','navNiche','navAudio','navEcom','navAbout'].indexOf(k)][L==='zh'?1:0]});
+document.getElementById('langBtn').textContent=L==='zh'?'English':'中文';
+document.getElementById('ftCopy').textContent=L==='zh'?'© 2026 TrendToker. 版权所有.':'© 2026 TrendToker. All rights reserved.';
+fetch('data/articles.json').then(r=>r.json()).then(articles=>{var list=articles.filter(a=>a.category===catId);document.getElementById('articleGrid').innerHTML=list.map(a=>`<a href="article.html?id=${a.id}" class="news-card fade-in" style="text-decoration:none;color:inherit"><div class="news-card__img"><img src="${a.image}" loading="lazy"><span class="news-card__badge ${a.badgeClass}">${a.badge}</span></div><div class="news-card__body"><div class="news-card__cat">${a.category.toUpperCase()}</div><div class="news-card__title">${L==='zh'?a.title_zh:a.title_en}</div><div class="news-card__desc">${L==='zh'?a.summary_zh:a.summary_en}</div><div class="news-card__footer"><span>${a.date}</span></div></div></a>`).join('')});
+function switchLang(){localStorage.setItem('lang',L==='en'?'zh':'en');window.location.reload()}
 </script>
-</body>
-</html>
+</body></html>
