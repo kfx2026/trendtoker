@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google" content="notranslate">
+<title>TrendToker — Daily TikTok Viral Trends & Niche Analysis</title>
+<meta name="description" content="TrendToker delivers daily TikTok global trend news — breaking viral videos, niche trend analysis, trending audio, and TikTok Shop insights for creators, marketers, and brands.">
+<meta name="keywords" content="TikTok trends, viral videos, TikTok news, trending sounds, TikTok Shop, creator economy, social media trends, TikTok analysis">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://trendtoker.com/">
+<meta property="og:title" content="TrendToker — Daily TikTok Viral Trends & Niche Analysis">
+<meta property="og:description" content="Daily TikTok global trend news — viral videos, niche analysis, trending audio, e-commerce insights.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://trendtoker.com/">
+<meta property="og:site_name" content="TrendToker">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="TrendToker — Daily TikTok Viral Trends">
+<meta name="twitter:description" content="Daily TikTok global trend news for creators, marketers, and brands.">
+<link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav class="navbar">
+  <div class="nav-inner">
+    <a href="/" class="nav-logo">Trend<span>Toker</span></a>
+    <div class="nav-links" id="navLinks">
+      <a href="/" class="active" data-i18n="home">Home</a>
+      <a href="category.html?id=viral" data-i18n="viral">Viral Top</a>
+      <a href="category.html?id=niche" data-i18n="niche">Trend Radar</a>
+      <a href="category.html?id=audio" data-i18n="audio">Viral Audio</a>
+      <a href="category.html?id=ecom" data-i18n="ecom">E-Commerce</a>
+      <a href="about.html" data-i18n="about">About</a>
+    </div>
+    <div class="nav-right">
+      <input type="text" class="nav-search" id="navSearch" placeholder="Search trends..." data-i18n-placeholder="search_placeholder">
+      <button class="lang-btn" id="langBtn" onclick="toggleLang()">中文</button>
+      <div class="hamburger" onclick="toggleMenu()"><span></span><span></span><span></span></div>
+    </div>
+  </div>
+</nav>
+
+<main class="main">
+
+<!-- HERO BANNER -->
+<section class="hero-banner" id="heroSection">
+  <div class="container hero-inner fade-in">
+    <div class="hero-text">
+      <span class="hero-badge" id="heroBadge">⚡ TRENDING NOW</span>
+      <h1 class="hero-title" id="heroTitle">Silent Vlog Trend Hits 2.3 Billion Views</h1>
+      <p class="hero-desc" id="heroDesc">Breaking down today's biggest TikTok trends — data-driven analysis for creators, marketers, and brands.</p>
+      <div class="hero-meta">
+        <span id="heroDate">June 3, 2026</span>
+        <span id="heroViews">2.3B Views</span>
+      </div>
+    </div>
+    <div class="hero-image"><img src="https://picsum.photos/seed/silentvlog/720/440" alt="Trending" id="heroImg"></div>
+  </div>
+</section>
+
+<!-- MAIN CONTENT GRID -->
+<div class="container">
+<div class="content-layout">
+
+<!-- LEFT: Main Feed -->
+<div class="main-feed">
+
+  <!-- SECTION: VIRAL TOP -->
+  <section class="section" id="secViral">
+    <div class="section-header">
+      <h2 class="section-title"><span class="icon">🚀</span> <span id="secViralTitle">Today's Viral Top</span></h2>
+      <p class="section-sub" id="secViralDesc">Top trending videos & rapid follower growth — analyzed daily</p>
+    </div>
+    <div class="featured-row" id="viralFeatured"></div>
+    <div class="card-grid" id="viralGrid"></div>
+  </section>
+
+  <!-- AD SLOT -->
+  <div class="ad-slot inline"><p style="font-size:11px;color:var(--text-light);text-transform:uppercase;letter-spacing:2px">Advertisement</p><p>Ad Space — Native Ad Placement</p></div>
+
+  <!-- SECTION: NICHE TREND -->
+  <section class="section" id="secNiche">
+    <div class="section-header">
+      <h2 class="section-title"><span class="icon">📈</span> <span id="secNicheTitle">Niche Trend Radar</span></h2>
+      <p class="section-sub" id="secNicheDesc">Emerging niches, new challenges, rising trends — what to watch</p>
+    </div>
+    <div class="card-grid" id="nicheGrid"></div>
+  </section>
+
+  <!-- SECTION: AUDIO -->
+  <section class="section" id="secAudio">
+    <div class="section-header">
+      <h2 class="section-title"><span class="icon">🎵</span> <span id="secAudioTitle">Viral Audio Library</span></h2>
+      <p class="section-sub" id="secAudioDesc">Trending sounds & music blowing up on TikTok this week</p>
+    </div>
+    <div class="card-grid" id="audioGrid"></div>
+  </section>
+
+  <!-- SECTION: E-COMMERCE -->
+  <section class="section" id="secEcom">
+    <div class="section-header">
+      <h2 class="section-title"><span class="icon">💰</span> <span id="secEcomTitle">E-Commerce Boom</span></h2>
+      <p class="section-sub" id="secEcomDesc">TikTok Shop hot products & shopping trends for sellers</p>
+    </div>
+    <div class="card-grid" id="ecomGrid"></div>
+  </section>
+
+</div>
+
+<!-- RIGHT: Sidebar -->
+<aside class="sidebar">
+  <div class="sidebar-widget">
+    <h4 id="sidebarTrending">🔥 7-Day Hot List</h4>
+    <ul class="widget-list" id="hotList">
+      <li><a href="article.html?id=viral-001"><span class="widget-rank rank-1">1</span> Silent Vlog Trend Hits 2.3B Views</a></li>
+      <li><a href="article.html?id=viral-002"><span class="widget-rank rank-2">2</span> AI Face Morph: 890M Views</a></li>
+      <li><a href="article.html?id=viral-003"><span class="widget-rank rank-3">3</span> Open When Envelope Challenge</a></li>
+      <li><a href="article.html?id=niche-001"><span class="widget-rank rank-other">4</span> Micro-Learning Niche +340%</a></li>
+      <li><a href="article.html?id=ecom-001"><span class="widget-rank rank-other">5</span> Portable Fans: $42M on TikTok Shop</a></li>
+      <li><a href="article.html?id=niche-002"><span class="widget-rank rank-other">6</span> Cozy Gaming Cooling Down</a></li>
+      <li><a href="article.html?id=audio-001"><span class="widget-rank rank-other">7</span> Top 5 Viral Sounds This Week</a></li>
+    </ul>
+  </div>
+
+  <div class="sidebar-widget">
+    <h4 id="sidebarCat">📂 Categories</h4>
+    <ul class="widget-list">
+      <li><a href="category.html?id=viral">🚀 Today's Viral Top</a></li>
+      <li><a href="category.html?id=niche">📈 Niche Trend Radar</a></li>
+      <li><a href="category.html?id=audio">🎵 Viral Audio Library</a></li>
+      <li><a href="category.html?id=ecom">💰 E-Commerce Boom</a></li>
+    </ul>
+  </div>
+
+  <div class="sidebar-widget">
+    <h4 id="sidebarSub">📬 Stay Updated</h4>
+    <form class="sub-form" id="subscribeForm">
+      <input type="email" placeholder="Your email" id="subEmail">
+      <button type="submit" id="subBtn">Subscribe</button>
+    </form>
+  </div>
+
+  <div class="ad-slot sidebar"><p style="font-size:10px;color:var(--text-light);text-transform:uppercase;letter-spacing:2px">Advertisement</p><p>Ad Space</p></div>
+</aside>
+
+</div>
+</div>
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>TrendToker</h4>
+        <p id="footerAbout">TrendToker is an independent news analysis website covering TikTok global trends. We provide daily data-driven trend reports for creators, marketers, and brands.</p>
+        <p class="footer-disclaimer" id="footerDisclaimer">All trends and data are based on public TikTok Creator Center information. We do NOT host, store, or distribute any copyrighted media files. This site is not affiliated with TikTok official.</p>
+      </div>
+      <div class="footer-col">
+        <h4 id="footerLinks">Quick Links</h4>
+        <a href="/">Home</a><a href="category.html?id=viral">Viral Top</a><a href="category.html?id=niche">Trend Radar</a><a href="category.html?id=audio">Viral Audio</a><a href="category.html?id=ecom">E-Commerce</a>
+      </div>
+      <div class="footer-col">
+        <h4 id="footerLegal">Legal</h4>
+        <a href="privacy.html">Privacy Policy</a><a href="about.html#disclaimer">Disclaimer</a><a href="about.html">About Us</a>
+      </div>
+      <div class="footer-col">
+        <h4 id="footerContact">Contact</h4>
+        <a href="mailto:178577324@qq.com">178577324@qq.com</a>
+        <a href="sitemap.xml">Sitemap</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span id="footerCopy">&copy; 2026 TrendToker. All rights reserved.</span>
+      <span>Independent News Analysis — Not Affiliated with TikTok</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script>
+// Load articles and render homepage
+fetch('data/articles.json').then(r=>r.json()).then(articles => {
+  const lang = localStorage.getItem('lang') || 'en';
+  
+  // Render Hero
+  const hero = articles[0];
+  document.getElementById('heroBadge').textContent = '⚡ ' + (hero.badge === 'HOT' ? 'TRENDING NOW' : 'TRENDING NOW');
+  document.getElementById('heroTitle').textContent = lang === 'zh' ? hero.title_zh : hero.title_en;
+  document.getElementById('heroDesc').textContent = lang === 'zh' ? hero.summary_zh : hero.summary_en;
+  document.getElementById('heroImg').src = hero.image;
+  if (hero.stats) document.getElementById('heroViews').textContent = hero.stats.views + ' Views';
+  
+  // Render feeds
+  const cats = { viral: [], niche: [], audio: [], ecom: [] };
+  articles.forEach(a => { if (cats[a.category]) cats[a.category].push(a); });
+  
+  Object.keys(cats).forEach(cat => {
+    const list = cats[cat];
+    // Featured row for viral (top 3)
+    if (cat === 'viral' && list.length >= 3) {
+      const featured = list.slice(0, 3);
+      document.getElementById('viralFeatured').innerHTML = featured.map((a,i) => `
+        <a href="article.html?id=${a.id}" class="featured-card fade-in" style="text-decoration:none;color:inherit;animation-delay:${i*0.1}s">
+          <div class="featured-card__num">0${i+1}</div>
+          <div class="featured-card__tag">${a.badge}</div>
+          <div class="featured-card__title">${lang==='zh' ? a.title_zh : a.title_en}</div>
+          <div class="featured-card__desc">${lang==='zh' ? a.summary_zh : a.summary_en}</div>
+          ${a.stats ? `<div class="featured-card__stats">📊 ${a.stats.views} · ${a.stats.growth}</div>` : ''}
+        </a>
+      `).join('');
+      // Grid for remaining viral
+      const grid = document.getElementById(cat+'Grid');
+      if (grid) grid.innerHTML = list.slice(3).map(a => renderCard(a, lang)).join('');
+    } else {
+      const grid = document.getElementById(cat+'Grid');
+      if (grid) grid.innerHTML = list.map(a => renderCard(a, lang)).join('');
+    }
+  });
+  
+  // Hot list in sidebar
+  const hotIds = ['viral-001','viral-002','viral-003','niche-001','ecom-001','niche-002','audio-001'];
+  document.getElementById('hotList').innerHTML = hotIds.map((id,i) => {
+    const a = articles.find(x => x.id === id);
+    if (!a) return '';
+    const rc = i===0?'rank-1':i===1?'rank-2':i===2?'rank-3':'rank-other';
+    return `<li><a href="article.html?id=${id}"><span class="widget-rank ${rc}">${i+1}</span>${lang==='zh'?a.title_zh:a.title_en}</a></li>`;
+  }).join('');
+  
+  // Apply i18n
+  applyI18N(lang);
+});
+
+function renderCard(a, lang) {
+  return `
+    <a href="article.html?id=${a.id}" class="news-card fade-in" style="text-decoration:none;color:inherit">
+      <div class="news-card__img">
+        <img src="${a.image}" alt="${a.title_en}" loading="lazy">
+        <span class="news-card__badge ${a.badgeClass}">${a.badge}</span>
+      </div>
+      <div class="news-card__body">
+        <div class="news-card__cat">${a.category.toUpperCase()}</div>
+        <div class="news-card__title">${lang==='zh'?a.title_zh:a.title_en}</div>
+        <div class="news-card__desc">${lang==='zh'?a.summary_zh:a.summary_en}</div>
+        <div class="news-card__footer"><span>${a.date}</span><span class="dot"></span><span>${a.stats?Object.values(a.stats)[0]:''}</span></div>
+      </div>
+    </a>`;
+}
+
+function applyI18N(lang) {
+  // Update section titles
+  const map = {
+    secViralTitle: lang==='zh'?'今日爆款快讯':'Today\'s Viral Top',
+    secViralDesc: lang==='zh'?'当日最高播放、最快涨粉视频 + 爆火原因拆解':'Top trending videos & rapid follower growth — analyzed daily',
+    secNicheTitle: lang==='zh'?'赛道风向雷达':'Niche Trend Radar',
+    secNicheDesc: lang==='zh'?'正在飙升/降温的细分赛道、新玩法、新挑战':'Emerging niches, new challenges, rising trends — what to watch',
+    secAudioTitle: lang==='zh'?'热门音乐榜单':'Viral Audio Library',
+    secAudioDesc: lang==='zh'?'本周全网刷屏BGM与音效趋势':'Trending sounds & music blowing up on TikTok this week',
+    secEcomTitle: lang==='zh'?'跨境电商爆品':'E-Commerce Boom',
+    secEcomDesc: lang==='zh'?'TikTok Shop爆款品类与带货趋势':'TikTok Shop hot products & shopping trends for sellers',
+    sidebarTrending: lang==='zh'?'🔥 七日热度榜':'🔥 7-Day Hot List',
+    sidebarCat: lang==='zh'?'📂 分类目录':'📂 Categories',
+    sidebarSub: lang==='zh'?'📬 订阅更新':'📬 Stay Updated',
+    subBtn: lang==='zh'?'订阅':'Subscribe',
+    footerAbout: lang==='zh'?'TrendToker 是独立的新闻分析网站，覆盖 TikTok 全球趋势。每日为创作者、营销人和品牌提供数据驱动的趋势报告。':'TrendToker is an independent news analysis website covering TikTok global trends.',
+    footerDisclaimer: lang==='zh'?'所有趋势和数据基于 TikTok Creator Center 公开信息。我们不存储或分发任何受版权保护的媒体文件。本站与 TikTok 官方无关。':'All trends and data are based on public TikTok Creator Center information.',
+    footerLinks: lang==='zh'?'快速链接':'Quick Links',
+    footerLegal: lang==='zh'?'法律':'Legal',
+    footerContact: lang==='zh'?'联系我们':'Contact',
+    footerCopy: lang==='zh'?'© 2026 TrendToker. 版权所有.':'© 2026 TrendToker. All rights reserved.',
+  };
+  Object.entries(map).forEach(([id, text]) => {
+    const el = document.getElementById(id);
+    if (el) el.textContent = text;
+  });
+  document.getElementById('subEmail').placeholder = lang==='zh'?'输入邮箱':'Your email';
+  document.getElementById('navSearch').placeholder = lang==='zh'?'搜索趋势...':'Search trends...';
+}
+</script>
+</body>
+</html>

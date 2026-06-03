@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+Sitemap: https://trendtoker.com/sitemap.xml
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /

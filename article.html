@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="google" content="notranslate">
+<title id="pageTitle">TrendToker — Article</title>
+<meta name="description" id="pageDesc" content="TikTok trend analysis">
+<meta name="keywords" content="TikTok trends, viral videos, TikTok news">
+<meta name="robots" content="index, follow">
+<meta property="og:title" id="ogTitle" content="TrendToker">
+<meta property="og:description" id="ogDesc" content="TikTok trend analysis">
+<meta property="og:type" content="article">
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-inner">
+    <a href="/" class="nav-logo">Trend<span>Toker</span></a>
+    <div class="nav-links" id="navLinks">
+      <a href="/">Home</a><a href="category.html?id=viral">Viral Top</a><a href="category.html?id=niche">Trend Radar</a><a href="category.html?id=audio">Viral Audio</a><a href="category.html?id=ecom">E-Commerce</a><a href="about.html">About</a>
+    </div>
+    <div class="nav-right">
+      <button class="lang-btn" id="langBtn" onclick="toggleLang()">中文</button>
+      <div class="hamburger" onclick="toggleMenu()"><span></span><span></span><span></span></div>
+    </div>
+  </div>
+</nav>
+
+<main class="main">
+<div class="container">
+<div class="content-layout">
+
+<div class="article-page" style="grid-column:1">
+  <div class="article-hero" id="articleHero"></div>
+  <div class="article-header">
+    <div class="article-badge-row"><span class="cat-tag" id="articleCat"></span><span class="news-card__badge badge-hot" id="articleBadge" style="position:static"></span></div>
+    <h1 class="article-title" id="articleTitle"></h1>
+    <div class="article-meta"><span id="articleDate"></span><span class="dot" style="width:4px;height:4px;border-radius:50%;background:var(--text-light);display:inline-block"></span><span id="articleStats"></span></div>
+  </div>
+  <div class="article-body" id="articleBody"></div>
+
+  <div class="ad-slot inline"><p>Advertisement</p></div>
+
+  <div class="related-section">
+    <h2 style="font-size:20px;font-weight:700;color:var(--navy);margin-bottom:16px" id="relatedTitle">Related Articles</h2>
+    <div class="related-grid" id="relatedGrid"></div>
+  </div>
+</div>
+
+<aside class="sidebar">
+  <div class="sidebar-widget"><h4>🔥 7-Day Hot List</h4><ul class="widget-list" id="hotList"></ul></div>
+  <div class="sidebar-widget"><h4>📬 Stay Updated</h4><form class="sub-form" id="subscribeForm"><input type="email" placeholder="Your email"><button type="submit">Subscribe</button></form></div>
+  <div class="ad-slot sidebar"><p>Ad Space</p></div>
+</aside>
+
+</div>
+</div>
+</main>
+
+<footer class="footer"><div class="container"><div class="footer-bottom"><span>&copy; 2026 TrendToker. All rights reserved.</span><span>Independent News Analysis — Not Affiliated with TikTok</span></div></div></footer>
+
+<script src="js/main.js"></script>
+<script>
+const params = new URLSearchParams(window.location.search);
+const id = params.get('id');
+const lang = localStorage.getItem('lang') || 'en';
+
+fetch('data/articles.json').then(r=>r.json()).then(articles => {
+  const a = articles.find(x => x.id === id);
+  if (!a) { document.getElementById('articleTitle').textContent = 'Article Not Found'; return; }
+  
+  const content = a.content[lang] || a.content.en;
+  
+  document.getElementById('pageTitle').textContent = (lang==='zh' ? a.title_zh : a.title_en) + ' | TrendToker';
+  document.getElementById('pageDesc').content = lang==='zh' ? a.summary_zh : a.summary_en;
+  document.getElementById('ogTitle').content = lang==='zh' ? a.title_zh : a.title_en;
+  document.getElementById('ogDesc').content = lang==='zh' ? a.summary_zh : a.summary_en;
+  
+  document.getElementById('articleHero').innerHTML = `<img src="${a.image}" alt="${a.title_en}" style="width:100%;max-height:420px;object-fit:cover;border-radius:16px">`;
+  document.getElementById('articleCat').textContent = a.category.toUpperCase();
+  document.getElementById('articleBadge').textContent = a.badge;
+  document.getElementById('articleBadge').className = 'news-card__badge ' + a.badgeClass;
+  document.getElementById('articleTitle').textContent = lang==='zh' ? a.title_zh : a.title_en;
+  document.getElementById('articleDate').textContent = a.date;
+  const statsStr = a.stats ? Object.entries(a.stats).filter(([k,v]) => k!=='note').map(([k,v]) => v).join(' · ') : '';
+  document.getElementById('articleStats').textContent = statsStr;
+  
+  document.getElementById('articleBody').innerHTML = `
+    <p><strong>${content.what}</strong></p>
+    <div class="highlight-box"><p style="margin:0">${content.data}</p></div>
+    <h2>${lang==='zh'?'深度拆解':'Deep Analysis'}</h2>
+    <p>${content.analysis}</p>
+    <div class="highlight-box orange"><p style="margin:0"><strong>${lang==='zh'?'💡 实操启示':'💡 Key Takeaways'}</strong><br>${content.takeaway}</p></div>
+    <div class="disclaimer-box"><strong>${lang==='zh'?'免责声明：':'Disclaimer:'}</strong> ${lang==='zh'?'本文基于 TikTok Creator Center 公开数据编制，仅供趋势参考，不构成商业建议。':'This article is based on public TikTok Creator Center data for trend analysis purposes only and does not constitute business advice.'}</div>
+  `;
+  
+  // Related articles
+  const related = articles.filter(x => x.id !== id && x.category === a.category).slice(0, 3);
+  document.getElementById('relatedGrid').innerHTML = related.map(r => `
+    <a href="article.html?id=${r.id}" class="news-card" style="text-decoration:none;color:inherit">
+      <div class="news-card__img"><img src="${r.image}" alt="${r.title_en}" loading="lazy"><span class="news-card__badge ${r.badgeClass}">${r.badge}</span></div>
+      <div class="news-card__body">
+        <div class="news-card__cat">${r.category.toUpperCase()}</div>
+        <div class="news-card__title" style="font-size:14px">${lang==='zh'?r.title_zh:r.title_en}</div>
+        <div class="news-card__footer"><span>${r.date}</span></div>
+      </div>
+    </a>
+  `).join('');
+  
+  // Hot list
+  document.getElementById('hotList').innerHTML = ['viral-001','viral-002','viral-003','niche-001','ecom-001','niche-002','audio-001'].map((hid,i) => {
+    const ra = articles.find(x=>x.id===hid);
+    if(!ra) return '';
+    const rc = i<3?['rank-1','rank-2','rank-3'][i]:'rank-other';
+    return `<li><a href="article.html?id=${hid}"><span class="widget-rank ${rc}">${i+1}</span>${lang==='zh'?ra.title_zh:ra.title_en}</a></li>`;
+  }).join('');
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://trendtoker.com/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
+  <url><loc>https://trendtoker.com/category.html?id=viral</loc><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://trendtoker.com/category.html?id=niche</loc><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://trendtoker.com/category.html?id=audio</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://trendtoker.com/category.html?id=ecom</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://trendtoker.com/about.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://trendtoker.com/privacy.html</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://trendtoker.com/article.html?id=viral-001</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://trendtoker.com/article.html?id=viral-002</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://trendtoker.com/article.html?id=viral-003</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://trendtoker.com/article.html?id=niche-001</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://trendtoker.com/article.html?id=niche-002</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://trendtoker.com/article.html?id=audio-001</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://trendtoker.com/article.html?id=ecom-001</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://trendtoker.com/article.html?id=ecom-002</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+</urlset>

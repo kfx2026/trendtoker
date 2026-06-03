@@ -1,0 +1,8 @@
+{
+  "categories": [
+    { "id": "viral", "name_en": "Today's Viral Top", "name_zh": "今日爆款快讯", "icon": "🚀", "desc_en": "Daily breakdown of top trending videos", "desc_zh": "每日爆款视频深度拆解" },
+    { "id": "niche", "name_en": "Niche Trend Radar", "name_zh": "赛道风向雷达", "icon": "📈", "desc_en": "Emerging niches, rising trends, market shifts", "desc_zh": "新兴赛道、趋势涨跌、市场变化" },
+    { "id": "audio", "name_en": "Viral Audio Library", "name_zh": "热门音乐榜单", "icon": "🎵", "desc_en": "Trending sounds and music weekly roundup", "desc_zh": "本周最火BGM与音效趋势" },
+    { "id": "ecom", "name_en": "E-Commerce Boom", "name_zh": "跨境电商爆品", "icon": "💰", "desc_en": "TikTok Shop hot products and shopping trends", "desc_zh": "TikTok Shop爆款品类与带货情报" }
+  ]
+}
