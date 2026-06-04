@@ -1,107 +1,177 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title id="pageTitle">TrendToker — Article</title>
-<meta name="description" id="pageDesc" content="TikTok trend analysis">
-<meta name="robots" content="index, follow">
-<meta property="og:title" id="ogTitle" content="TrendToker">
-<meta property="og:description" id="ogDesc" content="TikTok trend analysis">
-<meta property="og:type" content="article">
-<link rel="stylesheet" href="css/style.css">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-</head>
-<body>
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title id="pT">Article | 全球短视频热点网</title><meta name="description" id="pD" content="Trend analysis"><meta name="robots" content="index, follow">
+<link rel="stylesheet" href="css/style.css"><script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script>(function(){var bp=document.createElement('script');bp.src='https://zz.bdstatic.com/linksubmit/push.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(bp,s);})();</script>
+<!-- v1780463116 -->
+</head><body>
+<nav class="navbar"><div class="nav-inner">
+<a href="index.html" class="nav-logo">Trend<span>Toker</span></a>
+<div class="nav-links"><a href="china.html" id="nChina">China</a><a href="us.html" id="nUS">US</a><a href="eu.html" id="nEU">EU</a><a href="about.html" id="nAbout">About</a></div>
+<div class="nav-right"><div class="nav-util"><button onclick="history.back()" title="Back">‹</button><button onclick="location.reload()" title="Refresh">↻</button></div><button class="lang-btn" id="langBtn" onclick="swL()">中文</button><div class="hamburger" onclick="toggleMenu()"><span></span><span></span><span></span></div></div>
+</div></nav>
+<main class="main"><div class="container"><div class="alayout">
+<div class="apage">
+  <div class="rank-badges" style="margin-bottom:8px"><span class="rank-badge b-hot" id="aBadge"></span><span class="ph-badge ph-surging" id="aPhase"></span></div>
+  <h1 class="atitle" id="aTitle"></h1>
+  <div class="ameta"><span id="aDate"></span><span id="aStats"></span></div>
 
-<nav class="navbar">
-  <div class="nav-inner">
-    <a href="/" class="nav-logo">Trend<span>Toker</span></a>
-    <div class="nav-links"><a href="/" id="navHome">Home</a><a href="category.html?id=viral" id="navViral">Viral Top</a><a href="category.html?id=niche" id="navNiche">Trend Radar</a><a href="category.html?id=audio" id="navAudio">Viral Audio</a><a href="category.html?id=ecom" id="navEcom">E-Commerce</a><a href="about.html" id="navAbout">About</a></div>
-    <div class="nav-right"><button class="lang-btn" id="langBtn" onclick="switchLang()">中文</button><div class="hamburger" onclick="toggleMenu()"><span></span><span></span><span></span></div></div>
-  </div>
-</nav>
+  <div class="chart-box"><h3 id="aChartT"></h3><canvas id="tChart" height="300"></canvas></div>
 
-<main class="main"><div class="container"><div class="content-layout">
+  <div class="dpanel"><h3 id="aPanelT"></h3><div class="dgrid" id="aGrid"></div></div>
 
-<div class="article-page" style="grid-column:1">
-  <div class="article-hero" id="articleHero"></div>
-  <div class="article-header">
-    <div class="article-badge-row"><span class="cat-tag" id="articleCat"></span><span class="news-card__badge badge-hot" id="articleBadge"></span></div>
-    <h1 class="article-title" id="articleTitle"></h1>
-    <div class="article-meta"><span id="articleDate"></span><span style="display:inline-block;width:4px;height:4px;border-radius:50%;background:var(--text-light);margin:0 8px"></span><span id="articleStats"></span></div>
-  </div>
-  <div class="article-body" id="articleBody"></div>
-  <div class="ad-slot inline">📢 Advertisement</div>
-  <div class="related-section"><h2 style="font-size:20px;font-weight:700;color:var(--navy);margin-bottom:16px" id="relatedTitle">Related Articles</h2><div class="related-grid" id="relatedGrid"></div></div>
+  <div class="abody" id="aBody"></div>
+  <div class="ad-slot top"><div class="ad-inner"><div class="ad-label">Advertisement</div><div class="ad-desktop"><ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px"></ins></div><div class="ad-mobile"><ins class="adsbygoogle" style="display:inline-block;width:320px;height:50px"></ins></div></div></div>
+
+  <div class="act-grid" id="aAct"></div>
+
+  <div class="dcard" style="margin-top:32px"><h3 id="aRelated">Related Reports</h3><ul class="widget-list" id="aRelList"></ul></div>
+
+  <div class="ad-slot"><div class="ad-inner"><div class="ad-label">Advertisement</div><div class="ad-desktop"><ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px"></ins></div><div class="ad-mobile"><ins class="adsbygoogle" style="display:inline-block;width:320px;height:50px"></ins></div></div></div>
 </div>
-
 <aside class="sidebar">
-  <div class="sidebar-widget"><h4 id="sideHot">🔥 Hot List</h4><ul class="widget-list" id="hotList"></ul></div>
-  <div class="sidebar-widget"><h4 id="sideSub">📬 Stay Updated</h4><form class="sub-form" id="subscribeForm"><input type="email" id="subEmail" placeholder="Your email"><button type="submit" id="subBtn">Subscribe</button></form></div>
-  <div class="ad-slot sidebar">📢 Ad Space</div>
+  <div class="sw"><h4 id="aSideHot">Hot This Week</h4><ul class="widget-list" id="aHotList"></ul></div>
+  <div class="sw"><h4 id="aSideSub">Stay Updated</h4><form class="sub-form" onsubmit="event.preventDefault();alert(L=='zh'?'感谢订阅！':'Thanks!')"><input type="email" placeholder="Your email" style="flex:1;padding:8px;border:1px solid var(--border);border-radius:6px;font-size:12px"><button type="submit" style="padding:8px 14px;background:var(--primary);color:#fff;border:none;border-radius:6px;font-size:12px;cursor:pointer">OK</button></form></div>
+  <div class="ad-slot"><div class="ad-inner"><div class="ad-label">Advertisement</div><div class="ad-desktop"><ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px"></ins></div><div class="ad-mobile"><ins class="adsbygoogle" style="display:inline-block;width:320px;height:50px"></ins></div></div></div>
 </aside>
-
 </div></div></main>
-
-<footer class="footer"><div class="container"><div class="footer-bottom"><span id="ftCopy">&copy; 2026 TrendToker</span><span id="ftTag">Independent News Analysis</span></div></div></footer>
-
-<script src="js/main.js"></script>
 <script>
-const L = localStorage.getItem('lang') || 'en';
-const params = new URLSearchParams(window.location.search);
-const id = params.get('id');
-
-// Nav translations
-const navT = { navHome:['Home','首页'], navViral:['Viral Top','今日爆款'], navNiche:['Trend Radar','赛道风向'], navAudio:['Viral Audio','热门音乐'], navEcom:['E-Commerce','跨境电商'], navAbout:['About','关于'], sideHot:['🔥 7-Day Hot List','🔥 七日热度榜'], sideSub:['📬 Stay Updated','📬 订阅更新'], subBtn:['Subscribe','订阅'], subEmail:['Your email','输入邮箱'], ftCopy:['© 2026 TrendToker. All rights reserved.','© 2026 TrendToker. 版权所有.'], ftTag:['Independent News Analysis','独立新闻分析'], relatedTitle:['Related Articles','相关推荐'] };
-function _(k){return (navT[k]||['',''])[L==='zh'?1:0]}
-function s_(id,k){var e=document.getElementById(id);if(e)e.textContent=_(k)}
-Object.keys(navT).forEach(k=>s_(k,k));
-document.getElementById('langBtn').textContent = L==='zh'?'English':'中文';
-document.getElementById('subEmail').placeholder = _('subEmail');
-
-fetch('data/articles.json').then(r=>r.json()).then(articles => {
-  const a = articles.find(x=>x.id===id);
-  if(!a){document.getElementById('articleTitle').textContent='Not Found';return;}
-  const content = a.content[L] || a.content.en;
-
-  document.title = (L==='zh'?a.title_zh:a.title_en) + ' | TrendToker';
-  document.getElementById('pageDesc').content = L==='zh'?a.summary_zh:a.summary_en;
-
-  document.getElementById('articleHero').innerHTML = a.image ? `<img src="${a.image}" alt="" style="width:100%;max-height:420px;object-fit:cover;border-radius:16px">` : '';
-  document.getElementById('articleCat').textContent = a.category.toUpperCase();
-  document.getElementById('articleBadge').textContent = a.badge;
-  document.getElementById('articleBadge').className = 'news-card__badge '+a.badgeClass;
-  document.getElementById('articleTitle').textContent = L==='zh'?a.title_zh:a.title_en;
-  document.getElementById('articleDate').textContent = (L==='zh'?'更新于 ':'')+a.date;
-  const ss = a.stats ? Object.entries(a.stats).filter(([k])=>k!=='note').map(([,v])=>v).join(' · ') : '';
-  document.getElementById('articleStats').textContent = ss;
-
-  document.getElementById('articleBody').innerHTML = `
-    <p>${content.what}</p>
-    <div class="highlight-box"><p style="margin:0">${content.data}</p></div>
-    <h2>${L==='zh'?'深度拆解':'Deep Analysis'}</h2>
-    <p>${content.analysis}</p>
-    <div class="highlight-box orange"><p style="margin:0"><strong>${L==='zh'?'💡 实操启示':'💡 Key Takeaways'}</strong><br>${content.takeaway}</p></div>
-    <div class="disclaimer-box"><strong>${L==='zh'?'免责声明：':'Disclaimer:'}</strong> ${L==='zh'?'本文基于 TikTok Creator Center 公开数据编制，仅供趋势参考，不构成商业建议。':'Based on public TikTok Creator Center data. For trend analysis only, not business advice.'}</div>`;
-
-  // Related
-  const related = articles.filter(x=>x.id!==id&&x.category===a.category).slice(0,3);
-  document.getElementById('relatedGrid').innerHTML = related.map(r=>`
-    <a href="article.html?id=${r.id}" class="news-card" style="text-decoration:none;color:inherit">
-      <div class="news-card__img"><img src="${r.image}" loading="lazy"><span class="news-card__badge ${r.badgeClass}">${r.badge}</span></div>
-      <div class="news-card__body"><div class="news-card__cat">${r.category.toUpperCase()}</div><div class="news-card__title" style="font-size:14px">${L==='zh'?r.title_zh:r.title_en}</div><div class="news-card__footer"><span>${r.date}</span></div></div></a>`).join('');
-
-  // Hot list
-  ['viral-001','viral-002','viral-003','niche-001','ecom-001','niche-002','audio-001'].forEach((hid,i)=>{
-    const ra=articles.find(x=>x.id===hid); if(!ra) return;
-    const rc=i<3?['rank-1','rank-2','rank-3'][i]:'rank-other';
-    document.getElementById('hotList').innerHTML += `<li><a href="article.html?id=${hid}"><span class="widget-rank ${rc}">${i+1}</span>${L==='zh'?ra.title_zh:ra.title_en}</a></li>`;
-  });
-});
-
-function switchLang() {
-  localStorage.setItem('lang', L==='en'?'zh':'en');
-  window.location.reload();
+function toggleMenu(){var n=document.querySelector('.nav-links');n.style.display=n.style.display==='flex'?'none':'flex'}
+var L=localStorage.getItem('lang')||null;if(!L)L='en';
+function applyLang(lang){
+  L=lang;localStorage.setItem('lang',lang);
+  document.getElementById('langBtn').textContent=lang==='zh'?'English':'中文';
+  var t={nChina:['China','中国区'],nUS:['US','美国区'],nEU:['EU','欧盟区'],nAbout:['About','关于'],aChartT:['Trend Growth Curve (30 Days)','趋势增长曲线（30天）'],aPanelT:['Trend Intelligence Dashboard','趋势情报面板'],aRelated:['Related Reports','相关报告'],aSideHot:['Hot This Week','本周热门'],aSideSub:['Stay Updated','订阅更新']};
+  Object.keys(t).forEach(function(k){var e=document.getElementById(k);if(e)e.textContent=t[k][lang==='zh'?1:0]});
+  // Re-render article content if already loaded
+  if(window._article)renderArticle(window._article);
 }
+applyLang(L);
+function swL(){applyLang(L==='en'?'zh':'en')}
+const p=new URLSearchParams(location.search);
+const reg=p.get('r')||'china',id=p.get('id');
+const na={china:'China',us:'US',eu:'EU'};
+const ac={china:'#FE2C55',us:'#161823',eu:'#003399'};
+function _i(en,zh){return L==='zh'?zh:en}
+fetch('data/'+reg+'.json').then(r=>r.json()).then(data=>{
+  // Render
+  function renderArticle(a){
+    var c=a.content[L]||a.content.en;
+    document.getElementById('aBadge').textContent=a.badge;
+    document.getElementById('aBadge').className='rank-badge b-'+(a.badgeClass||'tag-hot').replace('tag-','');
+    var ph=document.getElementById('aPhase');
+    ph.className='ph-badge ph-'+(a.phase||'surging');
+    ph.textContent=L=='zh'?a.phase_zh:a.phase;
+    document.getElementById('aTitle').textContent=L=='zh'?a.title_zh:a.title_en;
+    document.getElementById('aDate').textContent=(L=='zh'?'更新于 ':'')+a.date;
+    document.getElementById('aStats').textContent=a.stats?Object.entries(a.stats).filter(function(p){return p[0]!=='note'}).map(function(p){return p[1]+' '+p[0]}).join(' · '):'';
+    document.getElementById('pT').textContent=(L=='zh'?a.title_zh:a.title_en)+' | TrendToker';
+    document.getElementById('pD').content=L=='zh'?a.summary_zh:a.summary_en;
+    // Panel
+    var ss='★'.repeat(a.difficulty||1)+'☆'.repeat(5-(a.difficulty||1));
+    document.getElementById('aGrid').innerHTML=
+      '<div class="dstat"><div class="val">'+(a.stats?Object.values(a.stats)[0]:'-')+'</div><div class="lbl">'+_i('views','播放量')+'</div></div>'+
+      '<div class="dstat"><div class="val">'+(a.stats?Object.values(a.stats)[1]:'-')+'</div><div class="lbl">'+_i('growth','增长率')+'</div></div>'+
+      '<div class="dstat"><div class="val">'+(a.cpm||'-')+'</div><div class="lbl">CPM / '+_i('value','价值')+'</div></div>'+
+      '<div class="dstat"><div class="val">'+ss+'</div><div class="lbl">'+_i('difficulty','难度')+'</div></div>'+
+      '<div class="dstat"><div class="val">'+(a.window||'-')+'</div><div class="lbl">'+_i('window','窗口')+'</div></div>'+
+      '<div class="dstat"><div class="val" style="color:'+(a.phase==='surging'?'#DC2626':a.phase==='mature'?'#D97706':'#16A34A')+'">'+(L=='zh'?a.phase_zh:a.phase)+'</div><div class="lbl">'+_i('lifecycle','周期')+'</div></div>';
+    // Body
+    document.getElementById('aBody').innerHTML=
+      '<p>'+c.what+'</p>'+
+      '<div class="hl"><p style="margin:0">'+c.data+'</p></div>'+
+      '<h2>'+_i('Deep Analysis','深度拆解')+'</h2><p>'+c.analysis+'</p>'+
+      '<div class="hl green"><p style="margin:0"><strong>'+_i('Key Takeaways','实践启示')+'</strong><br>'+c.takeaway+'</p></div>'+
+      '<div class="disc"><strong>'+_i('Disclaimer:','免责声明：')+'</strong>'+_i('Based on public data. For trend analysis only.','本文基于公开数据编制，仅供趋势参考。')+'</div>';
+    // Actions
+    if(a.actions){
+      var ac=a.actions;
+      var lb={en:{creator:'Creator Actions',brand:'Brand Actions',seller:'Seller Actions',avoid:'What to Avoid'},zh:{creator:'创作者行动清单',brand:'品牌行动清单',seller:'卖家行动清单',avoid:'避坑指南'}};
+      var l=lb[L];
+      document.getElementById('aAct').innerHTML=
+        '<div class="act-col"><h4>'+l.creator+'</h4><ul>'+ac.creator.map(function(x){return '<li>'+x+'</li>'}).join('')+'</ul></div>'+
+        '<div class="act-col"><h4>'+l.brand+'</h4><ul>'+ac.brand.map(function(x){return '<li>'+x+'</li>'}).join('')+'</ul></div>'+
+        '<div class="act-col"><h4>'+l.seller+'</h4><ul>'+ac.seller.map(function(x){return '<li>'+x+'</li>'}).join('')+'</ul></div>'+
+        '<div class="act-col av"><h4>'+l.avoid+'</h4><ul>'+ac.avoid.map(function(x){return '<li>'+x+'</li>'}).join('')+'</ul></div>';
+    }
+    // Related
+    document.getElementById('aRelList').innerHTML=data.filter(function(x){return x.id!==id}).slice(0,4).map(function(x){return '<li><a href="article.html?r='+reg+'&id='+x.id+'">'+(L=='zh'?x.title_zh:x.title_en)+'</a></li>'}).join('');
+    // Hotlist sidebar
+    document.getElementById('aHotList').innerHTML=data.slice(0,5).map(function(x,i){return '<li><a href="article.html?r='+reg+'&id='+x.id+'"><span class="mr mr'+(i<3?i+1:'o')+'">'+(i+1)+'</span>'+(L=='zh'?x.title_zh:x.title_en)+'</a></li>'}).join('');
+    window._article=a;
+  }
+  var a = data.find(function(x){return x.id===id;});
+  if(!a){
+    document.getElementById('aBody').innerHTML = '<p style="text-align:center;padding:60px 0;color:var(--text-light)">' + _i('Article not found.','文章未找到。') + '</p>';
+    document.getElementById('aTitle').textContent = _i('Not Found','未找到');
+    return;
+  }
+  renderArticle(a);
+    const accent=ac[reg], d=a.trend, mx=Math.max(...d), mn=Math.min(...d);
+    // Gradient plugin
+    const gPlug={id:'gFill2',beforeDraw:function(chart){
+      const ctx=chart.ctx, ca=chart.chartArea;if(!ca)return;
+      const g=ctx.createLinearGradient(0,ca.top,0,ca.bottom);
+      g.addColorStop(0,accent+'40');g.addColorStop(0.5,accent+'10');g.addColorStop(1,accent+'00');
+      chart.data.datasets[0].backgroundColor=g;
+    }};
+    Chart.register(gPlug);
+    new Chart(document.getElementById('tChart'),{
+      type:'line',
+      data:{
+        labels:d.map(function(_,i){return 'D'+(i+1)}),
+        datasets:[{
+          data:d,
+          borderColor:accent,
+          borderWidth:3,
+          pointRadius:d.map(function(v){return v===mx||v===mn?5:2}),
+          pointBackgroundColor:accent,
+          pointBorderColor:'#fff',
+          pointBorderWidth:2,
+          pointHoverRadius:7,
+          pointHoverBackgroundColor:accent,
+          fill:true,
+          tension:0.4
+        }]
+      },
+      options:{
+        responsive:true,
+        interaction:{intersect:false,mode:'index'},
+        plugins:{
+          legend:{display:false},
+          tooltip:{
+            backgroundColor:'rgba(22,24,35,0.9)',
+            titleFont:{size:12,weight:'600'},
+            bodyFont:{size:11},
+            padding:12,
+            cornerRadius:8,
+            displayColors:false,
+            callbacks:{
+              label:function(ctx){return (L==='zh'?'热度 ':'Heat ')+ctx.parsed.y.toLocaleString()}
+            }
+          }
+        },
+        scales:{
+          x:{
+            grid:{display:false},
+            ticks:{font:{size:10},color:'#aaa',maxTicksLimit:9}
+          },
+          y:{
+            beginAtZero:true,
+            grid:{color:'rgba(0,0,0,0.06)',drawBorder:false},
+            ticks:{font:{size:10},color:'#aaa',maxTicksLimit:5,callback:function(v){return v>=1000?(v/1000).toFixed(1)+'k':v}},
+            border:{display:false}
+          }
+        }
+      }
+    });
+  }
+  // Related
+  document.getElementById('aRelList').innerHTML=data.filter(x=>x.id!==id).slice(0,4).map(x=>`<li><a href="article.html?r=${reg}&id=${x.id}">${L=='zh'?x.title_zh:x.title_en}</a></li>`).join('');
+  // Hotlist sidebar
+  document.getElementById('aHotList').innerHTML=data.slice(0,5).map((x,i)=>`<li><a href="article.html?r=${reg}&id=${x.id}"><span class="mr mr${i<3?i+1:'o'}">${i+1}</span>${L=='zh'?x.title_zh:x.title_en}</a></li>`).join('');
+});
+function swL(){var newL=L==='en'?'zh':'en';localStorage.setItem('lang',newL);location.reload()}
 </script>
+<div class="ad-slot bottom"><div class="ad-inner"><div class="ad-label">Advertisement</div><div class="ad-desktop"><ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px"></ins></div><div class="ad-mobile"><ins class="adsbygoogle" style="display:inline-block;width:320px;height:50px"></ins></div></div></div>
+<footer class="footer"><p>&copy; 2026 TrendToker</p></footer>
 </body></html>
