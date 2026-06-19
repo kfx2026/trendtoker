@@ -1,0 +1,311 @@
+[
+  {
+    "id": "eu-001",
+    "date": "2026-06-01",
+    "badge": "EU Expansion",
+    "badgeClass": "tag-eu",
+    "title_en": "TikTok Shop EU Launch Day — Germany + France Open Floodgates to Creator Commerce",
+    "title_zh": "TikTok EU小店上线日——德国+法国为创作者电商打开闸门",
+    "summary_en": "TikTok Shop launched in Germany and France on June 1, 2026, opening a combined 150M+ user market. First-day data shows German users favor electronics (42%) while French users prefer beauty/fashion (38%). Creator affiliate commissions start at 10-20%.",
+    "summary_zh": "TikTok小店于2026年6月1日在德国和法国上线，打开合计1.5亿+用户市场。首日数据显示德国偏好电子产品(42%)，法国偏好美妆时尚(38%)。创作者联盟佣金10-20%起。",
+    "stats": {
+      "users": "150M+",
+      "gmv_day1": "€52M",
+      "creator_comms": "10-20%",
+      "cpm": "€8-18",
+      "difficulty": 2,
+      "window": "First-mover advantage"
+    },
+    "trend": [
+      20,
+      60,
+      130,
+      240,
+      400,
+      620,
+      890,
+      1200,
+      1580
+    ],
+    "phase": "emerging",
+    "phase_zh": "萌芽期",
+    "actions": {
+      "creator": [
+        "Sign up for TikTok Shop affiliate program immediately",
+        "German users: focus electronics, tools, home improvement",
+        "French users: focus beauty, fashion, food/gourmet"
+      ],
+      "brand": [
+        "EU brands with local warehouse: massive advantage",
+        "Apply for TikTok Shop seller account before saturation",
+        "German market: emphasize quality certifications and warranty"
+      ],
+      "seller": [
+        "Electronics with EU warehouse (Germany focus)",
+        "Beauty/fashion products (France focus)",
+        "Cross-border EU fulfillment services"
+      ],
+      "avoid": [
+        "Don't list without EU-based return address",
+        "Don't ignore German packaging regulations",
+        "Don't use English-only product descriptions"
+      ]
+    },
+    "content": {
+      "en": {
+        "what": "TikTok Shop EU Launch Day — Germany + France Open Floodgates to Creator Commerce. TikTok Shop launched in Germany and France on June 1, 2026, opening a combined 150M+ user market. First-day data shows German users favor electronics (42%) while French users prefer beauty/fashion (38%). Creator affiliate commissions start at 10-20%.",
+        "data": "Key metrics: {\"users\": \"150M+\", \"gmv_day1\": \"\\u20ac52M\", \"creator_comms\": \"10-20%\", \"cpm\": \"\\u20ac8-18\", \"difficulty\": 2, \"window\": \"First-mover advantage\"}. Phase: emerging. Growth rate data indicates strong momentum.",
+        "analysis": "This trend aligns with current market dynamics. Phase 'emerging' suggests appropriate entry timing. Key drivers include platform algorithm changes, consumer behavior shifts, and competitive landscape evolution.",
+        "takeaway": "Creators and brands should evaluate entry based on difficulty level and time window. Early adopter creators in this niche typically see higher organic reach and lower competition."
+      }
+    },
+    "_v": 2
+  },
+  {
+    "id": "eu-002",
+    "date": "2026-06-01",
+    "badge": "Pride EU",
+    "badgeClass": "tag-eu",
+    "title_en": "Pride Month Across Europe — How 27 Countries' Diverse Approaches Create Content Opportunities",
+    "title_zh": "骄傲月横跨欧洲——27国不同方式如何创造内容机会",
+    "summary_en": "EU Pride Month content strategy is uniquely complex — 27 countries with different cultural approaches to LGBTQ+ visibility. Berlin's massive parade, Warsaw's growing acceptance, Barcelona's vibrant scene. 'Pride across Europe' comparison format goes viral.",
+    "summary_zh": "欧盟骄傲月内容策略极为复杂——27个国家对待LGBTQ+可见度有不同文化方式。柏林的大游行、华沙日益增长的接纳度、巴塞罗那的活力场景。'Pride across Europe'对比格式走红。",
+    "stats": {
+      "views": "680M",
+      "growth": "+210%",
+      "countries": "27",
+      "cpm": "€12-28",
+      "difficulty": 3,
+      "window": "June 1-30"
+    },
+    "trend": [
+      18,
+      48,
+      105,
+      200,
+      340,
+      530,
+      780,
+      1080,
+      1420
+    ],
+    "phase": "mature",
+    "phase_zh": "成熟期",
+    "actions": {
+      "creator": [
+        "Pride across Europe: compare how different cities celebrate",
+        "Personal stories from different EU countries' LGBTQ+ youth",
+        "Ally content: 'how to be a good ally in [country]'"
+      ],
+      "brand": [
+        "Global brands: localize Pride content per country",
+        "Don't use one EU-wide message — cultural contexts differ",
+        "Partner with local LGBTQ+ organizations in each market"
+      ],
+      "seller": [
+        "Pride merchandise localized per country",
+        "LGBTQ+ owned business directories",
+        "Inclusive product lines with regional variations"
+      ],
+      "avoid": [
+        "Don't apply US Pride narrative to EU context",
+        "Don't ignore Eastern vs Western Europe differences",
+        "Don't rainbow-wash — community-first always"
+      ]
+    },
+    "content": {
+      "en": {
+        "what": "Pride Month Across Europe — How 27 Countries' Diverse Approaches Create Content Opportunities. EU Pride Month content strategy is uniquely complex — 27 countries with different cultural approaches to LGBTQ+ visibility. Berlin's massive parade, Warsaw's growing acceptance, Barcelona's vibrant scene. 'Pride across Europe' comparison format goes viral.",
+        "data": "Key metrics: {\"views\": \"680M\", \"growth\": \"+210%\", \"countries\": \"27\", \"cpm\": \"\\u20ac12-28\", \"difficulty\": 3, \"window\": \"June 1-30\"}. Phase: mature. Growth rate data indicates strong momentum.",
+        "analysis": "This trend aligns with current market dynamics. Phase 'mature' suggests appropriate entry timing. Key drivers include platform algorithm changes, consumer behavior shifts, and competitive landscape evolution.",
+        "takeaway": "Creators and brands should evaluate entry based on difficulty level and time window. Early adopter creators in this niche typically see higher organic reach and lower competition."
+      }
+    },
+    "_v": 2
+  },
+  {
+    "id": "eu-003",
+    "date": "2026-06-01",
+    "badge": "AI Adoption",
+    "badgeClass": "tag-eu",
+    "title_en": "EU AI Act Compliance Content Explodes — Legal Creators Become TikTok's Hottest Niche",
+    "title_zh": "欧盟AI法案合规内容爆发——法律创作者成为TikTok最热赛道",
+    "summary_en": "As EU's AI Act implementation deadlines approach, a new creator category has emerged: 'EU AI Lawyers' explaining compliance requirements in 60 seconds. CPM of €45-65 — the highest of any TikTok EU category. Unprecedented demand from tech companies.",
+    "summary_zh": "随着欧盟AI法案实施截止日临近，一个新的创作者品类出现：'EU AI律师'用60秒解释合规要求。CPM达€45-65——TikTok EU所有品类中最高。科技公司需求空前。",
+    "stats": {
+      "views": "210M",
+      "growth": "+890%",
+      "cpm": "€45-65",
+      "difficulty": 4,
+      "window": "12+ months"
+    },
+    "trend": [
+      5,
+      15,
+      38,
+      82,
+      155,
+      265,
+      420,
+      620,
+      880
+    ],
+    "phase": "emerging",
+    "phase_zh": "萌芽期",
+    "actions": {
+      "creator": [
+        "One AI Act article per video with real-world example",
+        "Format: 'Here's how the EU AI Act affects your [product/service]'",
+        "Legal background helps but is not required — explainer style works"
+      ],
+      "brand": [
+        "AI companies: sponsor compliance explainers for credibility",
+        "Law firms: this IS your TikTok content strategy for 2026-2027",
+        "SaaS companies: AI compliance = product feature marketing"
+      ],
+      "seller": [
+        "AI compliance consulting ($200-500/hr)",
+        "AI Act compliance checklists/templates",
+        "Legal tech SaaS products"
+      ],
+      "avoid": [
+        "Don't give legal advice without disclaimer",
+        "Don't be alarmist — the AI Act is NOT a ban",
+        "Don't ignore transparency requirements in your own content"
+      ]
+    },
+    "content": {
+      "en": {
+        "what": "EU AI Act Compliance Content Explodes — Legal Creators Become TikTok's Hottest Niche. As EU's AI Act implementation deadlines approach, a new creator category has emerged: 'EU AI Lawyers' explaining compliance requirements in 60 seconds. CPM of €45-65 — the highest of any TikTok EU category. Unprecedented demand from tech companies.",
+        "data": "Key metrics: {\"views\": \"210M\", \"growth\": \"+890%\", \"cpm\": \"\\u20ac45-65\", \"difficulty\": 4, \"window\": \"12+ months\"}. Phase: emerging. Growth rate data indicates strong momentum.",
+        "analysis": "This trend aligns with current market dynamics. Phase 'emerging' suggests appropriate entry timing. Key drivers include platform algorithm changes, consumer behavior shifts, and competitive landscape evolution.",
+        "takeaway": "Creators and brands should evaluate entry based on difficulty level and time window. Early adopter creators in this niche typically see higher organic reach and lower competition."
+      }
+    },
+    "_v": 2
+  },
+  {
+    "id": "eu-004",
+    "date": "2026-06-01",
+    "badge": "Sports Fashion",
+    "badgeClass": "tag-eu",
+    "title_en": "Tennis Core Meets Euro Summer — Wimbledon Countdown Sparks 290M Views of Court-to-Street Fashion",
+    "title_zh": "网球风遇上欧式夏日——温网倒计时激发2.9亿球场到街头时尚播放",
+    "summary_en": "With Wimbledon (June 23) approaching, the Tennis Core aesthetic — pleated skirts, white polos, headbands, crisp whites — is TikTok EU's fastest-growing fashion trend. Court-ready looks inspire street style, creating a fashion-commerce flywheel.",
+    "summary_zh": "随着温网(6月23日)临近，Tennis Core美学——褶皱裙、白POLO衫、发带、利落白色——成为TikTok EU增长最快的时尚趋势。球场造型启发街头风格，创造时尚电商飞轮。",
+    "stats": {
+      "views": "290M",
+      "growth": "+350%",
+      "days_to_wimbledon": "22",
+      "cpm": "€12-30",
+      "difficulty": 2,
+      "window": "June 1-30"
+    },
+    "trend": [
+      10,
+      28,
+      65,
+      120,
+      210,
+      340,
+      510,
+      720,
+      980
+    ],
+    "phase": "emerging",
+    "phase_zh": "萌芽期",
+    "actions": {
+      "creator": [
+        "Court-to-street: tennis outfit + street styling",
+        "Wimbledon watch party outfit inspiration",
+        "Tennis lesson vlog + fashion showcase combo"
+      ],
+      "brand": [
+        "Sportswear: Adidas/Nike tennis lines + casual styling",
+        "Accessories: headbands, visors, tennis bracelets",
+        "Luxury brands: tennis = aspirational lifestyle = perfect fit"
+      ],
+      "seller": [
+        "Tennis-inspired fashion collections",
+        "Court-to-street outfit bundles",
+        "Tennis accessories: grips, bags, wristbands"
+      ],
+      "avoid": [
+        "Don't require actual tennis skills",
+        "Don't ignore plus-size Tennis Core",
+        "Don't limit to female audience — mens tennis fashion is underserved"
+      ]
+    },
+    "content": {
+      "en": {
+        "what": "Tennis Core Meets Euro Summer — Wimbledon Countdown Sparks 290M Views of Court-to-Street Fashion. With Wimbledon (June 23) approaching, the Tennis Core aesthetic — pleated skirts, white polos, headbands, crisp whites — is TikTok EU's fastest-growing fashion trend. Court-ready looks inspire street style, creating a fashion-commerce flywheel.",
+        "data": "Key metrics: {\"views\": \"290M\", \"growth\": \"+350%\", \"days_to_wimbledon\": \"22\", \"cpm\": \"\\u20ac12-30\", \"difficulty\": 2, \"window\": \"June 1-30\"}. Phase: emerging. Growth rate data indicates strong momentum.",
+        "analysis": "This trend aligns with current market dynamics. Phase 'emerging' suggests appropriate entry timing. Key drivers include platform algorithm changes, consumer behavior shifts, and competitive landscape evolution.",
+        "takeaway": "Creators and brands should evaluate entry based on difficulty level and time window. Early adopter creators in this niche typically see higher organic reach and lower competition."
+      }
+    },
+    "_v": 2
+  },
+  {
+    "id": "eu-005",
+    "date": "2026-06-01",
+    "badge": "Digital Nomad EU",
+    "badgeClass": "tag-eu",
+    "title_en": "EU Digital Nomad Content Explodes — 40 Cities Competing for Remote Workers on TikTok",
+    "title_zh": "欧盟数字游民内容爆发——40座城市在TikTok竞争远程工作者",
+    "summary_en": "As more EU countries launch digital nomad visas (Spain, Portugal, Croatia, Greece, Estonia, Malta), TikTok has become the battleground for cities competing to attract remote workers. City comparison format ('Lisbon vs Barcelona vs Split') drives 180M+ views.",
+    "summary_zh": "随着更多欧盟国家推出数字游民签证(西班牙、葡萄牙、克罗地亚、希腊、爱沙尼亚、马耳他)，TikTok已成为城市竞争吸引远程工作者的战场。城市对比格式('里斯本vs巴塞罗那vs斯普利特')驱动1.8亿+播放。",
+    "stats": {
+      "views": "180M",
+      "growth": "+280%",
+      "nomad_visas": "15+ EU countries",
+      "cpm": "€10-25",
+      "difficulty": 1,
+      "window": "长期"
+    },
+    "trend": [
+      8,
+      22,
+      50,
+      98,
+      175,
+      290,
+      440,
+      640,
+      880
+    ],
+    "phase": "surging",
+    "phase_zh": "爆发期",
+    "actions": {
+      "creator": [
+        "City cost breakdown: rent, food, coworking, lifestyle",
+        "Day in life as digital nomad in [city]",
+        "3-city comparison with monthly budget spreadsheet"
+      ],
+      "brand": [
+        "Coworking spaces: global membership promotions",
+        "Fintech: multi-currency accounts, international transfers",
+        "Insurance: digital nomad health/travel plans"
+      ],
+      "seller": [
+        "Digital nomad starter kits",
+        "City-specific coworking passes",
+        "Nomad-friendly accommodation booking"
+      ],
+      "avoid": [
+        "Don't glamorize without showing challenges",
+        "Don't promote visa overstays",
+        "Don't ignore tax implications in content"
+      ]
+    },
+    "content": {
+      "en": {
+        "what": "EU Digital Nomad Content Explodes — 40 Cities Competing for Remote Workers on TikTok. As more EU countries launch digital nomad visas (Spain, Portugal, Croatia, Greece, Estonia, Malta), TikTok has become the battleground for cities competing to attract remote workers. City comparison format ('Lisbon vs Barcelona vs Split') drives 180M+ views.",
+        "data": "Key metrics: {\"views\": \"180M\", \"growth\": \"+280%\", \"nomad_visas\": \"15+ EU countries\", \"cpm\": \"\\u20ac10-25\", \"difficulty\": 1, \"window\": \"\\u957f\\u671f\"}. Phase: surging. Growth rate data indicates strong momentum.",
+        "analysis": "This trend aligns with current market dynamics. Phase 'surging' suggests appropriate entry timing. Key drivers include platform algorithm changes, consumer behavior shifts, and competitive landscape evolution.",
+        "takeaway": "Creators and brands should evaluate entry based on difficulty level and time window. Early adopter creators in this niche typically see higher organic reach and lower competition."
+      }
+    },
+    "_v": 2
+  }
+]

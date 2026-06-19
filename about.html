@@ -1,41 +1,74 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><meta name="google" content="notranslate"><title>About — TrendToker</title><meta name="robots" content="index, follow"><link rel="stylesheet" href="css/style.css"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"></head><body>
-<nav class="navbar"><div class="nav-inner"><a href="/" class="nav-logo">Trend<span>Toker</span></a><div class="nav-links"><a href="/">Home</a><a href="about.html">About</a></div><div class="nav-right"><button class="lang-btn" onclick="toggleLang()">中文</button></div></div></nav>
-<main class="main"><div class="container"><div class="article-page">
-<div style="max-width:720px;margin:0 auto;padding:40px 0">
-<h1 style="font-size:32px;font-weight:800;color:var(--navy);margin-bottom:16px">About TrendToker</h1>
-
-<h2 style="font-size:18px;margin:32px 0 12px;color:var(--navy)" id="hd1">What We Do</h2>
-<p id="p1">TrendToker is an independent news analysis website covering TikTok global trends. We provide daily data-driven trend reports — breaking down viral videos, analyzing niche trends, tracking trending sounds, and reporting on TikTok Shop commerce. Our mission is to help creators, marketers, and brands make informed decisions in the fast-moving world of short-form video.</p>
-
-<h2 style="font-size:18px;margin:32px 0 12px;color:var(--navy)" id="hd2">Our Content Principles</h2>
-<p id="p2">100% data-driven analysis. We do not create trends — we report on them. All data cited in our articles comes from public TikTok Creator Center information or publicly available third-party analytics tools. We do not host, store, or distribute any copyrighted media files.</p>
-
-<h2 style="font-size:18px;margin:32px 0 12px;color:var(--navy)" id="hd3">Daily Coverage</h2>
-<p id="p3">7-8 articles per day across 4 core categories: Viral Top (3 articles), Niche Trend Radar (2 articles), Viral Audio Library (1-2 articles), E-Commerce Boom (1-2 articles). Every article follows a standard four-section format: what happened, data support, deep analysis, actionable takeaways.</p>
-
-<h2 style="font-size:18px;margin:32px 0 12px;color:var(--navy)" id="hd4">Legal Disclaimer</h2>
-<p id="p4">TrendToker is an independent news analysis website. All trends and data are based on public TikTok Creator Center information. We do NOT host, store, or distribute any copyrighted media files. This site is not affiliated with TikTok official. TikTok is a trademark of ByteDance Ltd. All product names, logos, and brands are property of their respective owners.</p>
-
-<h2 style="font-size:18px;margin:32px 0 12px;color:var(--navy)" id="hd5">Contact</h2>
-<p id="p5">Email: <a href="mailto:178577324@qq.com">178577324@qq.com</a></p>
-</div></div></div></main>
-<footer class="footer"><div class="container"><div class="footer-bottom"><span>&copy; 2026 TrendToker. All rights reserved.</span></div></div></footer>
-<script src="js/main.js"></script>
-<script>
-const lang=localStorage.getItem('lang')||'en';
-if(lang==='zh'){
-  document.title='关于 | TrendToker';
-  document.querySelector('h1').textContent='关于 TrendToker';
-  document.getElementById('hd1').textContent='我们做什么';
-  document.getElementById('p1').textContent='TrendToker 是独立的新闻分析网站，覆盖 TikTok 全球趋势。我们每日提供数据驱动的趋势报告——拆解爆款视频、分析赛道趋势、追踪热门音乐、报道 TikTok Shop 电商情报。我们的使命是帮助创作者、营销人和品牌在快速变化的短视频世界中做出明智决策。';
-  document.getElementById('hd2').textContent='内容原则';
-  document.getElementById('p2').textContent='100% 数据驱动分析。我们不制造趋势——我们报道趋势。文章中引用的所有数据均来自 TikTok Creator Center 公开信息或公开可获取的第三方分析工具。我们不存储或分发任何受版权保护的媒体文件。';
-  document.getElementById('hd3').textContent='每日更新';
-  document.getElementById('p3').textContent='每日 7-8 篇文章，覆盖 4 大核心品类：今日爆款快讯（3 篇）、赛道风向雷达（2 篇）、热门音乐榜单（1-2 篇）、跨境电商爆品（1-2 篇）。每篇文章遵循标准四段式结构：事件简述、数据支撑、深度拆解、实操启示。';
-  document.getElementById('hd4').textContent='法律声明';
-  document.getElementById('p4').textContent='TrendToker 是独立的新闻分析网站。所有趋势和数据基于 TikTok Creator Center 公开信息。我们不存储或分发任何受版权保护的媒体文件。本站与 TikTok 官方无关。TikTok 是字节跳动的商标。所有产品名、标志和品牌均属于其各自所有者。';
-  document.getElementById('hd5').textContent='联系我们';
-  document.getElementById('p5').innerHTML='邮箱: <a href="mailto:178577324@qq.com">178577324@qq.com</a>';
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Us — Global Short Video Trends | Independent analysis of short video trends across China, Europe, and the United States.</title>
+<meta name="description" content="Global Short Video Trends is an independent trend monitoring platform tracking short video content patterns across TikTok, Douyin, YouTube Shorts, Ins">
+<link rel="canonical" href="https://globalshortvideotrend.top/about.html">
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Global Short Video Trends",
+    "url": "https://globalshortvideotrend.top",
+    "description": "Global Short Video Trends is an independent trend monitoring platform tracking short video content patterns across TikTok, Douyin, YouTube Shorts, Ins",
+    "foundingDate": "2026",
+    "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "editorial@globalshortvideotrend.top",
+        "contactType": "customer support"
+    }
 }
 </script>
-</body></html>
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<nav class="site-nav">
+    <a href="/" class="logo">Global Short Video Trends</a>
+    <div class="nav-links">
+        <a href="/">Home</a>
+        <a href="/about.html">About</a>
+    </div>
+</nav>
+
+<main>
+<article>
+    <header>
+        <h1>About Global Short Video Trends</h1>
+        <p class="tagline">Independent analysis of short video trends across China, Europe, and the United States.</p>
+    </header>
+
+    <section>
+        <h2>Who We Are</h2>
+        <p>Global Short Video Trends is an independent trend monitoring platform tracking short video content patterns across TikTok, Douyin, YouTube Shorts, Instagram Reels, and Kuaishou. We analyze creator strategies, emerging formats, and audience engagement data across three major markets.</p>
+    </section>
+
+    <section>
+        <h2>Our Mission</h2>
+        <p>The short video ecosystem moves fast. Our mission is to provide reliable, data-informed trend analysis that helps creators, marketers, and platform strategists make better decisions. We prioritize accuracy over speed and context over clickbait.</p>
+    </section>
+
+    <section>
+        <h2>Editorial Standards</h2>
+        <p>Every trend report goes through a multi-step editorial process: data collection from platform APIs and creator analytics tools, cross-referencing against multiple sources, human analysis and interpretation, and editorial review before publication. Statistics are cited with their original sources.</p>
+    </section>
+
+    <section>
+        <h2>Contact Us</h2>
+        <p>Email: <a href="mailto:editorial@globalshortvideotrend.top">editorial@globalshortvideotrend.top</a></p>
+        <p>We aim to respond to all inquiries within 48 hours.</p>
+    </section>
+</article>
+</main>
+
+<footer>
+    <p>&copy; 2026 Global Short Video Trends. All rights reserved.</p>
+    <nav>
+        <a href="/">Home</a> |
+        <a href="/about.html">About</a> |
+        <a href="/privacy-policy.html">Privacy Policy</a>
+    </nav>
+</footer>
+</body>
+</html>

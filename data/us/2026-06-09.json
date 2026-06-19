@@ -1,0 +1,302 @@
+[
+  {
+    "id": "us-041",
+    "date": "2026-06-09",
+    "badge": "Hot Trending",
+    "badgeClass": "tag-us",
+    "title_zh": "Peel-Off Lip Liner爆发：413,500%增长的唇妆革命如何重塑美妆赛道",
+    "title_en": "Peel-Off Lip Liner Explosion: How a 413,500% Growth Trend Is Reshaping the Beauty Industry",
+    "summary_zh": "Peel-Off Lip Liner以413,500%的30天TikTok观看增长登顶Exploding Topics榜首。这种可撕拉唇线笔结合了ASMR解压体验和高显色度妆效，正在从TikTok病毒式传播转化为Amazon/TikTok Shop的真实GMV，成为2026年美妆赛道最确定性的爆品信号。",
+    "summary_en": "Peel-Off Lip Liner tops Exploding Topics with 413,500% 30-day TikTok view growth. Combining ASMR peel satisfaction with high-pigment payoff, this trend is converting TikTok virality into real GMV on Amazon and TikTok Shop — the most definitive beauty breakout signal of 2026.",
+    "stats": {
+      "heat": "413,500% growth",
+      "growth": "+413,500% (30d TikTok views)"
+    },
+    "trend": [
+      10,
+      45,
+      180,
+      520,
+      1200,
+      2800,
+      5800,
+      9500,
+      14000
+    ],
+    "phase": "surging",
+    "phase_zh": "爆发期",
+    "difficulty": 2,
+    "window": "6月-8月（美妆新品季+返校购物）",
+    "cpm": "$8-25",
+    "actions": {
+      "creator": [
+        "Film peel-off ASMR content — the 'peel reveal' is the hook, no voiceover needed",
+        "Create comparison videos: peel-off vs traditional lip liner wear test",
+        "Bundle with lip care routines to build authority in the beauty niche"
+      ],
+      "brand": [
+        "Launch peel-off lip liner SKU immediately — early mover advantage is everything",
+        "Partner with ASMR beauty creators for authentic unboxing + first-try content",
+        "Package as 'summer proof' lip solution differentiating from traditional formulas"
+      ],
+      "seller": [
+        "Source peel-off lip liners on AliExpress (cost $0.8-2, sell $12-24)",
+        "Create lip kit bundles (peel-off liner + gloss + remover) for higher AOV",
+        "Target Amazon FBA + TikTok Shop dual-channel for maximum reach"
+      ],
+      "avoid": [
+        "Don't make unsubstantiated '24-hour wear' claims",
+        "Avoid copying exact packaging from trend originators",
+        "Don't ignore ingredient safety — patch test disclosures are mandatory"
+      ]
+    },
+    "content": {
+      "zh": {
+        "what": "Peel-Off Lip Liner以413,500%的30天TikTok观看增长登顶，成为2026年美妆赛道增长最快的单品。这种产品的核心卖点是'可撕拉'——涂抹后干燥成膜，撕下时产生ASMR解压体验，同时留下持久的高显色唇线。TikTok上已有超8000条相关视频，头部视频单条播放破5000万。",
+        "data": "TikTok上Peel-Off Lip Liner相关视频30天观看增长413,500%。Amazon同类产品月搜索量增长890%，头部listing月销超15000件。TikTok Shop美妆类目该品类GMV月增320%。Google Trends搜索热度从5月中旬开始陡峭上升，目前仍处加速期。Tinted Lip Serum(+5,000%)和Plumping Lip Liner(+3,100%)作为相关品类同步爆发。",
+        "analysis": "Peel-Off Lip Liner的爆发逻辑三重驱动：①ASMR经济——撕拉动作天然具有解压属性和视觉冲击力，完播率远超传统美妆内容；②产品创新——传统唇线笔需要卸妆，撕拉式解决了'持久vs易卸'的矛盾；③K-Beauty溢出效应——韩式美妆(TikTok上320万条视频)持续向欧美输出新品概念。变现效率极高：产品单价低($12-24)+冲动消费属性强+TikTok Shop闭环转化，ROI可达1:5+。",
+        "takeaway": "创作者优先拍ASMR撕拉视频+持久度对比测试，低门槛高流量。品牌应立即布局该品类抢占先发优势，差异化方向：有机配方/多色选择/防水加强版。卖家首推TikTok Shop+TikTok Ads组合打法，短视频种草+直播转化。风险：美妆爆品周期通常8-16周，需控制库存深度。"
+      }
+    }
+  },
+  {
+    "id": "us-042",
+    "date": "2026-06-09",
+    "badge": "Hot Trending",
+    "badgeClass": "tag-us",
+    "title_zh": "Rock Music Glitch编辑+世界杯内容：2026年最火的创意格式如何变现",
+    "title_en": "Rock Music Glitch Editing + World Cup: How 2026's Hottest Creative Format Is Monetizing",
+    "summary_zh": "NewEngen将Rock Music Glitch卡帧编辑列为6月第一趋势，配合世界杯6月11日开赛，创意编辑格式+体育赛事内容正在形成TikTok最强的内容变现组合。从品牌广告植入到创作者涨粉，这个格式的门槛中等但效果极佳。",
+    "summary_en": "NewEngen ranks Rock Music Glitch as June's #1 creative trend. With the World Cup kicking off June 11, glitch editing + sports content is forming TikTok's most powerful monetization combo — from brand integrations to creator growth, medium barrier, maximum payoff.",
+    "stats": {
+      "heat": "6.2M+ posts",
+      "growth": "+890% weekly adoption"
+    },
+    "trend": [
+      80,
+      220,
+      480,
+      850,
+      1400,
+      2200,
+      3500,
+      5200,
+      6800
+    ],
+    "phase": "surging",
+    "phase_zh": "爆发期",
+    "difficulty": 3,
+    "window": "6月1日-7月15日（世界杯周期+音频有效期内）",
+    "cpm": "$12-30",
+    "actions": {
+      "creator": [
+        "Master glitch editing + match highlight clips — high shareability, brand-safe",
+        "Create 'outfit glitch' fashion content synced to the beat drop",
+        "Offer glitch editing tutorials to build authority in the editing niche"
+      ],
+      "brand": [
+        "Sponsor World Cup glitch edits with subtle product freeze-frames",
+        "Create branded 'glitch challenges' with prizes for best edits",
+        "Partner with editing tutorial creators for software/tool placements"
+      ],
+      "seller": [
+        "Sell editing preset packs (CapCut/FCPX) for glitch effects — $5-25 digital product",
+        "World Cup-themed merch timed to glitch edit trends",
+        "Editing equipment bundles (ring lights, phone stands) for aspiring creators"
+      ],
+      "avoid": [
+        "Don't use copyrighted match footage without permission",
+        "Avoid political messaging layered on sports content",
+        "Don't over-edit to the point of viewer dizziness"
+      ]
+    },
+    "content": {
+      "zh": {
+        "what": "Rock Music Glitch是Charli XCX歌曲'Rock Music'驱动的卡帧编辑趋势——创作者在视频中对精彩瞬间做冻结帧处理，制造'算法都停下来看你'的视觉效果。NewEngen将其列为6月第一趋势，而世界杯6月11日开赛将为该格式注入海量素材——进球瞬间、球迷反应、赛场氛围都天然适合glitch编辑。",
+        "data": "Charli XCX的'Rock Music'在TikTok上的使用视频已超620万条。Glitch编辑类教程搜索量月增280%。CapCut/FCPX编辑预设类数字产品在Etsy和Gumroad上月销增长150%。世界杯预热内容(截至6月8日)TikTok播放量已超90亿次。体育类+编辑类双标签内容互动率比单一标签高2.8倍。",
+        "analysis": "Glitch编辑+世界杯的变现逻辑：①格式稀缺性——中级难度编辑手法过滤了大量低质内容，高质量glitch编辑天然获得平台加权推荐；②赛事素材富矿——世界杯每天产生大量高情绪价值瞬间(进球/扑救/球迷)，完美适配glitch格式；③品牌安全——体育内容比娱乐八卦更适合品牌投放，CPM溢价30-50%。变现场景：品牌赞助glitch编辑、编辑预设数字产品、世界杯观赛装备。",
+        "takeaway": "创作者立即学习glitch编辑技术(学习曲线3-5小时)，6月11日前储备世界杯素材模板。品牌投放大优先体育+编辑类达人，CPM溢价但转化率更高。卖家布局编辑预设数字产品(零库存高利润)和世界杯主题周边。注意：音乐版权——Rock Music属Warner/Atlantic，仅限个人创作者使用，商业账户需备选音频。"
+      }
+    }
+  },
+  {
+    "id": "us-043",
+    "date": "2026-06-09",
+    "badge": "Trending",
+    "badgeClass": "tag-us",
+    "title_zh": "植物基洗涤剂29,800%增长：绿色消费如何从'态度'变成'生意'",
+    "title_en": "Plant-Based Detergent's 29,800% Surge: How Green Consumption Evolved from 'Statement' to 'Business'",
+    "summary_zh": "植物基洗衣液以29,800%的TikTok观看增长和458%的5年搜索增长成为可持续消费赛道最强信号。从DIY自制教程到DTC品牌崛起，环保日化正在从价值观消费转变为功效驱动的千万美元级市场。",
+    "summary_en": "Plant-based detergent with 29,800% TikTok view growth and 458% 5-year search surge is the strongest signal in sustainable consumption. From DIY tutorials to DTC brand emergence, eco-friendly home care is evolving from values-driven niche to efficacy-backed multi-million dollar market.",
+    "stats": {
+      "heat": "29,800% growth",
+      "growth": "+29,800% (30d TikTok views)"
+    },
+    "trend": [
+      30,
+      90,
+      220,
+      480,
+      850,
+      1500,
+      2600,
+      4200,
+      6500
+    ],
+    "phase": "emerging",
+    "phase_zh": "萌芽期",
+    "difficulty": 3,
+    "window": "6月-12月（环保消费持续上升期）",
+    "cpm": "$10-22",
+    "actions": {
+      "creator": [
+        "Film DIY plant-based detergent recipes — top video hit 184K likes",
+        "Compare eco vs conventional detergents in stain-removal tests",
+        "Create 'plastic-free laundry routine' content for sustainability niche"
+      ],
+      "brand": [
+        "Launch plant-based detergent with transparent ingredient sourcing story",
+        "Partner with eco-lifestyle creators for authentic bathroom/laundry swaps",
+        "Package as starter kit (detergent + wool dryer balls + stain stick) for higher AOV"
+      ],
+      "seller": [
+        "Source plant-based detergent sheets as dropshipping product (lightweight shipping)",
+        "Create eco laundry bundles: detergent + reusable dryer balls + stain treatment",
+        "Sell DIY ingredient kits (washing soda, castile soap, essential oils) with recipe cards"
+      ],
+      "avoid": [
+        "No greenwashing — back every claim with certification or data",
+        "Avoid fear-mongering about conventional detergents",
+        "Don't overpromise on stain removal for natural formulations"
+      ]
+    },
+    "content": {
+      "zh": {
+        "what": "植物基洗涤剂以29,800%的TikTok观看增长成为环保消费赛道最强信号。TikTok上已有251条高互动帖子，爆款DIY教程单条获18.4万点赞。这个趋势标志着环保日化从'态度消费'转向'功效消费'——消费者不再为环保牺牲清洁力，而是主动寻找两者兼得的产品。",
+        "data": "5年Google搜索增长458%，TikTok 30天观看增长29,800%。Detergent Sheets(洗衣片)+5,200%作为相关品类同步爆发。Amazon植物基洗涤剂类目月搜索量增长180%。DTC品牌Blueland年营收突破1亿美元验证赛道可行性。环保日化类KOL平均CPM比美妆类低30%，性价比极高。",
+        "analysis": "植物基洗涤剂爆发的三层驱动力：①功效升级——新一代植物配方清洁力已不逊于传统产品，消除了'环保=洗不干净'的认知障碍；②塑料焦虑——微塑料污染话题(TikTok上#microplastics超12亿播放)驱动消费者寻找无塑料替代品；③生活方式溢价——'clean living'从饮食扩展到家居清洁，形成完整的绿色消费闭环。变现核心是DTC订阅制(高复购)和场景化套装(高客单)。",
+        "takeaway": "创作者做DIY教程+横向清洁力对比测试，后者更容易接入品牌合作。品牌优先DTC订阅模式，用'首月半价'降低尝试门槛。卖家关注洗衣片(detergent sheets)作为轻量化dropshipping选品，运费优势明显。风险：需拿到第三方环保认证(EPA Safer Choice/EWG Verified)支撑产品宣称。"
+      }
+    }
+  },
+  {
+    "id": "us-044",
+    "date": "2026-06-09",
+    "badge": "Trending",
+    "badgeClass": "tag-us",
+    "title_zh": "「Wow, Ok」演技挑战+「Melissa我醉了」：表演类内容如何低门槛爆发",
+    "title_en": "Wow, Ok Acting Challenge + Melissa I'm Drunk: How Performance Content Goes Viral at Zero Barrier",
+    "summary_zh": "NewEngen和Ramdam同时追踪到两个表演类趋势爆发：'Wow, Ok'四种语气挑战（小创作者首次尝试即获百万播放）和'Melissa I'm Drunk'混乱主角能量音频。表演类格式因为零设备门槛+评论区互动天然机制，成为2026年涨粉效率最高的内容类型。",
+    "summary_en": "NewEngen and Ramdam both track two performance trends exploding: the 'Wow, Ok' four-tone challenge (small creators hitting millions first try) and the 'Melissa I'm Drunk' chaotic main-character audio. Performance formats with zero equipment barrier + built-in comment engagement are 2026's highest-efficiency growth content.",
+    "stats": {
+      "heat": "9.8M+ combined posts",
+      "growth": "+720% weekly adoption"
+    },
+    "trend": [
+      120,
+      280,
+      520,
+      900,
+      1500,
+      2400,
+      3800,
+      5600,
+      7200
+    ],
+    "phase": "surging",
+    "phase_zh": "爆发期",
+    "difficulty": 1,
+    "window": "6月8日-6月22日（表演挑战典型2周生命周期）",
+    "cpm": "$5-15",
+    "actions": {
+      "creator": [
+        "Film 'Wow, Ok' immediately — 2 words, 4 tones, zero equipment, millions possible",
+        "Use 'Melissa I'm Drunk' audio to frame product wins as chaotic celebrations",
+        "Duet/react to other creators' performances to ride the trend's comment culture"
+      ],
+      "brand": [
+        "Jump in with 'Wow, Ok' brand version — supportive=satisfied customer, sarcastic=competitor shade",
+        "Sponsor performance challenge hashtags with prizes for best entries",
+        "Use 'Melissa I'm Drunk' for 'we just hit X milestone' celebration posts"
+      ],
+      "seller": [
+        "Sell ring lights / phone tripods to trend participants — impulse purchase at $15-30",
+        "Create 'challenge templates' digital products for creators who want to participate",
+        "Merch items with 'Wow, Ok' / 'Melissa I'm Drunk' slogans while trend is hot"
+      ],
+      "avoid": [
+        "Don't brand-jack the trend too aggressively — authenticity is the point",
+        "Avoid offensive/insensitive tone interpretations",
+        "The window is ~2 weeks — don't plan a 3-month campaign around this"
+      ]
+    },
+    "content": {
+      "zh": {
+        "what": "两个表演类趋势同时爆发：'Wow, Ok'挑战要求用支持/失望/讽刺/调情四种语气说这两个词，评论区天然就是互动引擎；'Melissa I'm Drunk'音频用醉酒后疯狂打电话的'主角能量'将任何日常场景变成高光时刻。两个格式的共同特点：零设备门槛、纯靠表演、评论区即社交场。",
+        "data": "NewEngen报告显示小创作者首次尝试'Wow, Ok'即获数百万播放。Ramdam数据显示'Melissa I'm Drunk'音频使用量周增720%。表演挑战类内容平均互动率比教程类高3.2倍。Duet/React功能驱动的二次传播占总播放量40%+。此类格式的完播率通常比普通内容高25%。",
+        "analysis": "表演挑战的病毒传播机制：①表演即钩子——好表演让人惊艳(转发)，差表演也是笑点(评论区吐槽)，两者都能获得流量；②社交货币——'你试试这个'是天然的分享话术，驱动UGC裂变；③算法友好——表演类内容天然高完播+高评论，完美匹配TikTok推荐权重。品牌参与门槛极低：一个品牌'Wow, Ok'视频从拍摄到发布只需15分钟，却能获得数百万自然曝光。",
+        "takeaway": "创作者立刻拍摄'Wow, Ok'——这是2026年门槛最低的涨粉机会。品牌用'Melissa I'm Drunk'音频做里程碑庆祝帖，自然不违和。卖家快速上线手机支架/补光灯等创作配件——趋势参与者即时需求。风险：2周窗口期极其短暂，不要过度策划，'做了再说'就是这个趋势的精髓。"
+      }
+    }
+  },
+  {
+    "id": "us-045",
+    "date": "2026-06-09",
+    "badge": "Trending",
+    "badgeClass": "tag-us",
+    "title_zh": "Summer Anthem+Olivia Rodrigo新专：音频怀旧营销如何驱动2026夏季消费",
+    "title_en": "Summer Anthem + Olivia Rodrigo: How Audio Nostalgia Marketing Is Driving Summer 2026 Spending",
+    "summary_zh": "Madonna采样版Summer Anthem(小创作者首试即获百万播放)和Olivia Rodrigo 6月12日新专辑形成TikTok最强音频双引擎。从音乐消费到时尚穿搭到旅行体验——'声音'正在成为2026夏季消费的超级连接器。",
+    "summary_en": "Madonna-sampled Summer Anthem (small creators hitting millions first try) and Olivia Rodrigo's June 12 album form TikTok's strongest audio twin-engine. From music consumption to fashion to travel — 'sound' is becoming the super-connector of Summer 2026 spending.",
+    "stats": {
+      "heat": "14.2M+ posts",
+      "growth": "+560% weekly adoption"
+    },
+    "trend": [
+      200,
+      450,
+      850,
+      1500,
+      2600,
+      4200,
+      6500,
+      9800,
+      14000
+    ],
+    "phase": "surging",
+    "phase_zh": "爆发期",
+    "difficulty": 1,
+    "window": "6月-8月（整个夏季音乐消费季）",
+    "cpm": "$8-20",
+    "actions": {
+      "creator": [
+        "Film 7-second Summer Anthem lip-sync — single take, eye contact, done",
+        "Prepare Olivia Rodrigo album reaction content before June 12 drop",
+        "Create 'Soundtracking My Summer' series pairing trends with lifestyle content"
+      ],
+      "brand": [
+        "License Summer Anthem vibe for brand campaign — nostalgia beat = instant relatability",
+        "Align product launches with Olivia Rodrigo album aesthetic (soft grunge, diary-core)",
+        "Sponsor 'Summer Soundtrack' creator challenges with branded hashtags"
+      ],
+      "seller": [
+        "Olivia Rodrigo merch / concert outfit pieces — fans buying pre-album",
+        "Summer 'aesthetic' bundles (film camera + custom playlist QR + bucket hat)",
+        "Custom Spotify-code jewelry/keychains tapping music-as-identity trend"
+      ],
+      "avoid": [
+        "Don't use copyrighted audio for commercial posts without clearance",
+        "Avoid bandwagoning Olivia Rodrigo too overtly — authenticity matters to her fanbase",
+        "Summer Anthem saturation expected in ~10 days — move now"
+      ]
+    },
+    "content": {
+      "zh": {
+        "what": "Madonna的'Like a Prayer'混音版成为2026夏季圣歌：小创作者只需7秒对口型+文字叠加即获数百万播放。与此同时，Olivia Rodrigo将于6月12日发布新专辑《you seem pretty sad for a girl so in love》，预售数据已破纪录。两个音频趋势共同构成了TikTok夏季内容的最强驱动力——声音即场景，音乐即消费。",
+        "data": "Josh Fawaz的'Like a Prayer'混音版TikTok使用量已超1400万条。NewEngen报告小创作者首次尝试Summer Anthem即获数百万播放。Olivia Rodrigo新专辑预售首周Spotify预存超500万次。音乐类品牌在TikTok的CPM较去年同期上涨25%。#summeranthem标签下视频总播放量超40亿次。",
+        "analysis": "音频怀旧营销的三层变现：①即时效用——Summer Anthem的7秒格式是2026年最低门槛涨粉入口，新号冷启动利器；②情感经济——Madonna原曲承载80/90后集体记忆，采样版激活跨代际共鸣，品牌借此获取'即时亲切感'；③粉丝经济——Olivia Rodrigo粉丝群('Livies')购买力极强，新专辑发布周边品类(黑胶/服饰/巡演)将形成完整的消费链。创作者应6月12日前储备反应视频模板抢首发优势。",
+        "takeaway": "创作者立即拍Summer Anthem（在饱和前抢窗口），6月12日抢Olivia首发反应视频。品牌借Summer Anthem的怀旧节奏做夏季Campaign，匹配度高。卖家重点布局Olivia专辑周边和'音乐身份'品类(Spotify码饰品/定制歌单产品)。风险：Summer Anthem预计10天内饱和，Olivia专辑热度周期约4-6周。"
+      }
+    }
+  }
+]

@@ -1,238 +1,215 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>TrendToker — Daily TikTok Viral Trends & Niche Analysis</title>
-<meta name="description" content="TrendToker: Daily TikTok global trend news — breaking viral videos, niche analysis, trending audio, and TikTok Shop insights.">
-<meta name="keywords" content="TikTok trends, viral videos, TikTok news, trending sounds, TikTok Shop">
-<meta name="robots" content="index, follow">
-<link rel="canonical" href="https://trendtoker.com/">
-<meta property="og:title" content="TrendToker — Daily TikTok Viral Trends & Niche Analysis">
-<meta property="og:description" content="Daily TikTok trend news for creators, marketers, and brands.">
-<meta property="og:type" content="website">
-<meta name="twitter:card" content="summary_large_image">
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Global Short Video Trend — 全球短视频热点网</title>
+<meta name="description" content="Daily short video trend reports across China, US, and EU — Top 5 trending, lifecycle tracking, CPM data, and actionable playbooks.">
+<meta name="robots" content="index, follow"><meta property="og:title" content="Global Short Video Trend — 全球短视频热点网"><meta property="og:description" content="Daily short video trend reports across China, US, and EU — Top 5 trending, lifecycle tracking, CPM data, and actionable playbooks."><meta property="og:url" content="https://globalshortvideotrend.top/"><meta property="og:type" content="website"><meta property="og:image" content="https://globalshortvideotrend.top/favicon.svg"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Global Short Video Trend"><meta name="twitter:description" content="Daily short video trend reports across China, US, and EU."><meta name="twitter:image" content="https://globalshortvideotrend.top/favicon.svg"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><meta name="baidu-site-verification" content="codeva-OcnBgecQNl"><link rel="canonical" href="https://globalshortvideotrend.top/">
+<meta name="msvalidate.01" content="5E8F6555DFB3506616045EFA305390BD">
 <link rel="stylesheet" href="css/style.css">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-</head>
-<body>
-
-<nav class="navbar">
-  <div class="nav-inner">
-    <a href="/" class="nav-logo">Trend<span>Toker</span></a>
-    <div class="nav-links" id="navLinks">
-      <a href="/" class="active" id="navHome">Home</a>
-      <a href="category.html?id=viral" id="navViral">Viral Top</a>
-      <a href="category.html?id=niche" id="navNiche">Trend Radar</a>
-      <a href="category.html?id=audio" id="navAudio">Viral Audio</a>
-      <a href="category.html?id=ecom" id="navEcom">E-Commerce</a>
-      <a href="about.html" id="navAbout">About</a>
-    </div>
-    <div class="nav-right">
-      <button class="lang-btn" id="langBtn" onclick="switchLang()">中文</button>
-      <div class="hamburger" onclick="toggleMenu()"><span></span><span></span><span></span></div>
-    </div>
-  </div>
-</nav>
+<script>
+(function(){var bp=document.createElement('script');bp.src='https://zz.bdstatic.com/linksubmit/push.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(bp,s);})();
+</script>
+<!-- v1780463116 -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Global Short Video Trend",
+  "url": "https://globalshortvideotrend.top/",
+  "description": "Daily short video trend analysis across China, US, and Europe. Data-driven insights for creators, brands, and sellers.",
+  "inLanguage": [
+    "zh-CN",
+    "en"
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Global Short Video Trend",
+  "url": "https://globalshortvideotrend.top/",
+  "description": "Short video trend analysis platform covering TikTok, Douyin, YouTube Shorts across 3 regions."
+}
+</script>
+<link rel="alternate" type="application/rss+xml" title="RSS" href="https://globalshortvideotrend.top/rss.xml">
+</head><body>
+<nav class="navbar"><div class="nav-inner">
+<a href="index.html" class="nav-logo">Trend<span>Toker</span></a>
+<div class="nav-links"><a href="china.html" id="nChina">China</a><a href="us.html" id="nUS">US</a><a href="eu.html" id="nEU">EU</a><a href="top10.html">🏆 Top10</a><a href="about.html" id="nAbout">About</a></div>
+<div class="nav-right"><div class="nav-util"><button onclick="history.back()" title="Back">‹</button><button onclick="location.reload()" title="Refresh">↻</button></div><button class="lang-btn" id="langBtn" onclick="swL()">中文</button><div class="hamburger" onclick="toggleMenu()"><span></span><span></span><span></span></div></div>
+</div></nav>
+<main>
 
 <main class="main">
 
-<section class="hero-banner">
-  <div class="container hero-inner fade-in">
-    <div class="hero-text">
-      <span class="hero-badge" id="heroBadge">⚡ TRENDING NOW</span>
-      <h1 class="hero-title" id="heroTitle"></h1>
-      <p class="hero-desc" id="heroDesc"></p>
-      <div class="hero-meta">
-        <span id="heroDate"></span>
-        <span id="heroViews"></span>
-      </div>
-    </div>
-    <div class="hero-image"><img src="" alt="Trending" id="heroImg"></div>
-  </div>
-</section>
-
-<div class="container"><div class="content-layout">
-
-<div class="main-feed">
-
-  <section class="section">
-    <div class="section-header">
-      <h2 class="section-title"><span class="icon">🚀</span> <span id="titleViral">Today's Viral Top</span></h2>
-      <p class="section-sub" id="subViral">Top trending videos — analyzed daily</p>
-    </div>
-    <div class="featured-row" id="viralFeatured"></div>
-    <div class="card-grid" id="viralGrid"></div>
-  </section>
-
-  <div class="ad-slot inline">📢 Advertisement</div>
-
-  <section class="section">
-    <div class="section-header">
-      <h2 class="section-title"><span class="icon">📈</span> <span id="titleNiche">Niche Trend Radar</span></h2>
-      <p class="section-sub" id="subNiche">Emerging niches, rising trends</p>
-    </div>
-    <div class="card-grid" id="nicheGrid"></div>
-  </section>
-
-  <section class="section">
-    <div class="section-header">
-      <h2 class="section-title"><span class="icon">🎵</span> <span id="titleAudio">Viral Audio Library</span></h2>
-      <p class="section-sub" id="subAudio">Trending sounds this week</p>
-    </div>
-    <div class="card-grid" id="audioGrid"></div>
-  </section>
-
-  <section class="section">
-    <div class="section-header">
-      <h2 class="section-title"><span class="icon">💰</span> <span id="titleEcom">E-Commerce Boom</span></h2>
-      <p class="section-sub" id="subEcom">TikTok Shop hot products</p>
-    </div>
-    <div class="card-grid" id="ecomGrid"></div>
-  </section>
-
+<div class="hero fade-in">
+<div class="badge" id="hBadge">TRENDING NOW</div>
+<h1 id="hTitle">Global Short Video Trend</h1>
+<p id="hSub">Daily deep dive into what's going viral — across China, USA, and Europe</p>
+<div class="heat"><span id="hLabel">Trend Index</span> <div class="bar"><div class="bar-fill" style="width:87%"></div></div> <strong>87/100</strong></div>
+<div class="search-box" style="margin-top:18px"><input type="text" id="searchInput" placeholder="Search trends... 搜趋势... 输入拼音首字母..."><span class="s-icon">🔍</span></div>
+<div class="search-results" id="searchResults"></div>
 </div>
 
-<aside class="sidebar">
-  <div class="sidebar-widget"><h4 id="sideHot">🔥 7-Day Hot List</h4><ul class="widget-list" id="hotList"></ul></div>
-  <div class="sidebar-widget"><h4 id="sideCat">📂 Categories</h4><ul class="widget-list" id="catList"></ul></div>
-  <div class="sidebar-widget"><h4 id="sideSub">📬 Stay Updated</h4><form class="sub-form" id="subscribeForm"><input type="email" id="subEmail" placeholder="Your email"><button type="submit" id="subBtn">Subscribe</button></form></div>
-  <div class="ad-slot sidebar">📢 Ad Space</div>
-</aside>
+<div class="container">
 
-</div></div>
+<div class="ad-slot top"><div class="ad-inner"><div class="ad-label">Advertisement</div><div class="ad-desktop"><ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px"></ins></div><div class="ad-mobile"><ins class="adsbygoogle" style="display:inline-block;width:320px;height:50px"></ins></div></div></div>
+
+<div class="region-row" id="regionCards"></div>
+
+<div class="cross-box fade-in"><h3 id="crossT">Cross-Region Signals</h3><div id="crossC"></div></div>
+
+<div class="ad-slot"><div class="ad-inner"><div class="ad-label">Advertisement</div><div class="ad-desktop"><ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px"></ins></div><div class="ad-mobile"><ins class="adsbygoogle" style="display:inline-block;width:320px;height:50px"></ins></div></div></div>
+
+<div class="dash-grid">
+<div class="opp-box fade-in"><h3 id="oppT">Today's Best Opportunity</h3><div id="oppC"></div></div>
+<div class="dcard fade-in"><h3><span class="dot" style="background:#EF4444"></span> <span id="alT">Trend Alerts</span></h3><div id="alC"></div></div>
+<div class="dcard fade-in"><h3><span class="dot" style="background:#16A34A"></span> <span id="cpmT">Top CPM Niches</span></h3><div id="cpmC"></div></div>
+<div class="dcard fade-in"><h3><span class="dot" style="background:#FE2C55"></span> <span id="risT">Fastest Rising</span></h3><div id="risC"></div></div>
+</div>
+
+</div>
 </main>
+<div class="ad-slot bottom"><div class="ad-inner"><div class="ad-label">Advertisement</div><div class="ad-desktop"><ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px"></ins></div><div class="ad-mobile"><ins class="adsbygoogle" style="display:inline-block;width:320px;height:50px"></ins></div></div></div>
 
-<footer class="footer">
-  <div class="container">
-    <div class="footer-grid">
-      <div class="footer-col"><h4>TrendToker</h4><p id="ftAbout"></p><p class="footer-disclaimer" id="ftDisclaimer"></p></div>
-      <div class="footer-col"><h4 id="ftLinks">Quick Links</h4><a href="/">Home</a><a href="category.html?id=viral">Viral Top</a><a href="category.html?id=niche">Trend Radar</a><a href="category.html?id=audio">Viral Audio</a><a href="category.html?id=ecom">E-Commerce</a></div>
-      <div class="footer-col"><h4 id="ftLegal">Legal</h4><a href="privacy.html" id="ftPrivacy">Privacy Policy</a><a href="about.html" id="ftAbout2">About Us</a></div>
-      <div class="footer-col"><h4 id="ftContact">Contact</h4><a href="mailto:178577324@qq.com">178577324@qq.com</a><a href="sitemap.xml">Sitemap</a></div>
-    </div>
-    <div class="footer-bottom"><span id="ftCopy">&copy; 2026 TrendToker. All rights reserved.</span><span id="ftTag">Independent News Analysis</span></div>
-  </div>
-</footer>
-
-<script src="js/main.js"></script>
+</main>
+<footer class="footer"><p id="ftCopy">&copy; 2026 TrendToker. All rights reserved.</p></footer>
 <script>
-// ===== BILINGUAL ENGINE =====
-const L = localStorage.getItem('lang') || 'en';
-const T = {
-  // Nav
-  navHome: ['Home','首页'], navViral: ['Viral Top','今日爆款'], navNiche: ['Trend Radar','赛道风向'],
-  navAudio: ['Viral Audio','热门音乐'], navEcom: ['E-Commerce','跨境电商'], navAbout: ['About','关于'],
-  // Hero
-  heroBadge: ['⚡ TRENDING NOW','⚡ 今日趋势'],
-  heroDesc: ['Breaking down today\'s biggest TikTok trends — data-driven analysis for creators, marketers, and brands.',
-             '每日拆解 TikTok 全球最热趋势——为创作者、营销人和品牌提供数据驱动的趋势分析。'],
-  // Sections
-  titleViral: ['Today\'s Viral Top','今日爆款快讯'], subViral: ['Top trending videos & rapid follower growth — analyzed daily','当日最高播放、最快涨粉视频 + 爆火原因拆解'],
-  titleNiche: ['Niche Trend Radar','赛道风向雷达'], subNiche: ['Emerging niches, new challenges, rising trends — what to watch','正在飙升/降温的细分赛道、新玩法、新挑战'],
-  titleAudio: ['Viral Audio Library','热门音乐榜单'], subAudio: ['Trending sounds & music blowing up on TikTok this week','本周全网刷屏BGM与音效趋势'],
-  titleEcom: ['E-Commerce Boom','跨境电商爆品'], subEcom: ['TikTok Shop hot products & shopping trends for sellers','TikTok Shop爆款品类与带货趋势'],
-  // Sidebar
-  sideHot: ['🔥 7-Day Hot List','🔥 七日热度榜'], sideCat: ['📂 Categories','📂 分类目录'],
-  sideSub: ['📬 Stay Updated','📬 订阅更新'], subBtn: ['Subscribe','订阅'], subEmail: ['Your email','输入邮箱'],
-  // Footer
-  ftAbout: ['TrendToker is an independent news analysis website covering TikTok global trends. We provide daily data-driven trend reports for creators, marketers, and brands.',
-            'TrendToker 是独立的新闻分析网站，覆盖 TikTok 全球趋势。我们每日为创作者、营销人和品牌提供数据驱动的趋势报告。'],
-  ftDisclaimer: ['All trends and data are based on public TikTok Creator Center information. We do NOT host, store, or distribute any copyrighted media files. This site is not affiliated with TikTok official.',
-                 '所有趋势和数据基于 TikTok Creator Center 公开信息。我们不存储或分发任何受版权保护的媒体文件。本站与 TikTok 官方无关。'],
-  ftLinks: ['Quick Links','快速链接'], ftLegal: ['Legal','法律'], ftPrivacy: ['Privacy Policy','隐私政策'],
-  ftAbout2: ['About Us','关于我们'], ftContact: ['Contact','联系我们'],
-  ftCopy: ['© 2026 TrendToker. All rights reserved.','© 2026 TrendToker. 版权所有.'],
-  ftTag: ['Independent News Analysis — Not Affiliated with TikTok','独立新闻分析 — 与 TikTok 无关'],
-  // Article
-  readMore: ['Read More','阅读全文'],
-  // Date
-  dateLabel: ['','更新于 '],
-  // Categories sidebar
-  catViral: ['🚀 Today\'s Viral Top','🚀 今日爆款快讯'],
-  catNiche: ['📈 Niche Trend Radar','📈 赛道风向雷达'],
-  catAudio: ['🎵 Viral Audio Library','🎵 热门音乐榜单'],
-  catEcom: ['💰 E-Commerce Boom','💰 跨境电商爆品'],
+var L=localStorage.getItem('lang')||null;if(!L)L='en';
+const I={
+hBadge:['TRENDING NOW','今日趋势'],hTitle:['Global Short Video Trend','全球短视频热点网'],
+hSub:['Daily deep dive — across China, USA, and Europe','每日深度拆解 · 覆盖中国、美国、欧盟'],
+hLabel:['Trend Index','趋势热度指数'],crossT:['Cross-Region Signals','跨区域趋势信号'],
+oppT:['Today\'s Best Opportunity','今日最佳机会'],alT:['Trend Alerts','趋势预警'],
+cpmT:['Top CPM Niches','最高CPM赛道'],risT:['Fastest Rising','最快增长'],
+nChina:['China','中国区'],nUS:['US','美国区'],nEU:['EU','欧盟区'],nAbout:['About','关于'],
+ftCopy:['© 2026 TrendToker. All rights reserved.','© 2026 TrendToker'],
+srPlace:['Search trends... 搜趋势... 拼音首字母','搜趋势... 中文/英文/拼音首字母']
 };
+function _(k){return I[k]?I[k][L=='zh'?1:0]:k}
+Object.keys(I).forEach(k=>{const e=document.getElementById(k);if(e)e.textContent=_(k)});
+document.getElementById('langBtn').textContent=L=='zh'?'English':'中文';
+document.title=L=='zh'?'全球短视频热点网':'Global Short Video Trend';
+if(document.getElementById('searchInput'))document.getElementById('searchInput').placeholder=_(L=='zh'?'srPlace':'srPlace','')||'Search trends...';
+// For search placeholder use the I18N key
+(function(){var sp=document.getElementById('searchInput');if(sp)sp.placeholder=I.srPlace?I.srPlace[L=='zh'?1:0]:'Search trends...';})();
 
-function _(key) { const v = T[key]; return v ? (L==='zh' ? v[1] : v[0]) : key; }
-function set_(id, key) { const el = document.getElementById(id); if (el) el.textContent = _(key); }
-function setPlaceholder(id, key) { const el = document.getElementById(id); if (el) el.placeholder = _(key); }
-
-// Apply ALL static translations
-function applyAllI18N() {
-  ['navHome','navViral','navNiche','navAudio','navEcom','navAbout'].forEach(k => set_(k, k));
-  ['heroBadge','titleViral','subViral','titleNiche','subNiche','titleAudio','subAudio','titleEcom','subEcom'].forEach(k => set_(k, k));
-  ['sideHot','sideCat','sideSub','subBtn','ftAbout','ftDisclaimer','ftLinks','ftLegal','ftPrivacy','ftAbout2','ftContact','ftCopy','ftTag'].forEach(k => set_(k, k));
-  setPlaceholder('subEmail', 'subEmail');
-  document.getElementById('langBtn').textContent = L==='zh' ? 'English' : '中文';
-  document.title = L==='zh' ? 'TrendToker — TikTok全球趋势日报' : 'TrendToker — Daily TikTok Viral Trends & Niche Analysis';
-}
-
-// Run immediately
-applyAllI18N();
-
-// Category sidebar links
-document.getElementById('catList').innerHTML = ['viral','niche','audio','ecom'].map(c => 
-  `<li><a href="category.html?id=${c}">${_(`cat${c.charAt(0).toUpperCase()+c.slice(1)}`)}</a></li>`
-).join('');
-
-// ===== LOAD & RENDER ARTICLES =====
-fetch('data/articles.json').then(r=>r.json()).then(articles => {
-  // Hero — use first article
-  const hero = articles[0];
-  document.getElementById('heroTitle').textContent = L==='zh' ? hero.title_zh : hero.title_en;
-  document.getElementById('heroDesc').textContent = _(L==='zh'?'heroDesc':'heroDesc');
-  document.getElementById('heroDate').textContent = (L==='zh'?'更新于 ':'')+hero.date;
-  document.getElementById('heroViews').textContent = hero.stats ? hero.stats.views+' Views' : '';
-  document.getElementById('heroImg').src = hero.image;
-
-  // Categorize
-  const cats = { viral:[], niche:[], audio:[], ecom:[] };
-  articles.forEach(a => { if (cats[a.category]) cats[a.category].push(a); });
-
-  function card(a) {
-    return `<a href="article.html?id=${a.id}" class="news-card fade-in" style="text-decoration:none;color:inherit">
-      <div class="news-card__img"><img src="${a.image}" loading="lazy"><span class="news-card__badge ${a.badgeClass}">${a.badge}</span></div>
-      <div class="news-card__body">
-        <div class="news-card__cat">${a.category.toUpperCase()}</div>
-        <div class="news-card__title">${L==='zh'?a.title_zh:a.title_en}</div>
-        <div class="news-card__desc">${L==='zh'?a.summary_zh:a.summary_en}</div>
-        <div class="news-card__footer"><span>${a.date}</span><span class="dot"></span><span>${a.stats?Object.values(a.stats)[0]:''}</span></div>
-      </div></a>`;
-  }
-
-  // Viral: featured row (top 3) + grid (remaining)
-  const viral = cats.viral;
-  document.getElementById('viralFeatured').innerHTML = viral.slice(0,3).map((a,i) => `
-    <a href="article.html?id=${a.id}" class="featured-card fade-in" style="text-decoration:none;color:inherit;animation-delay:${i*0.1}s">
-      <div class="featured-card__num">0${i+1}</div>
-      <div class="featured-card__tag">${a.badge}</div>
-      <div class="featured-card__title">${L==='zh'?a.title_zh:a.title_en}</div>
-      <div class="featured-card__desc">${L==='zh'?a.summary_zh:a.summary_en}</div>
-      ${a.stats?`<div class="featured-card__stats">📊 ${a.stats.views} · ${a.stats.growth}</div>`:''}
-    </a>`).join('');
-  if (viral.length > 3) document.getElementById('viralGrid').innerHTML = viral.slice(3).map(card).join('');
-
-  // Other categories
-  ['niche','audio','ecom'].forEach(c => {
-    const g = document.getElementById(c+'Grid');
-    if (g) g.innerHTML = cats[c].map(card).join('');
+function toggleMenu(){const n=document.querySelector('.nav-links');n.style.display=n.style.display==='flex'?'none':'flex'}
+Promise.allSettled(['china','us','eu'].map(r=>fetch('data/'+r+'.json').then(x=>x.json()).then(d=>({r,data:d})).catch(e=>({r,data:[]})))).then(R=>{
+  const A={china:[],us:[],eu:[]};R.forEach(x=>{
+    const v=x.status==='fulfilled'?x.value:x.reason||{r:'',data:[]};
+    const region=v.r;if(region)A[region]=v.data||[];
   });
+  const flag={china:'🇨🇳',us:'🇺🇸',eu:'🇪🇺'};
+  const rn={china:['China Market','中国区'],us:['US Market','美国区'],eu:['EU Market','欧盟区']};
+  const rt={china:['Douyin · Chinese Short Video','抖音 · 中国短视频'],us:['TikTok US · Creator Economy','TikTok 美国 · 创作者经济'],eu:['TikTok EU · 27 Countries','TikTok 欧盟 · 27国市场']};
+  document.getElementById('regionCards').innerHTML=['china','us','eu'].map(r=>{
+    const d=A[r];if(!d||d.length===0)return `<a href="${r}.html" class="region-card fade-in"><div class="flag">${flag[r]}</div><div class="name">${rn[r][L=='zh'?1:0]}</div><div class="sub">${rt[r][L=='zh'?1:0]}</div><div class="tags"><span class="tag-hot">${L=='zh'?'每日Top5':'Daily Top 5'}</span><span class="tag-new">0 ${L=='zh'?'篇':'Reports'}</span></div></a>`;
+    const t=d[0];return `<a href="${r}.html" class="region-card fade-in">
+      <div class="flag">${flag[r]}</div><div class="name">${rn[r][L=='zh'?1:0]}</div><div class="sub">${rt[r][L=='zh'?1:0]}</div>
+      <div class="tags"><span class="tag-hot">${L=='zh'?'每日Top5':'Daily Top 5'}</span><span class="tag-new">${d.length} ${L=='zh'?'篇':'Reports'}</span></div>
+      <div style="font-size:12px;color:var(--text-secondary);margin-top:10px">🔥 ${L=='zh'?t.title_zh:t.title_en}</div></a>`}).join('');
+  // Cross
+  const pairs=[],common=['silent','vlog','ai','face','challenge','cooling','learning','crochet','micro'];
+  ['china','us','eu'].forEach(r1=>{['china','us','eu'].forEach(r2=>{
+    if(r1>=r2)return;
+    A[r1].forEach(a=>{A[r2].forEach(b=>{
+      const t1=a.title_en.toLowerCase(),t2=b.title_en.toLowerCase();
+      if(common.some(w=>t1.includes(w)&&t2.includes(w)))pairs.push({f:r1,t:r2,title:L=='zh'?a.title_zh:a.title_en,id:a.id,reg:a.id.startsWith('cn')?'china':a.id.startsWith('us')?'us':'eu'});
+    })});
+  })});
+  const seen=new Set();const uniq=pairs.filter(p=>{const k=p.title.slice(0,30);if(seen.has(k))return false;seen.add(k);return true});
+  document.getElementById('crossC').innerHTML=uniq.slice(0,3).map(p=>`<div class="cross-row"><span>${flag[p.f]}→${flag[p.t]}</span><a href="article.html?r=${p.reg}&id=${p.id}" style="color:var(--text);font-weight:600;text-decoration:none">${p.title}</a><span style="font-size:10px;color:var(--primary);font-weight:700">SYNC</span></div>`).join('')||`<p style="font-size:12px;color:var(--text-secondary)">${L=='zh'?'暂无显著跨区域同步趋势':'No significant cross-region sync today'}</p>`;
+  // Opp
+  document.getElementById('oppC').innerHTML=`<p style="font-weight:700;font-size:14px;color:var(--text);margin-bottom:6px">🇪🇺 ${L=='zh'?'欧盟 TikTok Shop 新卖家窗口':'EU TikTok Shop — First Mover Window'}</p><p>${L=='zh'?'德国+法国刚开放，本地卖家占47%，3-6个月先发优势窗口。':'Germany+France just opened. 3-6 month first-mover window. EU warehouse tag = 15-25% premium.'}</p><a href="article.html?r=eu&id=eu-004">${L=='zh'?'查看报告 →':'Read Report →'}</a>`;
+  // Alerts
+  const mat=[...A.china,...A.us,...A.eu].filter(a=>a.phase==='mature');
+  document.getElementById('alC').innerHTML=mat.slice(0,3).map(a=>`<div class="alert-item ${a.phase==='mature'?'alert-warn':'alert-hot'}"><span class="${a.phase==='mature'?'at-warn':'at-hot'}">${a.phase==='mature'?(L=='zh'?'退烧中':'COOLING'):'ALERT'}</span><a href="article.html?r=${a.id.startsWith('cn')?'china':a.id.startsWith('us')?'us':'eu'}&id=${a.id}">${L=='zh'?a.title_zh:a.title_en}</a><span style="font-size:10px;color:var(--text-muted)">${a.window}</span></div>`).join('')||`<p style="font-size:12px;color:var(--text-secondary)">${L=='zh'?'今日无退烧趋势':'No cooling trends'}</p>`;
+  // CPM
+  const cpm=[...A.china,...A.us,...A.eu].filter(a=>a.cpm).sort((a,b)=>parseFloat(b.cpm.replace(/[^0-9.]/g,''))-parseFloat(a.cpm.replace(/[^0-9.]/g,'')));
+  document.getElementById('cpmC').innerHTML=cpm.slice(0,5).map((a,i)=>`<div style="display:flex;align-items:center;gap:8px;padding:8px 0;border-bottom:1px solid var(--border);font-size:12px"><span style="font-weight:800;color:var(--text);min-width:18px">#${i+1}</span><span>${flag[a.id.startsWith('cn')?'china':a.id.startsWith('us')?'us':'eu']}</span><a href="article.html?r=${a.id.startsWith('cn')?'china':a.id.startsWith('us')?'us':'eu'}&id=${a.id}" style="flex:1;color:var(--text);text-decoration:none;font-weight:500">${L=='zh'?a.title_zh:a.title_en}</a><span style="font-weight:700;color:#16A34A;font-size:11px">${a.cpm}</span></div>`).join('');
+  // Rising
+  const ris=[...A.china,...A.us,...A.eu].filter(a=>a.phase==='surging').sort((a,b)=>{const ga=parseFloat((a.stats?Object.values(a.stats)[1]:'0')+''.replace(/[^0-9.]/g,'')),gb=parseFloat((b.stats?Object.values(b.stats)[1]:'0')+''.replace(/[^0-9.]/g,''));return gb-ga});
+  document.getElementById('risC').innerHTML=ris.slice(0,5).map((a,i)=>`<div style="display:flex;align-items:center;gap:8px;padding:8px 0;border-bottom:1px solid var(--border);font-size:12px"><span style="font-weight:800;color:var(--text);min-width:18px">#${i+1}</span><span>${flag[a.id.startsWith('cn')?'china':a.id.startsWith('us')?'us':'eu']}</span><a href="article.html?r=${a.id.startsWith('cn')?'china':a.id.startsWith('us')?'us':'eu'}&id=${a.id}" style="flex:1;color:var(--text);text-decoration:none;font-weight:500">${L=='zh'?a.title_zh:a.title_en}</a><span style="font-weight:700;color:#EF4444;font-size:11px">${a.stats?Object.values(a.stats)[1]:''}</span></div>`).join('');
+  // Populate search index
+  allArticles=[...A.china,...A.us,...A.eu];
+});
+function swL(){L=L==='en'?'zh':'en';localStorage.setItem('lang',L);location.reload()}
 
-  // Hot list sidebar
-  const hotIds = ['viral-001','viral-002','viral-003','niche-001','ecom-001','niche-002','audio-001'];
-  document.getElementById('hotList').innerHTML = hotIds.map((id,i) => {
-    const a = articles.find(x=>x.id===id); if (!a) return '';
-    const rc = i<3?['rank-1','rank-2','rank-3'][i]:'rank-other';
-    return `<li><a href="article.html?id=${id}"><span class="widget-rank ${rc}">${i+1}</span>${L==='zh'?a.title_zh:a.title_en}</a></li>`;
-  }).join('');
+// Search
+var allArticles=[];
+var pyMap={}; 
+(function initPY(){
+  // Pinyin initials for common Chinese chars in our titles
+  var map='';
+  // Most common title characters → pinyin initial
+  var d='啊a|八b|擦c|大d|鹅e|发f|嘎g|哈h|一i|鸡j|卡k|拉l|妈m|那n|哦o|怕p|七q|然r|撒s|他t|乌u|微w|西x|鸭y|杂z';
+  d.split('|').forEach(function(p){var parts=p.split('');pyMap[parts[0]]=parts[1]});
+  // Supplement with more chars
+  var extra={芭:'b',蕾:'l',舞:'w',穿:'c',搭:'d',美:'m',妆:'z',食:'s',夜:'y',老:'l',钱:'q',风:'f',火:'h',理:'l',剪:'j',挑:'t',音:'y',爆:'b',款:'k',新:'x',中:'z',国:'g',区:'q',美:'m',欧:'o',日:'r',报:'b',视:'s',频:'p',电:'d',商:'s',直:'z',播:'b',挑:'t',战:'z',无:'w',声:'s',县:'x',城:'c',经:'j',济:'j',旅:'l',游:'y',创:'c',作:'z',者:'z',品:'p',牌:'p',手:'s',工:'g',夏:'x',季:'j',降:'j',温:'w',男:'n',生:'s',做:'z',饭:'f',带:'d',娃:'w',运:'y',动:'d',足:'z',球:'q',北:'b',欧:'o',数:'s',字:'z',绿:'l',色:'s',时:'s',尚:'s',文:'w',化:'h',头:'t',像:'x',篮:'l',网:'w',知:'z',识:'s',付:'f',费:'f',钩:'g',针:'z',淘:'t',金:'j',面:'m',膜:'m',赛:'s',事:'s',体:'t',育:'y',女:'n',性:'x',猫:'m',狗:'g',厨:'c',房:'f',机:'j',器:'q',习:'x',惯:'g',反:'f',向:'x',社:'s',群:'q',快:'k',餐:'c',养:'y',生:'s',亲:'q',子:'z',胶:'j',囊:'n',衣:'y',柜:'g',连:'l',续:'x',剧:'j',职:'z',场:'c',网:'w',红:'h',经:'j',典:'d',热:'r',门:'m',话:'h',题:'t',发:'f',型:'x',路:'l',线:'t',指:'z',南:'n',避:'b',坑:'k',套:'t',妆:'z',修:'x',复:'f',仪:'y',式:'s',感:'g'};
+  for(var k in extra)pyMap[k]=extra[k];
+})();
+function toPY(s){
+  var r='';
+  for(var i=0;i<s.length;i++){
+    var c=s[i];
+    if(pyMap[c])r+=pyMap[c];
+    else if(c>='a'&&c<='z')r+=c;
+    else if(c>='A'&&c<='Z')r+=c.toLowerCase();
+  }
+  return r;
+}
+function doSearch(){
+  var q=document.getElementById('searchInput').value.trim().toLowerCase();
+  var box=document.getElementById('searchResults');
+  if(q.length<1){box.classList.remove('show');box.innerHTML='';return}
+  if(allArticles.length===0)return;
+  var results=[];
+  allArticles.forEach(function(a){
+    var score=0;
+    var tzh=a.title_zh.toLowerCase(), ten=a.title_en.toLowerCase();
+    var szh=a.summary_zh?(''+a.summary_zh).toLowerCase():'';
+    var sen=a.summary_en?(''+a.summary_en).toLowerCase():'';
+    var py=toPY(a.title_zh);
+    var py2=toPY(szh);
+    // Match Chinese
+    if(tzh.indexOf(q)>=0)score+=10;
+    if(szh.indexOf(q)>=0)score+=3;
+    // Match English
+    if(ten.indexOf(q)>=0)score+=8;
+    if(sen.indexOf(q)>=0)score+=2;
+    // Match pinyin initials
+    if(py.indexOf(q)>=0)score+=7;
+    if(py2.indexOf(q)>=0)score+=1;
+    // Match individual words
+    var qw=q.split(/\s+/);
+    qw.forEach(function(w){
+      if(w.length<2)return;
+      if(ten.indexOf(w)>=0)score+=4;
+      if(tzh.indexOf(w)>=0)score+=3;
+    });
+    if(score>0)results.push({article:a,score:score});
+  });
+  results.sort(function(a,b){return b.score-a.score});
+  results=results.slice(0,10);
+  if(results.length===0){
+    box.innerHTML='<div class="sr-empty">No results — try Chinese, English, or pinyin initials</div>';
+  }else{
+    var flag={cn:'🇨🇳',us:'🇺🇸',eu:'🇪🇺'};
+    var bcls={cn:'cn',us:'us',eu:'eu'};
+    box.innerHTML=results.map(function(r){
+      var a=r.article;
+      var reg=a.id.startsWith('cn')?'cn':a.id.startsWith('us')?'us':'eu';
+      var title=L==='zh'?a.title_zh:a.title_en;
+      return '<a href="article.html?r='+(reg==='cn'?'china':reg==='us'?'us':'eu')+'&id='+a.id+'" class="sr-item"><span class="sr-badge '+bcls[reg]+'">'+flag[reg]+'</span><span class="sr-t">'+title+'</span><div class="sr-m">'+a.date+' · '+(a.badge||'')+'</div></a>';
+    }).join('');
+  }
+  box.classList.add('show');
+}
+document.addEventListener('DOMContentLoaded',function(){
+  var inp=document.getElementById('searchInput');
+  if(inp)inp.addEventListener('input',doSearch);
 });
 
-function switchLang() {
-  localStorage.setItem('lang', L==='en'?'zh':'en');
-  window.location.reload();
-}
 </script>
-</body>
-</html>
+
+</body></html>

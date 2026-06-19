@@ -3,12 +3,18 @@
 <link rel="stylesheet" href="css/style.css"><script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 <script>(function(){var bp=document.createElement('script');bp.src='https://zz.bdstatic.com/linksubmit/push.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(bp,s);})();</script>
 <!-- v1780463116 -->
+<link rel="canonical" href="https://globalshortvideotrend.top/article.html">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","name":"Website","url":"https://globalshortvideotrend.top/article.html","description":"Website content"}
+</script>
 </head><body>
 <nav class="navbar"><div class="nav-inner">
 <a href="index.html" class="nav-logo">Trend<span>Toker</span></a>
-<div class="nav-links"><a href="china.html" id="nChina">China</a><a href="us.html" id="nUS">US</a><a href="eu.html" id="nEU">EU</a><a href="about.html" id="nAbout">About</a></div>
+<div class="nav-links"><a href="china.html" id="nChina">China</a><a href="us.html" id="nUS">US</a><a href="eu.html" id="nEU">EU</a><a href="top10.html">🏆 Top10</a><a href="about.html" id="nAbout">About</a></div>
 <div class="nav-right"><div class="nav-util"><button onclick="history.back()" title="Back">‹</button><button onclick="location.reload()" title="Refresh">↻</button></div><button class="lang-btn" id="langBtn" onclick="swL()">中文</button><div class="hamburger" onclick="toggleMenu()"><span></span><span></span><span></span></div></div>
 </div></nav>
+<main>
+
 <main class="main"><div class="container"><div class="alayout">
 <div class="apage">
   <div class="rank-badges" style="margin-bottom:8px"><span class="rank-badge b-hot" id="aBadge"></span><span class="ph-badge ph-surging" id="aPhase"></span></div>
@@ -75,13 +81,48 @@ fetch('data/'+reg+'.json').then(r=>r.json()).then(data=>{
       '<div class="dstat"><div class="val">'+ss+'</div><div class="lbl">'+_i('difficulty','难度')+'</div></div>'+
       '<div class="dstat"><div class="val">'+(a.window||'-')+'</div><div class="lbl">'+_i('window','窗口')+'</div></div>'+
       '<div class="dstat"><div class="val" style="color:'+(a.phase==='surging'?'#DC2626':a.phase==='mature'?'#D97706':'#16A34A')+'">'+(L=='zh'?a.phase_zh:a.phase)+'</div><div class="lbl">'+_i('lifecycle','周期')+'</div></div>';
-    // Body
-    document.getElementById('aBody').innerHTML=
-      '<p>'+c.what+'</p>'+
-      '<div class="hl"><p style="margin:0">'+c.data+'</p></div>'+
-      '<h2>'+_i('Deep Analysis','深度拆解')+'</h2><p>'+c.analysis+'</p>'+
-      '<div class="hl green"><p style="margin:0"><strong>'+_i('Key Takeaways','实践启示')+'</strong><br>'+c.takeaway+'</p></div>'+
-      '<div class="disc"><strong>'+_i('Disclaimer:','免责声明：')+'</strong>'+_i('Based on public data. For trend analysis only.','本文基于公开数据编制，仅供趋势参考。')+'</div>';
+    // Body - Deep Analysis Upgrade
+    var bodyHtml='<p>'+c.what+'</p>'+'<div class="hl"><p style="margin:0">'+c.data+'</p></div>';
+    // New deep analysis modules (if available)
+    if(c.deep_analysis){
+      var da=c.deep_analysis;
+      bodyHtml+='<h2>'+_i('Deep Analysis','深度拆解')+'</h2>';
+      bodyHtml+='<div class="deep-section"><h3>'+_i('Algorithm Mechanism','算法推荐机理')+'</h3><p>'+da.algorithm+'</p></div>';
+      bodyHtml+='<div class="deep-section"><h3>'+_i('User Psychology','用户心理分析')+'</h3><p>'+da.psychology+'</p></div>';
+      bodyHtml+='<div class="deep-section"><h3>'+_i('Content Structure','最优内容结构')+'</h3><p>'+da.structure+'</p></div>';
+    } else if(c.analysis){
+      bodyHtml+='<h2>'+_i('Deep Analysis','深度拆解')+'</h2><p>'+c.analysis+'</p>';
+    }
+    if(c.monetization){
+      var mo=c.monetization;
+      bodyHtml+='<h2>'+_i('Monetization Breakdown','变现路径拆解')+'</h2>';
+      bodyHtml+='<div class="deep-section money"><h3>'+_i('CPM Analysis','CPM收益分析')+'</h3><p>'+mo.cpm_breakdown+'</p></div>';
+      bodyHtml+='<div class="deep-section money"><h3>'+_i('Revenue Paths','变现路径')+'</h3><p>'+mo.revenue_paths+'</p></div>';
+      bodyHtml+='<div class="deep-section money"><h3>'+_i('Brand Pricing Reference','品牌合作报价参考')+'</h3><p>'+mo.brand_pricing+'</p></div>';
+    }
+    if(c.cases&&c.cases.length){
+      bodyHtml+='<h2>'+_i('Case Studies','成功案例研究')+'</h2>';
+      c.cases.forEach(function(cs){
+        bodyHtml+='<div class="case-card"><h4>'+cs.account+'</h4><p class="case-result"><strong>'+_i('Result:','成果：')+'</strong>'+cs.result+'</p><p class="case-strategy"><strong>'+_i('Strategy:','策略：')+'</strong>'+cs.strategy+'</p></div>';
+      });
+    }
+    if(c.lifecycle){
+      var lc=c.lifecycle;
+      bodyHtml+='<h2>'+_i('Lifecycle Prediction','生命周期预判')+'</h2>';
+      bodyHtml+='<div class="deep-section lifecycle"><h3>'+_i('Historical Comparison','历史趋势类比')+'</h3><p>'+lc.historical_comparison+'</p></div>';
+      bodyHtml+='<div class="deep-section lifecycle"><h3>'+_i('Decay Prediction','衰退预测')+'</h3><p>'+lc.decay_prediction+'</p></div>';
+      bodyHtml+='<div class="deep-section lifecycle"><h3>'+_i('Optimal Entry Timing','最佳入场时机')+'</h3><p>'+lc.optimal_entry+'</p></div>';
+    }
+    if(c.niche_adapt){
+      var na2=c.niche_adapt;
+      bodyHtml+='<h2>'+_i('Niche Adaptation','垂类适配策略')+'</h2><div class="niche-grid">';
+      var niches={beauty:['Beauty','美妆'],food:['Food','美食'],tech:['Tech','科技'],fashion:['Fashion','时尚'],lifestyle:['Lifestyle','生活方式']};
+      Object.keys(niches).forEach(function(k){if(na2[k])bodyHtml+='<div class="niche-card"><h4>'+niches[k][L==='zh'?1:0]+'</h4><p>'+na2[k]+'</p></div>'});
+      bodyHtml+='</div>';
+    }
+    bodyHtml+='<div class="hl green"><p style="margin:0"><strong>'+_i('Key Takeaways','实践启示')+'</strong><br>'+c.takeaway+'</p></div>';
+    bodyHtml+='<div class="disc"><strong>'+_i('Disclaimer:','免责声明：')+'</strong>'+_i('Based on public data. For trend analysis only.','本文基于公开数据编制，仅供趋势参考。')+'</div>';
+    document.getElementById('aBody').innerHTML=bodyHtml;
     // Actions
     if(a.actions){
       var ac=a.actions;
@@ -164,7 +205,6 @@ fetch('data/'+reg+'.json').then(r=>r.json()).then(data=>{
         }
       }
     });
-  }
   // Related
   document.getElementById('aRelList').innerHTML=data.filter(x=>x.id!==id).slice(0,4).map(x=>`<li><a href="article.html?r=${reg}&id=${x.id}">${L=='zh'?x.title_zh:x.title_en}</a></li>`).join('');
   // Hotlist sidebar
@@ -173,5 +213,7 @@ fetch('data/'+reg+'.json').then(r=>r.json()).then(data=>{
 function swL(){var newL=L==='en'?'zh':'en';localStorage.setItem('lang',newL);location.reload()}
 </script>
 <div class="ad-slot bottom"><div class="ad-inner"><div class="ad-label">Advertisement</div><div class="ad-desktop"><ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px"></ins></div><div class="ad-mobile"><ins class="adsbygoogle" style="display:inline-block;width:320px;height:50px"></ins></div></div></div>
+
+</main>
 <footer class="footer"><p>&copy; 2026 TrendToker</p></footer>
 </body></html>

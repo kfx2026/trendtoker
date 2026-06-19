@@ -1,0 +1,302 @@
+[
+  {
+    "id": "cn-041",
+    "date": "2026-06-09",
+    "badge": "Hot Trending",
+    "badgeClass": "tag-china",
+    "title_zh": "高考后经济窗口：从AI志愿填报到毕业旅行的200亿新消费赛道",
+    "title_en": "Post-Gaokao Economy: AI College Matching, Graduation Travel & the ¥200B New Consumption Wave",
+    "summary_zh": "2026高考落幕，抖音高考话题总播放量突破500亿次。从高考英语(1094万热度)到高考作文为何刷屏，后高考经济从'估分焦虑'进化为AI志愿填报(搜索量+340%)、毕业旅行、技能培训的全周期消费生态。",
+    "summary_en": "With Gaokao 2026 wrapped, Douyin exam topics hit 50B total views. From 'Gaokao English' (10.94M heat) to 'Why essay topics go viral,' the post-exam economy has evolved from score anxiety into AI college matching (+340% search), graduation travel, and skill-building — a full-cycle consumption ecosystem.",
+    "stats": {
+      "heat": "1094.4万热度",
+      "growth": "+45% vs 6月7日"
+    },
+    "trend": [
+      280,
+      420,
+      610,
+      780,
+      920,
+      1020,
+      1080,
+      1094,
+      1060
+    ],
+    "phase": "surging",
+    "phase_zh": "爆发期",
+    "difficulty": 2,
+    "window": "6月9日-6月25日（出分+志愿填报窗口）",
+    "cpm": "¥30-75",
+    "actions": {
+      "creator": [
+        "做AI志愿填报工具评测/对比视频，自然导流付费咨询",
+        "拍'高考后72小时'纪实Vlog，情感共鸣涨粉效率最高",
+        "推出'大学专业真实体验'系列，用学长学姐口吻降低信息差"
+      ],
+      "brand": [
+        "教育科技品牌投放志愿填报类达人，CPM低ROI高达1:6",
+        "旅行平台推'毕业旅行'专题页+达人探店种草",
+        "3C品牌（笔记本/手机）推'大学新生装备'限定套装"
+      ],
+      "seller": [
+        "AI志愿填报小程序/知识付费，客单价¥99-399高复购",
+        "毕业旅行定制套餐（小团/自由行），利润率30-45%",
+        "大学宿舍用品一站式打包套餐，场景化SKU组合"
+      ],
+      "avoid": [
+        "不做虚假'包录取'承诺",
+        "不贩卖考后焦虑情绪",
+        "不发布未经授权的高考真题内容"
+      ]
+    },
+    "content": {
+      "zh": {
+        "what": "2026高考落幕，抖音仍有4条高考相关话题占据热搜前50，从高考英语(1094万热度)到'高考作文为何每年刷屏'，后高考经济已从单一的估分查分演化为覆盖AI志愿填报、毕业旅行、大学装备采购、技能培训的全周期消费生态。",
+        "data": "抖音高考话题累计播放量突破500亿次。AI志愿填报类小程序搜索同比增长340%，志愿类直播间单场GMV超30万元。毕业旅行搜索量周增210%，三亚/成都/重庆为TOP3目的地。3C数码'大学新生'关键词搜索量月增85%。教育类达人6月CPM较5月上涨40%。",
+        "analysis": "后高考经济的三层变现逻辑：①焦虑变现层(AI志愿/估分)——刚需低频高客单；②释放消费层(毕业旅行/聚餐)——情感驱动冲动消费；③准备采购层(3C/宿舍用品)——实用刚需。核心驱动力是'人生转折点仪式感'——每个中国家庭都愿为这个节点投入。平台算法此时主动加权教育+生活类内容。品牌应抓住'新生装备'场景做品类联名。",
+        "takeaway": "创作者优先切入AI志愿工具评测（低竞争高搜索）和毕业旅行Vlog（高互动）。品牌布局'大学新生装备'限定套装，6月中旬为最佳投放窗口。卖家重点关注AI志愿类SaaS和毕业旅行定制两个高利润品类。风险：高考政策敏感，避免做虚假预测和焦虑营销。"
+      }
+    }
+  },
+  {
+    "id": "cn-042",
+    "date": "2026-06-09",
+    "badge": "Hot Trending",
+    "badgeClass": "tag-china",
+    "title_zh": "「读懂山西」引爆文旅3.0：文化叙事如何把古建大省变成流量目的地",
+    "title_en": "Shanxi Renaissance: How Cultural Storytelling Turned an Ancient Province into China's #1 Travel Trend",
+    "summary_zh": "抖音热搜第二'读懂山西才懂何以中国'(1206万热度)揭示文旅营销新范式——不是卖景点而是卖认知。从《黑神话》带火的山西古建到'一眼千年'的文化沉浸体验，山西正在用'叙事型文旅'颠覆传统观光模式，带动地方消费增长超300%。",
+    "summary_en": "Douyin's #2 trend 'Understanding Shanxi to Understand China' (12.06M heat) reveals a new cultural tourism paradigm — selling cognition, not attractions. From Black Myth-driven ancient architecture tours to immersive heritage experiences, Shanxi is disrupting traditional tourism with narrative-driven travel, driving 300%+ local consumption growth.",
+    "stats": {
+      "heat": "1206.2万热度",
+      "growth": "+580% vs 上月"
+    },
+    "trend": [
+      180,
+      310,
+      480,
+      650,
+      820,
+      980,
+      1100,
+      1206,
+      1180
+    ],
+    "phase": "emerging",
+    "phase_zh": "萌芽期",
+    "difficulty": 3,
+    "window": "6-10月（暑期+国庆黄金旅游季）",
+    "cpm": "¥20-50",
+    "actions": {
+      "creator": [
+        "做'山西古建巡礼'深度攻略视频，差异化于普通旅游打卡",
+        "拍'一眼千年'沉浸式文化体验vlog，切入知识旅游赛道",
+        "做山西美食+古建双线内容，覆盖更广受众"
+      ],
+      "brand": [
+        "文旅局/OTA平台投放古建探访类达人，种草转化率高",
+        "户外装备品牌推'古建巡礼'联名系列，场景绑定",
+        "文创品牌开发山西古建IP衍生品（应县木塔/云冈石窟）"
+      ],
+      "seller": [
+        "山西古建主题研学团，客单价¥3000-8000/人",
+        "地方特产电商化（平遥牛肉/山西陈醋）借势推广",
+        "古建筑3D拼图/模型玩具，文化消费新品类"
+      ],
+      "avoid": [
+        "不要对古建做不当二创/恶搞",
+        "避免将文化叙事简化为网红打卡",
+        "注意文物保护相关的拍摄规范"
+      ]
+    },
+    "content": {
+      "zh": {
+        "what": "抖音热搜第二'读懂山西才懂何以中国'以1206万热度揭示了一个新文旅范式——文化叙事驱动的目的地营销。从《黑神话：悟空》带火山西古建巡礼，到'一眼千年'沉浸式文化体验，山西正在用'叙事型文旅'把古建大省变成流量目的地，带动地方文旅消费增长超300%。",
+        "data": "山西文旅2026年Q2游客量同比增长210%，旅游收入突破800亿元。'山西古建'抖音话题播放量超180亿次。云冈石窟/应县木塔/平遥古城暑期预约量已达去年同期3倍。山西文旅类达人6月涨粉均超15万。OTA平台山西线路搜索量增长320%。",
+        "analysis": "山西文旅爆发的三层逻辑：①内容IP前置——游戏/影视IP(黑神话/封神)完成用户心智教育，降低旅行决策门槛；②文化叙事升级——从'看景点'到'读中国'的概念升维，满足了Z世代'有深度的旅行'需求；③基础设施完善——高铁网络+数字化预约系统提升了可及性。核心变现是全域消费提升而非单一门票经济。品牌应把握'文化自信消费'大趋势，做场景化而非叫卖式植入。",
+        "takeaway": "创作者切入'知识旅游'赛道，做文化深读+实用攻略双驱动内容。品牌优先与地方文旅局联名，获取官方背书降低信任成本。卖家布局古建IP衍生品和研学旅行两大品类。风险：避免过度商业化破坏文化体验感，需尊重文物保护底线。"
+      }
+    }
+  },
+  {
+    "id": "cn-043",
+    "date": "2026-06-09",
+    "badge": "Trending",
+    "badgeClass": "tag-china",
+    "title_zh": "水果冰粽+端午美食新消费：节气食品如何从'吃'升级为'社交货币'",
+    "title_en": "Fruit Ice Zongzi: How Seasonal Foods Became Social Currency in China's Dragon Boat Economy",
+    "summary_zh": "'当咸甜大战遇到水果冰粽'以911万热度登榜。从传统粽子的南北咸甜之争，到水晶冰粽成为小红书+抖音双平台爆款——端午食品正在从家庭餐桌升级为社交媒体打卡道具，驱动烘焙原料、冷链包装、DIY体验等上下游新品类爆发。",
+    "summary_en": "'Sweet vs Savory Meets Fruit Ice Zongzi' hit 9.11M heat. From the age-old north-south zongzi debate to crystal ice zongzi becoming a dual-platform hit — Dragon Boat Festival foods are upgrading from family tables to social media props, driving new categories in baking supplies, cold-chain packaging, and DIY experiences.",
+    "stats": {
+      "heat": "911.1万热度",
+      "growth": "+280% vs 上周"
+    },
+    "trend": [
+      120,
+      200,
+      350,
+      510,
+      660,
+      780,
+      870,
+      911,
+      900
+    ],
+    "phase": "emerging",
+    "phase_zh": "萌芽期",
+    "difficulty": 2,
+    "window": "6月6日-6月12日（端午节前后）",
+    "cpm": "¥15-35",
+    "actions": {
+      "creator": [
+        "做冰粽DIY教程视频，蹭'咸甜大战'互动话题涨粉",
+        "横向评测不同品牌水果冰粽，内容即种草",
+        "做端午美食文化科普(各地粽子差异)，知识+美食双标签"
+      ],
+      "brand": [
+        "烘焙原料品牌推'冰粽DIY套装'（冰皮粉+模具+馅料）",
+        "茶饮品牌推端午限定'冰粽茶'联名款",
+        "生鲜电商推端午食材组合套装，一站式购物场景"
+      ],
+      "seller": [
+        "冰粽DIY材料包(冰皮粉/模具/果酱)，客单价¥29-69",
+        "冷链即食冰粽礼盒（送礼场景），客单价¥68-168",
+        "端午限定餐具/蒸笼/包装，场景化SKU"
+      ],
+      "avoid": [
+        "不要做食品安全相关的争议内容",
+        "避免地域黑（咸甜之争要幽默不能引战）",
+        "不要过度包装造成浪费争议"
+      ]
+    },
+    "content": {
+      "zh": {
+        "what": "'当咸甜大战遇到水果冰粽'以911万热度登榜，端午美食消费正在经历代际升级——Z世代不再满足于传统粽子，水果冰粽、水晶粽成为新的社交货币。冰粽DIY教程、横向评测视频在抖音和小红书双平台爆发，带动上游原料、中游冷链、下游体验的完整产业链。",
+        "data": "端午节前一周，'冰粽'抖音搜索量环比增长520%。小红书冰粽笔记超12万篇。淘宝冰皮粉销量周增380%，冰粽模具类目GMV周增450%。生鲜电商端午品类（粽子+咸鸭蛋+黄酒）客单价同比提升35%。烘焙类达人端午期间CPM上涨25%。",
+        "analysis": "冰粽爆红的三层驱动力：①社交属性——颜值高、拍照好看，天然适合小红书+抖音双平台种草；②参与感——DIY门槛低，用户从'买来吃'升级为'做来晒'，UGC内容自传播；③代际消费变迁——95后/00后对传统粽子的仪式感需求减弱，更追求新奇体验和个性化表达。品牌应把握'传统节气×新消费形态'的品类创新机会。",
+        "takeaway": "创作者优先做冰粽DIY教程+趣味评测，低门槛高互动。品牌布局'冰粽DIY套装'和'端午限定茶饮'两个新品线。卖家重点关注冷链即食冰粽礼盒（高客单送礼场景）和DIY材料包（高复购）。风险：食品类内容需遵守食品安全法规，季节性强需控制库存。"
+      }
+    }
+  },
+  {
+    "id": "cn-044",
+    "date": "2026-06-09",
+    "badge": "Trending",
+    "badgeClass": "tag-china",
+    "title_zh": "12岁足球小将+哈兰德中国热：体育IP如何打破圈层驱动千亿青训经济",
+    "title_en": "12-Year-Old Football Prodigy + Haaland China Fever: How Sports IPs Are Breaking Echo Chambers to Fuel Youth Training Economy",
+    "summary_zh": "12岁足球小将出圈(918万热度)+哈兰德来重庆吃轻轨(869万热度)+'哇咔哇咔'世界杯神曲回归——三个体育话题同时霸榜，揭示体育内容从竞技场破圈到生活场景的范式转变。从青训装备到足球主题餐饮，体育IP正在驱动一个千亿级的泛体育消费生态。",
+    "summary_en": "A 12-year-old football prodigy (9.18M), Haaland eating Chongqing light rail (8.69M), and Waka Waka's World Cup nostalgia — three sports topics trending simultaneously reveal the paradigm shift of sports content breaking from arenas into lifestyle. From youth training gear to football-themed dining, sports IPs are driving a trillion-yuan pan-sports ecosystem.",
+    "stats": {
+      "heat": "918.4万热度",
+      "growth": "+420% vs 上周"
+    },
+    "trend": [
+      150,
+      260,
+      390,
+      520,
+      670,
+      780,
+      860,
+      918,
+      900
+    ],
+    "phase": "emerging",
+    "phase_zh": "萌芽期",
+    "difficulty": 3,
+    "window": "6-7月（世界杯周期+暑期青训季）",
+    "cpm": "¥25-55",
+    "actions": {
+      "creator": [
+        "做世界杯观赛指南+球员故事内容，蹭赛事流量",
+        "拍青少年足球训练Vlog，切入亲子体育赛道",
+        "做体育IP跨界美食/旅游内容(哈兰德吃轻轨风格)"
+      ],
+      "brand": [
+        "运动品牌推青少年足球装备线，社群+达人种草",
+        "餐饮品牌推世界杯观赛套餐/主题店，场景化消费",
+        "在线教育平台推体育+英语融合课程，差异化定位"
+      ],
+      "seller": [
+        "青少年足球装备(球鞋/护具/训练服)组合套装",
+        "世界杯周边(球衣/围巾/纪念品)，时效性强利润高",
+        "足球训练营/夏令营，客单价¥2000-8000高利润"
+      ],
+      "avoid": [
+        "不做博彩相关内容",
+        "不消费未成年运动员过度炒作",
+        "避免世界杯版权内容侵权"
+      ]
+    },
+    "content": {
+      "zh": {
+        "what": "三条体育话题同时霸榜抖音热搜：12岁足球小将的出圈之路(918万)展现青少年体育IP潜力，哈兰德来重庆吃轻轨(869万)体现国际体育IP本土化破圈，'哇咔哇咔杀回来了'(779万)唤醒世界杯集体记忆——体育内容正从竞技场景向生活场景全面渗透。",
+        "data": "中国青少年足球培训市场规模2026年预计突破600亿元，年增长35%。世界杯话题在抖音预热期播放量已超80亿次。体育类达人6月CPM较5月上涨60%。'哈兰德'关键词搜索量中国区周增480%，带动重庆文旅搜索量+120%。青少年足球装备618预售GMV同比增长210%。",
+        "analysis": "体育IP破圈的三重逻辑：①人格化体育偶像——哈兰德等国际球星主动做'中国限定'内容(吃轻轨)，拉近心理距离→二次传播爆发；②代际传承——世界杯主题曲唤醒80/90后集体记忆，转化为亲子观赛消费；③体教融合政策红利——12岁足球小将热点契合国家青少年体育战略，平台加权推流。变现核心是'看球+踢球+学球'全场景覆盖。",
+        "takeaway": "创作者优先做世界杯预热+青少年体育故事，双标签覆盖更广受众。品牌布局世界杯观赛场景(餐饮/装备/主题店)，6月中旬为最佳窗口。卖家聚焦青少年足球装备和世界杯周边两大品类，控制库存风险。注意：世界杯版权内容严格管控，仅做赛事评论和二创。"
+      }
+    }
+  },
+  {
+    "id": "cn-045",
+    "date": "2026-06-09",
+    "badge": "Trending",
+    "badgeClass": "tag-china",
+    "title_zh": "胡彦斌闯Coding圈+童年IP联动：明星跨界如何激活万亿技术内容市场",
+    "title_en": "Hu Yanbin Codes + Nostalgia IPs Collide: How Celebrity Crossovers Are Igniting China's Tech Content Gold Rush",
+    "summary_zh": "'Coding圈被胡彦斌闯进去了'(905万热度)和'小火人联动童年顶流'(782万热度)两条热搜揭示了2026年最意外的流量组合——明星跨界编程+童年IP情怀联动。技术圈破壁、怀旧消费升级、知识娱乐化正在形成一个全新的内容变现三角。",
+    "summary_en": "Hu Yanbin crashing the coding world (9.05M heat) and childhood IP crossovers (7.82M) reveal 2026's most unexpected traffic combo — celebrity coding crossover + nostalgia IP collabs. Tech circle breakthrough meets nostalgia consumption, forming a new content monetization triangle.",
+    "stats": {
+      "heat": "905.1万热度",
+      "growth": "+650% vs 上周"
+    },
+    "trend": [
+      80,
+      160,
+      300,
+      480,
+      620,
+      750,
+      850,
+      905,
+      890
+    ],
+    "phase": "emerging",
+    "phase_zh": "萌芽期",
+    "difficulty": 3,
+    "window": "6月（热点脉冲型，约2-3周）",
+    "cpm": "¥20-40",
+    "actions": {
+      "creator": [
+        "做明星同款编程挑战/学习记录，蹭热点快速起号",
+        "做童年IP开箱评测/怀旧内容，情绪价值高互动",
+        "做'跨界学习'知识内容，明星热度+实用价值双驱动"
+      ],
+      "brand": [
+        "编程教育平台投放明星同款课程广告，转化率提升2-3倍",
+        "潮玩/IP周边品牌借势童年联动热点推新品",
+        "3C品牌推'程序员同款'产品线(机械键盘/显示器)"
+      ],
+      "seller": [
+        "编程入门课程/学习套装（明星同款），客单价¥99-499",
+        "童年IP联名潮玩/盲盒，复购率高利润空间40-60%",
+        "程序员生活方式周边(文化衫/贴纸/桌面摆件)"
+      ],
+      "avoid": [
+        "不要碰瓷明星做低质蹭热度内容",
+        "童年IP二创需注意版权授权",
+        "避免技术内容过度娱乐化引发专业圈层反感"
+      ]
+    },
+    "content": {
+      "zh": {
+        "what": "'Coding圈被胡彦斌闯进去了'(905万)+'小火人联动童年顶流'(782万)两条话题同时登榜，看似不相关却指向同一趋势——跨界破壁正在成为2026年最有效的内容增长策略。明星学编程引爆技术圈讨论，童年IP联动唤醒千禧一代消费力，知识娱乐化+怀旧经济正在创造新的变现范式。",
+        "data": "编程教育类App在胡彦斌热搜后24小时内下载量暴增180%。'零基础学编程'抖音搜索量日增350%。童年IP联名潮玩618预售额突破2亿元，同比增长160%。技术类达人6月涨粉效率提升80%。明星跨界类话题平均互动率比纯娱乐内容高2.5倍。",
+        "analysis": "明星跨界编程火爆的三层逻辑：①打破认知反差——'歌手写代码'制造强烈好奇心驱动点击；②知识焦虑共鸣——程序员群体自嘲+羡慕明星'随便学学就能入门'，引发圈层讨论；③降维打击——明星自带流量池为垂直技术赛道导入泛用户，远超传统教育投放效率。童年IP联动则切中了千禧一代'治愈式消费'——在不确定时代花小钱买确定性的快乐。",
+        "takeaway": "创作者优先做明星跨界事件解读+技术入门科普，短期流量大。品牌关注明星跨界带来的品类破圈机会（编程教育/3C/潮玩）。卖家布局明星同款学习套装和童年IP联名产品。风险：热点脉冲性强(2-3周)，需快速反应轻资产测品；版权合规是底线。"
+      }
+    }
+  }
+]

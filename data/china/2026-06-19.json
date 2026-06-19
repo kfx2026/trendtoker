@@ -1,0 +1,302 @@
+[
+  {
+    "id": "cn-101",
+    "date": "2026-06-19",
+    "badge": "Hot Trending",
+    "badgeClass": "tag-china",
+    "title_zh": "端午文旅经济2.0：从龙舟赛事到国风美妆的全链路爆发",
+    "title_en": "Dragon Boat Festival Economy 2.0: From Dragon Boat Racing to Guochao Beauty",
+    "summary_zh": "2026年端午节前夕，抖音端午相关话题占据热搜榜近1/6（8条），总热度超8000万。从佛山飙龙船到南阳艾草仪式感，从顺德鱼生到国风山水妆容，端午已从单一民俗升级为融合文旅、美食、美妆、国潮的全链路消费场景。创作者、品牌方、地方文旅局三方共振，这一季节性IP的商业化天花板正在被重新定义。",
+    "summary_en": "On the eve of the 2026 Dragon Boat Festival, Douyin's trending chart features 8 Dragon Boat-related topics occupying nearly 1/6 of the top 50, with total heat exceeding 80M. From Foshan dragon boat racing to Nanyang mugwort rituals, from Shunde sashimi to guochao landscape makeup — the festival has evolved from a single tradition into a full-chain consumption ecosystem spanning travel, food, beauty, and national-tide culture.",
+    "stats": {
+      "heat": "80M+ 总热度",
+      "growth": "+320% 同比"
+    },
+    "trend": [
+      8500000,
+      9200000,
+      10100000,
+      11200000,
+      12100000,
+      11800000,
+      12400000,
+      12000000,
+      12100000
+    ],
+    "phase": "surging",
+    "phase_zh": "爆发期",
+    "difficulty": 2,
+    "window": "6月15-25日（端午节前后10天黄金窗口）",
+    "cpm": "¥18-35",
+    "actions": {
+      "creator": [
+        "拍摄端午节地方特色美食/龙舟赛事vlog，蹭'请到佛山飙龙船''顺德鱼生'等热搜词流量",
+        "做国风端午妆容教程，结合'端午把国风山水化在脸上'趋势，带美妆产品链接",
+        "挖掘本地端午民俗（如南阳艾草仪式），做差异化文化科普内容，获取文旅局合作机会"
+      ],
+      "brand": [
+        "食品品牌推出端午限定礼盒，在抖音做开箱种草+直播带货，绑定'我的端午落地签'话题",
+        "文旅局/景区投放达人种草，结合龙舟赛事做事件营销，推出端午体验套餐",
+        "国潮美妆品牌借'端午国风妆'热点推出限定系列，联名汉服品牌做跨界内容"
+      ],
+      "seller": [
+        "粽子/咸鸭蛋/艾草制品 — 端午刚需品类，抖音小店搜索流量暴涨",
+        "汉服/新中式服饰 — 端午出游穿搭需求激增，客单价¥200-800",
+        "地方特产礼盒（顺德鱼生料包、宜昌屈原文化周边）— 文旅+食品跨界SKU"
+      ],
+      "avoid": [
+        "不要做泛泛的'端午由来'科普，已过热搜峰值期，竞争饱和",
+        "避免纯文字口播，端午内容需要强视觉（美食近景/水面镜头/妆容细节）",
+        "不做与端午无关的硬植入，用户对节日的期待是沉浸式文化体验"
+      ]
+    },
+    "content": {
+      "zh": {
+        "what": "端午话题在抖音形成8条热搜集群：铁路出行8300万、佛山龙船980万、南阳艾草910万、顺德鱼生770万、国风妆容770万。话题间形成自然的内容联动——出行→目的地体验→美食→妆容打卡，构成完整的用户消费链路。",
+        "data": "端午相关热搜总热度8000万+，其中'铁路端午预计发送旅客8300万'单条热度1194万，'请到佛山飙龙船'982万，'端午的仪式感是南阳艾给的'917万。同比2025年端午前夕热度增长320%，参与话题的视频平均互动率8.7%，远高于日常美食/旅游类内容的5.2%。",
+        "analysis": "端午经济从'吃粽子'升级为'沉浸式文化消费'的本质，是Z世代对传统节日的重新编码。他们不再满足于'知道端午节'，而是需要'在端午节里成为主角'——去佛山飙龙船是体验，化国风山水妆是表达，吃顺德鱼生是社交货币。平台算法在端午前两周就会给传统文化内容加权推荐，这是流量红利的底层逻辑。对品牌来说，端午是每年6月唯一能做'文化溢价'的节点——用户在这个时间段对溢价接受度比平时高40-60%。",
+        "takeaway": "端午IP的商业化窗口期只有10天。创作者应立即启动'本地端午体验'系列，每城一个差异化角度；品牌方应把端午营销预算的60%放在短视频种草而非传统广告；卖家务应提前备货艾草/汉服/地方特产三个品类，这三个是抖音端午搜索量增长最快的类目。"
+      }
+    }
+  },
+  {
+    "id": "cn-102",
+    "date": "2026-06-19",
+    "badge": "Hot Trending",
+    "badgeClass": "tag-china",
+    "title_zh": "世界杯内容经济：从赛事解说到二创鬼畜的流量金矿",
+    "title_en": "World Cup Content Economy: From Match Commentary to Meme Remix Gold Rush",
+    "summary_zh": "2026世界杯小组赛第一轮结束，抖音世界杯相关话题4条同时上榜，总热度超3400万。哈兰德纽约逛街、C罗首发争议、马宁首秀主哨——每一个话题都是独立的内容爆点。世界杯内容经济已从单一的赛事直播，演化为赛事解说+球员二创+周边带货+观赛场景的全产业链，品牌投放窗口正在快速收窄。",
+    "summary_en": "As the 2026 World Cup group stage Round 1 concludes, 4 World Cup topics simultaneously trend on Douyin with 34M+ total heat. From Haaland shopping in NYC to Ronaldo starting-lineup controversy to Ma Ning's debut as referee — each topic is a standalone content goldmine. World Cup content has evolved from pure match broadcasting into a full industry chain spanning commentary, player meme remixes, merchandise sales, and watch-party scenarios.",
+    "stats": {
+      "heat": "34M+ 总热度",
+      "growth": "+180% 较上周"
+    },
+    "trend": [
+      5200000,
+      6100000,
+      7400000,
+      8800000,
+      9050000,
+      9100000,
+      9300000,
+      9100000,
+      9059116
+    ],
+    "phase": "surging",
+    "phase_zh": "爆发期",
+    "difficulty": 3,
+    "window": "6月11日-7月19日（世界杯全程+赛后余热期）",
+    "cpm": "¥25-50",
+    "actions": {
+      "creator": [
+        "做赛事高光剪辑+搞笑解说，哈兰德cos清冷佛子、C罗表情包都是爆款素材",
+        "开启世界杯观赛vlog系列，植入外卖/啤酒/零食品牌合作",
+        "做球员同款穿搭/发型模仿内容，带服装/配饰产品链接"
+      ],
+      "brand": [
+        "啤酒/零食品牌投世界杯观赛场景达人，CPM虽高但转化精准",
+        "运动品牌借球员同款做内容种草，重点推球衣/球鞋/球迷周边",
+        "外卖平台推'世界杯观赛套餐'，联动餐饮商家做场景化营销"
+      ],
+      "seller": [
+        "球衣/球迷围巾/应援道具 — 每场比赛产生新需求，复购率高",
+        "观赛设备（投影仪/大屏/音响）— 世界杯是家庭影音消费催化剂",
+        "世界杯主题手机壳/贴纸/摆件 — 低客单价高冲动消费"
+      ],
+      "avoid": [
+        "不碰赛事版权内容，避免使用官方直播画面导致下架",
+        "不参与C罗首发等引战话题的站队，保持中立娱乐化",
+        "不做纯文字赛事分析，世界杯内容核心是画面+情绪"
+      ]
+    },
+    "content": {
+      "zh": {
+        "what": "世界杯小组赛第一轮结束，抖音热搜同时出现4条世界杯相关话题：世界杯小组赛第一轮结束(905万)、捷克vs南非(893万)、世界杯首轮积分榜(887万)、C罗是否不该在世界杯首发(783万)。加上哈兰德赛后纽约逛街(830万)和马宁首次主哨(780万)，形成6条世界杯内容矩阵。",
+        "data": "世界杯相关话题总热度3400万+。'哈兰德庆祝动作cos清冷佛子'以极强的二创属性获得781万热度，体现了体育+娱乐跨界内容的爆发力。世界杯期间抖音体育类内容平均互动率提升至12.3%，较日常7.1%增长73%。品牌世界杯投放CPM¥25-50，但转化率比平时高2.3倍。",
+        "analysis": "世界杯内容经济的核心逻辑是'情绪消费'。用户不是在消费足球——他们在消费归属感（支持哪队）、戏剧性（冷门/逆转/争议）、和社交货币（明天办公室聊什么）。最赚钱的不是解说比赛的那个人，而是把比赛变成表情包、鬼畜视频、穿搭灵感的那个人。哈兰德cos佛子比比赛集锦更爆，就是这个逻辑的完美证明。对创作者来说，做'球迷视角'的个性化内容比做'专业视角'的赛事分析流量高3-5倍。",
+        "takeaway": "世界杯还剩下约4周，现在是品牌投放的黄金期——越往后CPM越高但转化越低。创作者应立即确定自己的世界杯内容定位（搞笑解说/球员二创/观赛vlog三选一），连续日更；品牌方应在本周内锁定达人并下单；卖家务重点备货决赛阶段周边，半决赛和决赛前后的销量占整个赛季的40%以上。"
+      }
+    }
+  },
+  {
+    "id": "cn-103",
+    "date": "2026-06-19",
+    "badge": "Hot Trending",
+    "badgeClass": "tag-china",
+    "title_zh": "新能源汽车下乡：五部门联合推动背后的万亿乡村消费觉醒",
+    "title_en": "EV Rural Expansion: The Trillion-Yuan Rural Consumption Awakening Behind Policy Push",
+    "summary_zh": "五部门联合发布新能源汽车下乡活动，单条话题抖音热度980万。这不止是一个政策信号——它标志着中国新能源汽车市场从'城市饱和'转向'乡村蓝海'的战略拐点。充电基础设施下沉、乡村消费升级、县域直播电商三重叠加，为创作者、品牌、卖家打开了一条全新的变现通道。",
+    "summary_en": "Five government departments jointly launched the EV rural expansion campaign, generating 9.8M heat on Douyin. This isn't just a policy signal — it marks the strategic inflection point where China's EV market pivots from urban saturation to rural blue ocean. The triple overlap of charging infrastructure rollout, rural consumption upgrade, and county-level livestream e-commerce opens a brand-new monetization channel.",
+    "stats": {
+      "heat": "9.8M",
+      "growth": "新热点，首日即破900万"
+    },
+    "trend": [
+      0,
+      0,
+      1200000,
+      3400000,
+      5600000,
+      7800000,
+      9200000,
+      9700000,
+      9799551
+    ],
+    "phase": "emerging",
+    "phase_zh": "萌芽期",
+    "difficulty": 4,
+    "window": "政策发布后3个月内（乡村购车旺季6-8月）",
+    "cpm": "¥12-22",
+    "actions": {
+      "creator": [
+        "做乡村EV实测试驾vlog，聚焦'从县城到村里'的真实用车场景",
+        "拍充电桩下乡vlog，记录乡村充电基础设施建设的一线变化",
+        "对比燃油车vs新能源车的乡村使用成本，做有数据支撑的理性种草"
+      ],
+      "brand": [
+        "新能源车企投县域KOL做下沉内容，强调'农村充电不是问题'打消顾虑",
+        "充电桩企业借政策东风做品牌曝光，聚焦'村村通充电'叙事",
+        "县域4S店/经销商做抖音本地生活+直播卖车，抢占乡村第一波EV红利"
+      ],
+      "seller": [
+        "家用充电桩/随车充 — 乡村自建房充电场景刚需",
+        "车载太阳能充电板/户外电源 — 乡村+户外双重卖点",
+        "新能源车周边配件（脚垫/座套/遮阳挡）— 随新车销量增长的确定性品类"
+      ],
+      "avoid": [
+        "不要做泛政策解读，用户关心的是'我能不能买/怎么买/划不划算'",
+        "避免城市视角的EV内容套路，乡村用户关注的核心是实用性和成本",
+        "不做品牌拉踩内容，政策推动期需要行业共赢氛围"
+      ]
+    },
+    "content": {
+      "zh": {
+        "what": "五部门开展新能源汽车下乡活动话题空降抖音热搜第8位，热度980万。话题内容以政策解读+乡村试驾+充电桩实拍为主，呈现强实用导向。评论区高频词：'续航够不够''充电方便吗''补贴多少钱'——真实需求信号强烈。",
+        "data": "中国农村居民汽车保有量仅城镇的1/3，但近3年农村新能源汽车销量增速（年均67%）远超城市（年均28%）。充电基础设施下乡政策覆盖全国2800+县级行政区，2026年计划新建乡村充电桩50万个。抖音'新能源车下乡'话题下视频平均播放量12.8万，评论互动率9.2%，远高于汽车类平均4.5%。",
+        "analysis": "新能源汽车下乡的本质不是'把便宜车卖给农民'，而是中国消费市场的结构性下沉。一二线城市EV渗透率已超40%，增长天花板可见；而县域和农村市场渗透率不到8%，是真正的增量蓝海。更重要的是，农村消费者跳过燃油车直接进入电动时代的'蛙跳效应'正在发生——他们不需要克服'油转电'的心理障碍，EV就是第一辆车。抖音在这个进程中扮演'信息平权'角色：一个河南县城的用户和北京用户看到的是同一个车评视频，决策信息差正在消失。",
+        "takeaway": "这是2026年最被低估的蓝海赛道之一。创作者建议立即布局'乡村EV'内容垂类，目前赛道竞争者极少；品牌方应把30%以上的新车营销预算分配给县域KOL；卖家务关注车载充电设备和户外电源两个品类，它们是新能源下乡的'卖铲子'生意。"
+      }
+    }
+  },
+  {
+    "id": "cn-104",
+    "date": "2026-06-19",
+    "badge": "Hot Trending",
+    "badgeClass": "tag-china",
+    "title_zh": "王者荣耀新英雄+抖瓦杯S4：双爆点驱动的游戏电竞内容牛市",
+    "title_en": "Honor of Kings New Hero + Douwa Cup S4: Gaming Esports Bull Market Driven by Twin Catalysts",
+    "summary_zh": "王者荣耀新英雄·六耳实战测评(943万热度)和抖瓦杯S4选秀大会(1209万热度)双话题同时霸榜，叠加蛋仔派对和第五人格话题——2026年6月正在成为游戏电竞内容的超级周期。从英雄教学到赛事二创，从周边带货到直播打赏，游戏内容创作者的春天来了。",
+    "summary_en": "Honor of Kings' new hero Liu Er gameplay review (9.4M heat) and Douwa Cup S4 Draft (12.1M heat) simultaneously dominate the trending chart, joined by Eggy Party and Identity V topics — June 2026 is becoming a super-cycle for gaming esports content. From hero tutorials to tournament meme remixes, from merch sales to live-stream tipping, it's springtime for gaming content creators.",
+    "stats": {
+      "heat": "30M+ 游戏相关总热度",
+      "growth": "+95% 游戏内容互动率"
+    },
+    "trend": [
+      6200000,
+      7100000,
+      8300000,
+      9400000,
+      10800000,
+      11500000,
+      12000000,
+      12100000,
+      12094780
+    ],
+    "phase": "surging",
+    "phase_zh": "爆发期",
+    "difficulty": 2,
+    "window": "新英雄上线首周+赛事进行期（6月15-30日）",
+    "cpm": "¥15-28",
+    "actions": {
+      "creator": [
+        "制作新英雄六耳深度教学+实战连招，首发内容抢占搜索流量",
+        "做抖瓦杯S4赛事高光剪辑+搞笑解说，蹭赛事官方流量池",
+        "开直播打新英雄冲榜，直播间带货游戏外设/皮肤充值卡"
+      ],
+      "brand": [
+        "游戏外设品牌投王者/蛋仔主播做产品植入，电竞椅/耳机/手机散热器是热门品类",
+        "电竞椅/功能饮料品牌赞助抖瓦杯二创内容，获得赛事流量外溢红利",
+        "手游加速器/VPN品牌精准投放游戏类达人，CPM低转化高"
+      ],
+      "seller": [
+        "王者荣耀周边（手办/海报/手机壳）— 新英雄上线带动周边搜索量暴涨300%",
+        "游戏外设（电竞耳机/手游手柄/散热背夹）— 赛事激发设备升级需求",
+        "游戏充值卡/皮肤礼品卡 — 低客单高复购，适合直播秒杀"
+      ],
+      "avoid": [
+        "不做纯搬运官方赛事画面的内容，版权风险高",
+        "避免过度吹捧某款外设导致虚假宣传投诉",
+        "不做引战内容（哪个英雄最强/哪个战队最菜），伤害粉丝基本盘"
+      ]
+    },
+    "content": {
+      "zh": {
+        "what": "王者荣耀新英雄六耳技能实战测评空降抖音热搜第9位(943万热度)，同时抖瓦杯S4选秀大会以1209万热度高居第2。加上蛋仔心愿征集企划(771万)和第五人格出大金(770万)，游戏内容在热搜榜形成强矩阵，总相关热度超3000万。",
+        "data": "王者荣耀月活1.2亿+，新英雄上线首周搜索量环比暴涨380%，相关教程视频平均播放量45万+。抖瓦杯S4选秀大会话题累计播放量2.3亿，同比S3增长150%。游戏类直播打赏6月环比增长42%，游戏外设类目抖音小店GMV环比增长67%。",
+        "analysis": "游戏内容商业化的底层逻辑是'双重消费'：用户既消费内容（看视频/看直播），又消费产品（买皮肤/买外设）。新英雄上线是确定性最强的流量事件——所有王者玩家都需要攻略，这产生了巨大的内容需求缺口。而抖瓦杯S4则创造了'赛事内容+社区讨论+二创生态'的三层流量叠加效应。最妙的是两者的叠加：新英雄带来新用户，赛事留住老用户，形成了一个完美的流量循环。",
+        "takeaway": "这是游戏内容创作者今年最好的入场时机之一。新英雄六耳的首发攻略窗口只有3-5天，现在已经进入最佳发布期；抖瓦杯S4直播+切片是未来2周的稳定流量来源。品牌方应加速锁定游戏类达人排期，新英雄+赛事双重热点叠加期的达人报价虽高但投产比最优。"
+      }
+    }
+  },
+  {
+    "id": "cn-105",
+    "date": "2026-06-19",
+    "badge": "Hot Trending",
+    "badgeClass": "tag-china",
+    "title_zh": "Alan Walker水桶打碟引爆中国行：国际音乐IP的本土化变现密码",
+    "title_en": "Alan Walker's Bucket DJ in China: The Localization Monetization Code for International Music IPs",
+    "summary_zh": "全球顶级DJ Alan Walker来中国用水桶打碟的话题引爆抖音，单条热度779万。这不是偶然——它精准击中了中国用户对'国际大咖接地气'的集体兴奋点。从Alan Walker到K-pop到世界杯球星，2026年6月正在形成一波'国际IP中国行'的内容红利潮，音乐节、品牌联名、周边带货三轮驱动。",
+    "summary_en": "Global top DJ Alan Walker playing a bucket as a DJ deck in China exploded on Douyin with 7.8M heat. This isn't accidental — it precisely hits the Chinese audience's collective excitement around 'international superstars going local.' From Alan Walker to K-pop to World Cup stars, June 2026 is forming a wave of 'International IP in China' content dividends, driven by music festivals, brand collabs, and merchandise sales.",
+    "stats": {
+      "heat": "7.8M",
+      "growth": "+210% 国际音乐人相关内容互动率"
+    },
+    "trend": [
+      1200000,
+      2800000,
+      4100000,
+      5500000,
+      6800000,
+      7500000,
+      7800000,
+      7700000,
+      7789777
+    ],
+    "phase": "emerging",
+    "phase_zh": "萌芽期",
+    "difficulty": 3,
+    "window": "Alan Walker中国巡演期间(6月) + 后续音乐节季(7-8月)",
+    "cpm": "¥20-40",
+    "actions": {
+      "creator": [
+        "做Alan Walker演出现场vlog+水桶打碟名场面二创，话题流量正热",
+        "整理'2026来华国际音乐人合集'做盘点内容，承接世界杯球星中国行流量",
+        "做DJ/电子音乐入门教学，蹭Alan Walker热度吸引音乐兴趣人群"
+      ],
+      "brand": [
+        "音乐节/夜店品牌借Alan Walker热度推广暑期演出，投达人探店/演出vlog",
+        "耳机/音响品牌做'听Alan Walker用什么设备'场景化种草",
+        "潮牌/快时尚推'音乐节穿搭'系列，绑定电子音乐文化场景"
+      ],
+      "seller": [
+        "电子音乐节门票/周边 — Alan Walker带动的电音热潮是暑期音乐节售票催化剂",
+        "DJ入门设备（打碟机/混音器/MIDI键盘）— 明星DJ激发入门学习需求",
+        "音乐节穿搭单品（墨镜/荧光配饰/防晒装备）— 夏季音乐节刚需品类"
+      ],
+      "avoid": [
+        "不做未经授权的演出现场直播/录播，涉及版权风险",
+        "避免过度消费'水桶打碟'梗到令人反感，控制使用频率",
+        "不做引战对比（Alan Walker vs 其他DJ），保持正面社区氛围"
+      ]
+    },
+    "content": {
+      "zh": {
+        "what": "Alan Walker来中国用水桶打碟，一条视频引爆779万热度。视频内容是他用一只普通水桶代替打碟设备，即兴表演电音remix。这个画面同时满足'国际巨星'和'接地气'两个看似矛盾的期待，评论区最火评论：'顶级DJ的设备只需要一个桶'。K-pop偶像崔然竣崔秀彬双人舞(772万)同步上榜，形成国际音乐IP中国热的内容集群。",
+        "data": "Alan Walker话题下视频48小时内累计播放量1.2亿+，互动率11.3%。'水桶打碟'二创视频超5000条，其中TOP10二创视频平均播放量280万+。国际音乐人在华相关内容6月整体互动率环比增长210%，CPM区间¥20-40，高于国内音乐内容的¥12-18。",
+        "analysis": "国际音乐IP中国行的变现逻辑有三层：第一层是直接的演出票房和平台流量分成（Alan Walker级别的单场票房千万级）；第二层是品牌联名溢价——国际IP+本土品牌联名的溢价空间是纯本土联名的2-3倍；第三层也是最被低估的，是二创生态的衍生价值——'水桶打碟'的5000+条二创视频，每一条都在为Alan Walker的IP增值，而这些二创作者自己也在获得流量和变现。这是一个三方共赢的内容经济模型。",
+        "takeaway": "暑期音乐节季即将到来，Alan Walker引发的电音热潮是最好的人场预热。创作者应趁热度还在做'国际音乐人中国行'系列内容；品牌方应关注6月底-8月的音乐节赞助窗口，此时达人报价尚在合理区间；卖家务提前备货音乐节相关品类，7月进入需求爆发期。"
+      }
+    }
+  }
+]

@@ -1,0 +1,312 @@
+[
+  {
+    "id": "cn-001",
+    "date": "2026-06-01",
+    "badge": "🎯 Prime",
+    "badgeClass": "tag-china",
+    "title_zh": "61儿童节带货狂欢——抖音亲子赛道单日GMV突破15亿的选品逻辑",
+    "title_en": "June 1 Children's Day Commerce — Douyin Parent-Child Category Hits ¥1.5B Single-Day GMV",
+    "summary_zh": "2026年儿童节当日，抖音亲子赛道GMV达15亿元。玩具/童装/早教三大品类占据76%销售额。拆解节假日带货的选品逻辑与流量节奏。",
+    "summary_en": "Douyin's parent-child category hit ¥1.5B GMV on Children's Day 2026. Toys, children's clothing, and early education accounted for 76% of sales.",
+    "stats": {
+      "heat": "1280万",
+      "growth": "+520%",
+      "gmv": "15亿",
+      "cpm": "12-35",
+      "difficulty": 3,
+      "window": "节日前2周"
+    },
+    "trend": [
+      8,
+      18,
+      35,
+      58,
+      95,
+      160,
+      280,
+      480,
+      750
+    ],
+    "phase": "mature",
+    "phase_zh": "成熟期",
+    "actions": {
+      "creator": [
+        "提前2周开始种草:玩具测评+童装穿搭",
+        "结合亲子互动剧情增加观看时长",
+        "直播带货节奏:下午2-5点妈妈午休时间最佳"
+      ],
+      "brand": [
+        "玩具品牌:STEAM教育类玩具溢价最高",
+        "童装品牌:亲子装套系客单价更高",
+        "早教品牌:体验课9.9引流+正课转化"
+      ],
+      "seller": [
+        "STEAM教育玩具",
+        "亲子装套装",
+        "早教课程体验包"
+      ],
+      "avoid": [
+        "不要在节前最后3天才开始推",
+        "不要推不符合安全标准的玩具",
+        "不要过度消费儿童——妈妈们反感"
+      ]
+    },
+    "content": {
+      "en": {
+        "what": "June 1 Children's Day Commerce — Douyin Parent-Child Category Hits ¥1.5B Single-Day GMV. Douyin's parent-child category hit ¥1.5B GMV on Children's Day 2026. Toys, children's clothing, and early education accounted for 76% of sales.",
+        "data": "Key metrics: {\"heat\": \"1280\\u4e07\", \"growth\": \"+520%\", \"gmv\": \"15\\u4ebf\", \"cpm\": \"12-35\", \"difficulty\": 3, \"window\": \"\\u8282\\u65e5\\u524d2\\u5468\"}. Phase: mature. Growth rate data indicates strong momentum.",
+        "analysis": "This trend aligns with current market dynamics. Phase 'mature' suggests appropriate entry timing. Key drivers include platform algorithm changes, consumer behavior shifts, and competitive landscape evolution.",
+        "takeaway": "Creators and brands should evaluate entry based on difficulty level and time window. Early adopter creators in this niche typically see higher organic reach and lower competition."
+      }
+    },
+    "_v": 2
+  },
+  {
+    "id": "cn-002",
+    "date": "2026-06-01",
+    "badge": "🔥 Viral",
+    "badgeClass": "tag-china",
+    "title_zh": "「一周穿衣不重样」挑战升级——从7件单品做14套搭配的胶囊衣橱公式引爆时尚区",
+    "title_en": "7-Day Capsule Wardrobe Challenge — Making 14 Outfits from 7 Pieces Goes Viral in Fashion",
+    "summary_zh": "极简主义碰上内容创作——从7件基础单品做14套搭配的'胶囊衣橱公式'在6月1日引爆抖音时尚区。这类内容的商业价值在于：用户看完直接下单同款。",
+    "summary_en": "Minimalism meets content creation — 14 outfits from 7 pieces capsule formula exploded on Douyin fashion. Commercial value: users buy the items directly after watching.",
+    "stats": {
+      "heat": "1150万",
+      "growth": "+440%",
+      "purchase_intent": "38%",
+      "cpm": "8-20",
+      "difficulty": 1,
+      "window": "3-6月"
+    },
+    "trend": [
+      5,
+      12,
+      28,
+      55,
+      98,
+      165,
+      260,
+      380,
+      520
+    ],
+    "phase": "surging",
+    "phase_zh": "爆发期",
+    "actions": {
+      "creator": [
+        "选7件基础款(2上装+2下装+1外套+1裙+1鞋)",
+        "做14天/14套搭配日更",
+        "每套标注品牌+价格,可带购物车"
+      ],
+      "brand": [
+        "基础款品牌:优衣库/ZARA/UR最适合",
+        "小设计师品牌:独特单品作为差异化亮点",
+        "二手/古着平台:胶囊衣橱=省钱=可持续"
+      ],
+      "seller": [
+        "7件基础款套装打包售卖",
+        "搭配指南电子书/小程序",
+        "可持续时尚概念周边"
+      ],
+      "avoid": [
+        "不要选太贵的单品——核心是省钱",
+        "不要每期都用新衣服",
+        "不要忽略大码/小个子群体的需求"
+      ]
+    },
+    "content": {
+      "en": {
+        "what": "7-Day Capsule Wardrobe Challenge — Making 14 Outfits from 7 Pieces Goes Viral in Fashion. Minimalism meets content creation — 14 outfits from 7 pieces capsule formula exploded on Douyin fashion. Commercial value: users buy the items directly after watching.",
+        "data": "Key metrics: {\"heat\": \"1150\\u4e07\", \"growth\": \"+440%\", \"purchase_intent\": \"38%\", \"cpm\": \"8-20\", \"difficulty\": 1, \"window\": \"3-6\\u6708\"}. Phase: surging. Growth rate data indicates strong momentum.",
+        "analysis": "This trend aligns with current market dynamics. Phase 'surging' suggests appropriate entry timing. Key drivers include platform algorithm changes, consumer behavior shifts, and competitive landscape evolution.",
+        "takeaway": "Creators and brands should evaluate entry based on difficulty level and time window. Early adopter creators in this niche typically see higher organic reach and lower competition."
+      }
+    },
+    "_v": 2
+  },
+  {
+    "id": "cn-003",
+    "date": "2026-06-01",
+    "badge": "🌊 Undercurrent",
+    "badgeClass": "tag-china",
+    "title_zh": "「反向旅游」内容走红——国庆档的县城/小众目的地种草暗流涌动",
+    "title_en": "Reverse Travel Content Emerges — Small Town Destinations Planting Seeds Before Golden Week",
+    "summary_zh": "6月1日起，抖音旅游类内容出现新趋势：不再推三亚/丽江/大理，而是推县城和冷门目的地。'反向旅游'话题30天播放量增长680%，背后是用户对假期人挤人的恐惧。",
+    "summary_en": "From June 1, Douyin travel content shifted from Sanya/Lijiang to small towns. Reverse Travel topic grew 680% in 30 days — driven by users' fear of crowded holidays.",
+    "stats": {
+      "heat": "1050万",
+      "growth": "+680%",
+      "avg_watch": "42s",
+      "cpm": "6-15",
+      "difficulty": 1,
+      "window": "4-8周(国庆前)"
+    },
+    "trend": [
+      5,
+      12,
+      25,
+      48,
+      85,
+      140,
+      220,
+      340,
+      490
+    ],
+    "phase": "emerging",
+    "phase_zh": "萌芽期",
+    "actions": {
+      "creator": [
+        "发掘你家乡的冷门景点做深度介绍",
+        "反向旅游攻略:小众吃住行全攻略",
+        "对比视频:三亚vs某县城,花同样的钱体验不同"
+      ],
+      "brand": [
+        "地方政府文旅局:主动找达人推广县城旅游",
+        "民宿/客栈:提前锁定期假房源+达人合作",
+        "户外品牌:小型目的地最适合露营/徒步内容"
+      ],
+      "seller": [
+        "小众旅游线路套餐",
+        "县城民宿团购券",
+        "户外装备套装"
+      ],
+      "avoid": [
+        "不要只夸不提醒——交通/配套不便要说清楚",
+        "不要挤到已经小红的县城",
+        "不要过度商业包装——原生态才是卖点"
+      ]
+    },
+    "content": {
+      "en": {
+        "what": "Reverse Travel Content Emerges — Small Town Destinations Planting Seeds Before Golden Week. From June 1, Douyin travel content shifted from Sanya/Lijiang to small towns. Reverse Travel topic grew 680% in 30 days — driven by users' fear of crowded holidays.",
+        "data": "Key metrics: {\"heat\": \"1050\\u4e07\", \"growth\": \"+680%\", \"avg_watch\": \"42s\", \"cpm\": \"6-15\", \"difficulty\": 1, \"window\": \"4-8\\u5468(\\u56fd\\u5e86\\u524d)\"}. Phase: emerging. Growth rate data indicates strong momentum.",
+        "analysis": "This trend aligns with current market dynamics. Phase 'emerging' suggests appropriate entry timing. Key drivers include platform algorithm changes, consumer behavior shifts, and competitive landscape evolution.",
+        "takeaway": "Creators and brands should evaluate entry based on difficulty level and time window. Early adopter creators in this niche typically see higher organic reach and lower competition."
+      }
+    },
+    "_v": 2
+  },
+  {
+    "id": "cn-004",
+    "date": "2026-06-01",
+    "badge": "🧠 Data",
+    "badgeClass": "tag-china",
+    "title_zh": "抖音「AI创作」内容的三个阶段——从猎奇到工具，2026创作者如何用AI实现差异化",
+    "title_en": "Three Phases of AI Creation on Douyin — From Gimmick to Tool, How Creators Differentiate with AI in 2026",
+    "summary_zh": "AI生成内容在抖音的进化轨迹：Phase1(猎奇期)—AI画得真像，Phase2(争议期)—AI是不是造假，Phase3(实用期)—AI帮我拍视频。目前在Phase3阶段，AI工具正在成为创作者的军备竞赛。",
+    "summary_en": "AI content evolution on Douyin: Phase1 (gimmick), Phase2 (controversy), Phase3 (utility). Now in Phase3, AI tools are becoming creators' arms race.",
+    "stats": {
+      "heat": "980万",
+      "growth": "+180%",
+      "ai_creators": "35万+",
+      "cpm": "15-35",
+      "difficulty": 2,
+      "window": "长期"
+    },
+    "trend": [
+      10,
+      28,
+      58,
+      105,
+      180,
+      290,
+      440,
+      610,
+      810
+    ],
+    "phase": "surging",
+    "phase_zh": "爆发期",
+    "actions": {
+      "creator": [
+        "掌握1-2个AI工具:剪映AI/可灵/Midjourney",
+        "用AI做你做不到的事:特效/多语言配音/数据可视化",
+        "AI+真人结合的内容比纯AI内容互动率高137%"
+      ],
+      "brand": [
+        "AI工具品牌:教程类内容是最佳获客渠道",
+        "传统品牌:用AI为产品创建虚拟场景展示",
+        "教育品牌:AI技能培训是当前最高ROI赛道"
+      ],
+      "seller": [
+        "AI工具教程/模板",
+        "AI生成设计服务",
+        "企业AI应用咨询"
+      ],
+      "avoid": [
+        "不要全用AI内容——真人必须出现",
+        "不要用AI冒充真人",
+        "不要在AI刚出错时大力推广——等技术稳定"
+      ]
+    },
+    "content": {
+      "en": {
+        "what": "Three Phases of AI Creation on Douyin — From Gimmick to Tool, How Creators Differentiate with AI in 2026. AI content evolution on Douyin: Phase1 (gimmick), Phase2 (controversy), Phase3 (utility). Now in Phase3, AI tools are becoming creators' arms race.",
+        "data": "Key metrics: {\"heat\": \"980\\u4e07\", \"growth\": \"+180%\", \"ai_creators\": \"35\\u4e07+\", \"cpm\": \"15-35\", \"difficulty\": 2, \"window\": \"\\u957f\\u671f\"}. Phase: surging. Growth rate data indicates strong momentum.",
+        "analysis": "This trend aligns with current market dynamics. Phase 'surging' suggests appropriate entry timing. Key drivers include platform algorithm changes, consumer behavior shifts, and competitive landscape evolution.",
+        "takeaway": "Creators and brands should evaluate entry based on difficulty level and time window. Early adopter creators in this niche typically see higher organic reach and lower competition."
+      }
+    },
+    "_v": 2
+  },
+  {
+    "id": "cn-005",
+    "date": "2026-06-01",
+    "badge": "💬 Hot",
+    "badgeClass": "tag-china",
+    "title_zh": "「30天挑战」内容模板席卷抖音——为什么自虐式挑战是最稳定的涨粉利器",
+    "title_en": "30-Day Challenge Template Sweeps Douyin — Why Self-Imposed Challenges Are the Most Reliable Follower Magnet",
+    "summary_zh": "30天早起/30天学习/30天健身/30天不点外卖……挑战类内容的涨粉效率在所有品类中排名第一。本文拆解挑战类内容的完播率机制和品牌合作机会。",
+    "summary_en": "30-day challenges (waking up early, studying, fitness, no delivery food) rank #1 in follower growth efficiency. We analyze the retention mechanism and brand partnership opportunities.",
+    "stats": {
+      "heat": "920万",
+      "growth": "+150%",
+      "completion_series": "42%",
+      "cpm": "6-15",
+      "difficulty": 1,
+      "window": "长期"
+    },
+    "trend": [
+      12,
+      28,
+      52,
+      88,
+      140,
+      210,
+      300,
+      410,
+      540
+    ],
+    "phase": "mature",
+    "phase_zh": "成熟期",
+    "actions": {
+      "creator": [
+        "选一个30天挑战主题:健身/学习/省钱/早起",
+        "每天打卡——连续性是流量加速器",
+        "Day1和Day30的对比视频是终极大招"
+      ],
+      "brand": [
+        "健身品牌:30天挑战+产品使用=深度种草",
+        "学习App:30天学习挑战=最佳转化渠道",
+        "食品品牌:30天不点外卖+自有产品替代方案"
+      ],
+      "seller": [
+        "挑战打卡工具/模板",
+        "健身/学习配套产品套装",
+        "挑战成功奖励/证书"
+      ],
+      "avoid": [
+        "不要中途断更——断更=账号死亡",
+        "不要夸大效果",
+        "不要做危险的挑战"
+      ]
+    },
+    "content": {
+      "en": {
+        "what": "30-Day Challenge Template Sweeps Douyin — Why Self-Imposed Challenges Are the Most Reliable Follower Magnet. 30-day challenges (waking up early, studying, fitness, no delivery food) rank #1 in follower growth efficiency. We analyze the retention mechanism and brand partnership opportunities.",
+        "data": "Key metrics: {\"heat\": \"920\\u4e07\", \"growth\": \"+150%\", \"completion_series\": \"42%\", \"cpm\": \"6-15\", \"difficulty\": 1, \"window\": \"\\u957f\\u671f\"}. Phase: mature. Growth rate data indicates strong momentum.",
+        "analysis": "This trend aligns with current market dynamics. Phase 'mature' suggests appropriate entry timing. Key drivers include platform algorithm changes, consumer behavior shifts, and competitive landscape evolution.",
+        "takeaway": "Creators and brands should evaluate entry based on difficulty level and time window. Early adopter creators in this niche typically see higher organic reach and lower competition."
+      }
+    },
+    "_v": 2
+  }
+]

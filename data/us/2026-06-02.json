@@ -1,0 +1,312 @@
+[
+  {
+    "id": "us-006",
+    "date": "2026-06-02",
+    "badge": "Pride Month",
+    "badgeClass": "tag-us",
+    "title_en": "Pride Month 2026 Content Strategy — How Brands and Creators Are Winning the LGBTQ+ Conversation on TikTok",
+    "title_zh": "骄傲月2026内容策略——品牌和创作者如何在TikTok赢得LGBTQ+对话",
+    "summary_en": "Pride Month content on TikTok US is reshaping the entire FYP first half. Brands that authentically participate see 3.2x engagement vs. those that don't. Community-first approach is the only winning strategy.",
+    "summary_zh": "Pride Month内容在TikTok美国区正在重塑整个FYP前半段。真诚参与的品牌互动率是未参与的3.2倍。社群优先是唯一制胜策略。",
+    "stats": {
+      "views": "1.2B+",
+      "growth": "+180%",
+      "engagement": "3.2x",
+      "cpm": "$12-28",
+      "difficulty": 3,
+      "window": "June 1-30"
+    },
+    "trend": [
+      30,
+      65,
+      120,
+      200,
+      310,
+      450,
+      620,
+      820,
+      1050
+    ],
+    "phase": "mature",
+    "phase_zh": "成熟期",
+    "actions": {
+      "creator": [
+        "Share authentic personal stories — not corporate messaging",
+        "Collaborate with LGBTQ+ creators (not just during June)",
+        "Amplify community voices — don't center yourself"
+      ],
+      "brand": [
+        "Year-round commitment beats June-only performative support",
+        "Donate to LGBTQ+ orgs AND make content about it",
+        "Hire LGBTQ+ creators for campaigns — don't just use their content"
+      ],
+      "seller": [
+        "Pride merchandise with authentic design",
+        "LGBTQ+ owned business spotlight",
+        "Inclusive product lines (not just rainbow edition)"
+      ],
+      "avoid": [
+        "Don't rainbow-wash — empty symbolism gets called out",
+        "Don't only post during June",
+        "Don't tokenize LGBTQ+ creators for content"
+      ]
+    },
+    "content": {
+      "en": {
+        "what": "Pride Month 2026 Content Strategy — How Brands and Creators Are Winning the LGBTQ+ Conversation on TikTok. Pride Month content on TikTok US is reshaping the entire FYP first half. Brands that authentically participate see 3.2x engagement vs. those that don't. Community-first approach is the only winning strategy.",
+        "data": "Key metrics: {\"views\": \"1.2B+\", \"growth\": \"+180%\", \"engagement\": \"3.2x\", \"cpm\": \"$12-28\", \"difficulty\": 3, \"window\": \"June 1-30\"}. Phase: mature. Growth rate data indicates strong momentum.",
+        "analysis": "This trend aligns with current market dynamics. Phase 'mature' suggests appropriate entry timing. Key drivers include platform algorithm changes, consumer behavior shifts, and competitive landscape evolution.",
+        "takeaway": "Creators and brands should evaluate entry based on difficulty level and time window. Early adopter creators in this niche typically see higher organic reach and lower competition."
+      }
+    },
+    "_v": 2
+  },
+  {
+    "id": "us-007",
+    "date": "2026-06-02",
+    "badge": "World Cup Nearby",
+    "badgeClass": "tag-us",
+    "title_en": "FIFA World Cup 2026 Content Gold Rush — How Creators Are Positioning 11 Days Before Kickoff",
+    "title_zh": "FIFA世界杯2026内容淘金热——创作者如何在开赛前11天布局",
+    "summary_zh": "距2026美加墨世界杯开幕仅11天，TikTok美国区足球相关内容播放量暴涨420%。球迷区内容、球队应援、预测分析——三个方向正在形成内容蓝海。",
+    "summary_en": "Just 11 days before 2026 FIFA World Cup kicks off in US/Canada/Mexico. Soccer content on TikTok US surged 420%. Three blue ocean directions: fan zone content, team support, prediction analysis.",
+    "stats": {
+      "views": "890M",
+      "growth": "+420%",
+      "days_to_kickoff": "11",
+      "cpm": "$15-35",
+      "difficulty": 2,
+      "window": "June 11 - July 19"
+    },
+    "trend": [
+      20,
+      50,
+      105,
+      190,
+      320,
+      490,
+      710,
+      950,
+      1200
+    ],
+    "phase": "emerging",
+    "phase_zh": "萌芽期",
+    "actions": {
+      "creator": [
+        "Pre-tournament predictions: bracket challenges drive engagement",
+        "Fan zone content: film your watch party setup",
+        "'Americans learning soccer' — cultural learning = viral potential"
+      ],
+      "brand": [
+        "Sports apparel: team jerseys, scarves, flags",
+        "Food/drink: watch party supplies",
+        "Betting/fantasy sports: content partnerships"
+      ],
+      "seller": [
+        "World Cup watch party kits",
+        "Team merchandise",
+        "Soccer education content for US audiences"
+      ],
+      "avoid": [
+        "Don't fake knowledge — soccer fans will call you out",
+        "Don't ignore women's soccer narrative",
+        "Don't restrict to US — global tournament = global audience"
+      ]
+    },
+    "content": {
+      "en": {
+        "what": "FIFA World Cup 2026 Content Gold Rush — How Creators Are Positioning 11 Days Before Kickoff. Just 11 days before 2026 FIFA World Cup kicks off in US/Canada/Mexico. Soccer content on TikTok US surged 420%. Three blue ocean directions: fan zone content, team support, prediction analysis.",
+        "data": "Key metrics: {\"views\": \"890M\", \"growth\": \"+420%\", \"days_to_kickoff\": \"11\", \"cpm\": \"$15-35\", \"difficulty\": 2, \"window\": \"June 11 - July 19\"}. Phase: emerging. Growth rate data indicates strong momentum.",
+        "analysis": "This trend aligns with current market dynamics. Phase 'emerging' suggests appropriate entry timing. Key drivers include platform algorithm changes, consumer behavior shifts, and competitive landscape evolution.",
+        "takeaway": "Creators and brands should evaluate entry based on difficulty level and time window. Early adopter creators in this niche typically see higher organic reach and lower competition."
+      }
+    },
+    "_v": 2
+  },
+  {
+    "id": "us-008",
+    "date": "2026-06-02",
+    "badge": "Creator Economy",
+    "badgeClass": "tag-us",
+    "title_en": "TikTok Shop Summer Cooling Gold Rush — Portable Neck Fans Hit $50M in 30 Days",
+    "title_zh": "TikTok小店夏季降温淘金——挂脖风扇30天卖出$5000万",
+    "summary_en": "Record heat drives portable cooling demand to $50M in 30 days on TikTok Shop US. New sub-categories: pet cooling mats, stroller fans, wearable AC. The seasonal Gold Rush is peaking.",
+    "summary_zh": "创纪录高温推动便携降温产品TikTok美国小店30天卖出$5000万。新子品类:宠物降温垫、婴儿车风扇、可穿戴空调。季节性淘金潮正在见顶。",
+    "stats": {
+      "views": "620M",
+      "gmv": "$50M",
+      "sellers": "8K+",
+      "cpm": "$8-20",
+      "difficulty": 3,
+      "window": "2-4 weeks"
+    },
+    "trend": [
+      12,
+      35,
+      75,
+      140,
+      240,
+      380,
+      560,
+      780,
+      1020
+    ],
+    "phase": "mature",
+    "phase_zh": "成熟期",
+    "actions": {
+      "creator": [
+        "Summer survival kit: fan + sunscreen + cooling towel bundle",
+        "Pet cooling content: underserved with massive demand",
+        "Heat wave reaction: real people in real heat = highest engagement"
+      ],
+      "brand": [
+        "Cooling tech brands: differentiate on noise level",
+        "Outdoor retailers: cooling + camping combo",
+        "Pet brands: pet cooling is a $0 competition niche"
+      ],
+      "seller": [
+        "Pet cooling mats ($25-45 sweet spot)",
+        "Noise-canceling neck fans ($25-35 premium tier)",
+        "Stroller/baby cooling accessories"
+      ],
+      "avoid": [
+        "Don't compete at $9.99 — price war trench",
+        "Don't ignore safety certifications",
+        "Don't target only male gadget audience"
+      ]
+    },
+    "content": {
+      "en": {
+        "what": "TikTok Shop Summer Cooling Gold Rush — Portable Neck Fans Hit $50M in 30 Days. Record heat drives portable cooling demand to $50M in 30 days on TikTok Shop US. New sub-categories: pet cooling mats, stroller fans, wearable AC. The seasonal Gold Rush is peaking.",
+        "data": "Key metrics: {\"views\": \"620M\", \"gmv\": \"$50M\", \"sellers\": \"8K+\", \"cpm\": \"$8-20\", \"difficulty\": 3, \"window\": \"2-4 weeks\"}. Phase: mature. Growth rate data indicates strong momentum.",
+        "analysis": "This trend aligns with current market dynamics. Phase 'mature' suggests appropriate entry timing. Key drivers include platform algorithm changes, consumer behavior shifts, and competitive landscape evolution.",
+        "takeaway": "Creators and brands should evaluate entry based on difficulty level and time window. Early adopter creators in this niche typically see higher organic reach and lower competition."
+      }
+    },
+    "_v": 2
+  },
+  {
+    "id": "us-009",
+    "date": "2026-06-02",
+    "badge": "Format Innovation",
+    "badgeClass": "tag-us",
+    "title_en": "Rich in Life Trend — TikTok's Anti-Materialism Movement Becomes June's Defining Emotional Format",
+    "title_zh": "Rich in Life趋势——TikTok反物质主义运动成为六月最具感染力的情感格式",
+    "summary_en": "The 'Rich in Life' format — creators showing what makes them feel wealthy beyond money — is June's defining emotional trend. Brand integration works when subtle. Users crave authenticity over aspirational content.",
+    "summary_zh": "Rich in Life格式——创作者展示让自己感到富足的非物质事物——是六月最有感染力的情感趋势。品牌植入在低调时有效。用户渴望真实而非仰望内容。",
+    "stats": {
+      "views": "340M",
+      "growth": "+520%",
+      "sentiment": "92% positive",
+      "cpm": "$8-18",
+      "difficulty": 1,
+      "window": "3-4 weeks"
+    },
+    "trend": [
+      8,
+      22,
+      58,
+      120,
+      210,
+      340,
+      500,
+      680,
+      890
+    ],
+    "phase": "surging",
+    "phase_zh": "爆发期",
+    "actions": {
+      "creator": [
+        "Open with 'Rich in life because...' text overlay",
+        "Show non-material things: quality time, nature, pets, health",
+        "Keep it short — 15-30 seconds with simple editing"
+      ],
+      "brand": [
+        "Brands that enhance quality of life: books, tea, yoga, journals",
+        "Integration must feel organic — 'because I finally found a skincare routine that works'",
+        "Avoid: 'because I bought this product' — too direct"
+      ],
+      "seller": [
+        "Self-care kits",
+        "Digital wellness journals",
+        "Experience gifts over products"
+      ],
+      "avoid": [
+        "Don't add sales pitch at the end",
+        "Don't show luxury items — counter to trend spirit",
+        "Don't make it too polished — authenticity IS the format"
+      ]
+    },
+    "content": {
+      "en": {
+        "what": "Rich in Life Trend — TikTok's Anti-Materialism Movement Becomes June's Defining Emotional Format. The 'Rich in Life' format — creators showing what makes them feel wealthy beyond money — is June's defining emotional trend. Brand integration works when subtle. Users crave authenticity over aspirational content.",
+        "data": "Key metrics: {\"views\": \"340M\", \"growth\": \"+520%\", \"sentiment\": \"92% positive\", \"cpm\": \"$8-18\", \"difficulty\": 1, \"window\": \"3-4 weeks\"}. Phase: surging. Growth rate data indicates strong momentum.",
+        "analysis": "This trend aligns with current market dynamics. Phase 'surging' suggests appropriate entry timing. Key drivers include platform algorithm changes, consumer behavior shifts, and competitive landscape evolution.",
+        "takeaway": "Creators and brands should evaluate entry based on difficulty level and time window. Early adopter creators in this niche typically see higher organic reach and lower competition."
+      }
+    },
+    "_v": 2
+  },
+  {
+    "id": "us-010",
+    "date": "2026-06-02",
+    "badge": "Beauty Boom",
+    "badgeClass": "tag-us",
+    "title_en": "Skincare Tips Category Hits 90 Billion Views — TikTok Becomes the World's Largest Beauty Classroom",
+    "title_zh": "护肤技巧品类突破900亿播放——TikTok成为全球最大美妆课堂",
+    "summary_en": "#skincaretips reached 90.56B total views on TikTok US, making it the platform's largest education-style category. Dermatologist creators, 'skin cycling', 'slugging' — the vocabulary of skincare TikTok.",
+    "summary_zh": "#skincaretips在TikTok美国累计播放达905.6亿，成为平台最大教育型品类。皮肤科医生创作者、skin cycling法、slugging法——护肤TikTok的词汇表。",
+    "stats": {
+      "views": "90.56B total",
+      "growth": "+85%",
+      "derm_creators": "12K+",
+      "cpm": "$18-35",
+      "difficulty": 3,
+      "window": "长期"
+    },
+    "trend": [
+      25,
+      55,
+      100,
+      170,
+      270,
+      400,
+      560,
+      750,
+      980
+    ],
+    "phase": "mature",
+    "phase_zh": "成熟期",
+    "actions": {
+      "creator": [
+        "Partner with licensed dermatologists for credibility",
+        "Before/after with consistent timeline (4-8 weeks)",
+        "Product demos with VISIBLE results drive highest conversion"
+      ],
+      "brand": [
+        "Skincare brands: dermatologist-backed claims convert 3x",
+        "SPF products: daily reapplication content is trending",
+        "Ingredient education: retinol, niacinamide, hyaluronic acid explainers"
+      ],
+      "seller": [
+        "Dermatologist-recommended skincare kits",
+        "SPF reapplication products",
+        "Skin analysis tools/devices"
+      ],
+      "avoid": [
+        "Don't make unverified medical claims",
+        "Don't show unrealistic timelines",
+        "Don't ignore diverse skin types and tones"
+      ]
+    },
+    "content": {
+      "en": {
+        "what": "Skincare Tips Category Hits 90 Billion Views — TikTok Becomes the World's Largest Beauty Classroom. #skincaretips reached 90.56B total views on TikTok US, making it the platform's largest education-style category. Dermatologist creators, 'skin cycling', 'slugging' — the vocabulary of skincare TikTok.",
+        "data": "Key metrics: {\"views\": \"90.56B total\", \"growth\": \"+85%\", \"derm_creators\": \"12K+\", \"cpm\": \"$18-35\", \"difficulty\": 3, \"window\": \"\\u957f\\u671f\"}. Phase: mature. Growth rate data indicates strong momentum.",
+        "analysis": "This trend aligns with current market dynamics. Phase 'mature' suggests appropriate entry timing. Key drivers include platform algorithm changes, consumer behavior shifts, and competitive landscape evolution.",
+        "takeaway": "Creators and brands should evaluate entry based on difficulty level and time window. Early adopter creators in this niche typically see higher organic reach and lower competition."
+      }
+    },
+    "_v": 2
+  }
+]
