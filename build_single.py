@@ -1,10 +1,50 @@
-<!DOCTYPE html>
+#!/usr/bin/env python3
+"""Build globalshortvideotrend.top as single-file HTML"""
+import json, os
+
+BASE = os.path.dirname(os.path.abspath(__file__))
+DATA = os.path.join(BASE, 'data')
+
+# Load china/eu/us data
+regions = {}
+for region in ['china', 'eu', 'us']:
+    path = os.path.join(DATA, f'{region}.json')
+    if os.path.exists(path):
+        try:
+            with open(path, 'r', encoding='utf-8') as f:
+                regions[region] = json.load(f)
+        except:
+            pass
+
+# Count articles
+total_articles = 0
+articles_sample = []
+for rname, rdata in regions.items():
+    if isinstance(rdata, list):
+        total_articles += len(rdata)
+        articles_sample.extend(rdata[:5])
+    elif isinstance(rdata, dict):
+        items = rdata.get('trends', rdata.get('articles', []))
+        total_articles += len(items)
+        articles_sample.extend(items[:5])
+
+regions_display = {
+    'china': {'name': 'China', 'emoji': '🇨🇳', 'desc': 'Douyin, Kuaishou, Bilibili, Weibo trends'},
+    'eu': {'name': 'Europe', 'emoji': '🇪🇺', 'desc': 'TikTok, Instagram, YouTube trends'},
+    'us': {'name': 'USA', 'emoji': '🇺🇸', 'desc': 'TikTok, Instagram, YouTube trends'}
+}
+
+def esc(s):
+    if not s: return ''
+    return str(s).replace('&','&amp;').replace('<','&lt;').replace('>','&gt;').replace('"','&quot;')
+
+html = '''<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Global Short Video Trends — Daily Trend Analysis from China, Europe & USA</title>
-<meta name="description" content="Daily short video trend analysis across China (Douyin), Europe, and USA (TikTok). 390+ trend reports covering viral content, creator strategies, and platform algorithms.">
+<meta name="description" content="Daily short video trend analysis across China (Douyin), Europe, and USA (TikTok). ''' + str(total_articles) + '''+ trend reports covering viral content, creator strategies, and platform algorithms.">
 <meta name="keywords" content="short video trends, TikTok trends, Douyin trends, viral content, social media analytics, creator economy">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://globalshortvideotrend.top/">
@@ -18,7 +58,7 @@
   "@type": "WebSite",
   "name": "Global Short Video Trends",
   "url": "https://globalshortvideotrend.top/",
-  "description": "Daily short video trend analysis across China, Europe, and USA markets. 390+ reports.",
+  "description": "Daily short video trend analysis across China, Europe, and USA markets. ''' + str(total_articles) + '''+ reports.",
   "about": {"@type": "Thing", "name": "Short Video Trends", "description": "Global short video platform trend analysis"}
 }
 </script>
@@ -65,7 +105,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;c
 <p>Track viral content, creator strategies, and platform algorithms across China 🇨🇳, Europe 🇪🇺, and USA 🇺🇸</p>
 <div class="hero-stats">
 <div class="hero-stat"><div class="hero-stat-num">3</div><div class="hero-stat-label">Regions</div></div>
-<div class="hero-stat"><div class="hero-stat-num">390</div><div class="hero-stat-label">Reports</div></div>
+<div class="hero-stat"><div class="hero-stat-num">''' + str(total_articles) + '''</div><div class="hero-stat-label">Reports</div></div>
 <div class="hero-stat"><div class="hero-stat-num">Daily</div><div class="hero-stat-label">Updates</div></div>
 </div></header>
 
@@ -73,22 +113,17 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;c
 <section class="section">
 <h2 class="section-title">Trend Regions</h2>
 <div class="region-grid">
-<a href="/china.html" class="region-card">
-<div class="region-emoji">🇨🇳</div>
-<div class="region-name">China</div>
-<div class="region-desc">Douyin, Kuaishou, Bilibili, Weibo trends — 130 reports</div>
+'''
+for rid, info in regions_display.items():
+    count = len(regions.get(rid, [])) if isinstance(regions.get(rid, []), list) else 0
+    html += f'''<a href="/{rid}.html" class="region-card">
+<div class="region-emoji">{info['emoji']}</div>
+<div class="region-name">{info['name']}</div>
+<div class="region-desc">{info['desc']} — {count} reports</div>
 </a>
-<a href="/eu.html" class="region-card">
-<div class="region-emoji">🇪🇺</div>
-<div class="region-name">Europe</div>
-<div class="region-desc">TikTok, Instagram, YouTube trends — 130 reports</div>
-</a>
-<a href="/us.html" class="region-card">
-<div class="region-emoji">🇺🇸</div>
-<div class="region-name">USA</div>
-<div class="region-desc">TikTok, Instagram, YouTube trends — 130 reports</div>
-</a>
-</div></section>
+'''
+
+html += '''</div></section>
 </main>
 
 <footer class="footer"><div class="footer-inner">
@@ -97,4 +132,11 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;c
 <p>Trend data is updated daily. Content is for informational purposes only.</p>
 <p>© 2026 · <a href="https://globalshortvideotrend.top/">globalshortvideotrend.top</a></p>
 </div></footer>
-</body></html>
+</body></html>'''
+
+out_path = os.path.join(BASE, 'index_single.html')
+with open(out_path, 'w', encoding='utf-8') as f:
+    f.write(html)
+
+size_kb = os.path.getsize(out_path) / 1024
+print(f"Generated: {out_path}, Size: {size_kb:.1f} KB, Articles: {total_articles}")
